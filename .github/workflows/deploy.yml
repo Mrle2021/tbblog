@@ -1,0 +1,35 @@
+name: Hexo Deploy
+
+on:
+  push:
+    branches:
+      - main # 只要 main 分支有 push，就执行部署
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18
+
+    - name: Install dependencies
+      run: |
+        npm install
+
+    - name: Generate static files
+      run: |
+        npx hexo generate
+
+    - name: Deploy to GitHub Pages
+      env:
+        DEPLOY_REPO: https://github.com/Mrle2021/tbblog.git
+        DEPLOY_BRANCH: gh-pages
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        npx hexo deploy
