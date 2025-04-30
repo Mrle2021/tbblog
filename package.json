@@ -8,7 +8,7 @@
     "deploy": "hexo deploy",
     "server": "hexo server",
     "push": "node scripts/git-auto-push.js",
-    "publish": "npm run clean && npm run push && npm run build && npm run deploy"
+    "publish": "npm run push"
   },
   "hexo": {
     "version": "7.3.0"
