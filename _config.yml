@@ -145,4 +145,4 @@ pangu:
 # 自动摘要长度（单位：字节，不是字符）
 excerpt:
   enable: true
-  length: 50
+  length: 300
