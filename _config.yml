@@ -124,3 +124,17 @@ wordcount:
   time_ago: false
   awl: 300          # 平均每分钟阅读字数
   wpm: 300
+
+optimize:
+  enable: true
+  css:
+    enable: true
+    exclude:
+  js:
+    enable: true
+    exclude:
+  html:
+    enable: true
+    exclude:
+  remove_comments: true
+  simple_doctype: false
