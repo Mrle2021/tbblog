@@ -142,9 +142,3 @@ optimize:
 pangu:
   enable: true
 
-valine:
-  enable: true
-  appId: <你的LeanCloud AppID>
-  appKey: <你的LeanCloud AppKey>
-  placeholder: 留言吧~
-  visitor: true
