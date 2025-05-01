@@ -138,3 +138,6 @@ optimize:
     exclude:
   remove_comments: true
   simple_doctype: false
+
+pangu:
+  enable: true
