@@ -4,7 +4,7 @@ slug: my-first-blog
 date: 2025-04-26 22:05:13
 tags:
 author: Wanger
-**cover: https://trailblazeblog.dpdns.org/Picgo/20250502003836012.jpg**
+cover: https://trailblazeblog.dpdns.org/Picgo/20250502003836012.jpg
 ---
 ### Trailblaze｜开辟新路
 
