@@ -109,3 +109,8 @@ deploy:
   type: git
   repo: https://github.com/Mrle2021/tbblog.git
   branch: gh-pages
+
+search:
+  path: search.xml
+  field: post
+  format: html
