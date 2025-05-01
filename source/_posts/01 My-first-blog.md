@@ -3,7 +3,9 @@ title: My first blog
 slug: my-first-blog
 date: 2025-04-26 22:05:13
 tags:
-
+ -生活
+ -感悟
+cover: https://trailblazeblog.dpdns.org/Picgo/20250502003836012.jpg
 ---
 ### Trailblaze｜开辟新路
 

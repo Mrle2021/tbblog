@@ -146,3 +146,9 @@ pangu:
 excerpt:
   enable: true
   length: 300
+
+# 首页封面图支持
+use_cover: true
+cover:
+  default_cover: false
+  position: center center
