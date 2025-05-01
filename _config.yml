@@ -114,3 +114,13 @@ search:
   path: search.xml
   field: post
   format: html
+
+wordcount:
+  enable: true
+  separator: ''
+  language: zh-CN
+  total_wordcount: true
+  display_time: true
+  time_ago: false
+  awl: 300          # 平均每分钟阅读字数
+  wpm: 300
