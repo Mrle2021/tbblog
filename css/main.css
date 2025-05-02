@@ -1217,7 +1217,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #bea383;
+  background: #c4ff75;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2640,4 +2640,11 @@ header.header {
 /* 阅读时间图标微调 */
 .post-meta .post-meta-item .fa-clock {
   margin-right: 4px;
+}
+.post-cover img {
+  width: 100%;
+  max-height: 240px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 16px;
 }
