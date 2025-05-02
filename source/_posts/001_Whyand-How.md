@@ -3,10 +3,9 @@ title: Why？and How？
 slug: whyand-how
 tags:
   - 自我认知
-
 categories:
   - 日拱一卒
-  - 三省吾身
+  
 date: 2025-05-02 18:41:41
 
 cover: https://trailblazeblog.dpdns.org/Picgo/20250502191903609.png
