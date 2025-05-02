@@ -1217,7 +1217,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #ff778c;
+  background: #4d87a3;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2647,4 +2647,12 @@ header.header {
   object-fit: cover;
   border-radius: 10px;
   margin-bottom: 16px;
+}
+/* 统一封面图片比例为 3:2，支持响应式 */
+.post-cover img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3/2;
+  object-fit: cover;
+  border-radius: 12px;
 }
