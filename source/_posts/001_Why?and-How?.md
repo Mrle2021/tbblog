@@ -1,5 +1,6 @@
 ---
 title: Why？and How？
+slug: whyand-how
 tags:
   - 自我认知
 
@@ -7,7 +8,7 @@ categories:
   - 日拱一卒
   - 三省吾身
 date: 2025-05-02 18:41:41
-slug: example  # 正确 ✅# 或者直接不写 slug
+
 cover: https://trailblazeblog.dpdns.org/Picgo/20250502191903609.png
 excerpt: 骆驼、狮子、孩子、超人、上帝已死和爱命运，通往“自我创造”的道路。
 ---
