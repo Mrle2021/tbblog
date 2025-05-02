@@ -3,7 +3,7 @@ title: 人生不过三万天，如何活得值得？
 slug: 人生不过三万天如何活得值得
 date: 2025-05-02 10:00:00
 cover: https://trailblazeblog.dpdns.org/Picgo/20250502003836012.jpg  # 请替换为你自己的图片路径
-excerpt: 
+excerpt: 一张图、一句话、一段文字，让我们一起思考如何把握三万天的生命旅程。
 tags:        # 这个是标签
   - 思考
   - 生活
