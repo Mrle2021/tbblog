@@ -1,0 +1,53 @@
+/* 隐藏 logo 图像 */
+.custom-logo-image {
+  display: none !important;
+}
+/* 顶部导航卡片风格 */
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8f8f8;
+  padding: 14px 24px;
+  margin: 24px auto;
+  border-radius: 18px;
+  max-width: 980px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+/* 博客标题美化 */
+.site-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #222;
+  text-decoration: none;
+  border-bottom: 2px solid #333;
+  padding-bottom: 2px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+/* 菜单图标与文字 */
+.menu {
+  display: flex;
+  gap: 24px;
+}
+.menu-item a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: #444;
+  text-decoration: none;
+}
+.menu-item a:hover {
+  color: #000;
+}
+/* 夜间模式图标 */
+.site-title .toggle {
+  font-size: 18px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+.site-title .toggle:hover {
+  transform: rotate(15deg);
+}
