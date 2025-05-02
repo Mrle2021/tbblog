@@ -152,3 +152,7 @@ highlight:
   wrap: true
   hljs: false
   light: false   # 🔥这就是错误中缺失的字段
+
+injects:
+  style:
+    - source/_data/styles.styl
