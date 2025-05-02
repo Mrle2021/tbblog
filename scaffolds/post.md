@@ -1,7 +1,14 @@
 ---
 title: {{ title }}
 date: {{ date }}
-tags:
+slug: 
+cover:  # 请替换为你自己的图片路径
+excerpt: 
+tags:        # 这个是标签
+  - 
+  - 
+categories:  # 这个是分类
+  - 
 ---
 <!-- 正文开始 -->
 
