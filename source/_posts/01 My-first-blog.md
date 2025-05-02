@@ -2,8 +2,13 @@
 title: My first blog
 slug: my-first-blog
 date: 2025-04-26 22:05:13
-tags:
-cover: https://trailblazeblog.dpdns.org/Picgo/20250502003836012.jpg
+cover: https://trailblazeblog.dpdns.org/Picgo/20250502003836012.jpg  # 请替换为你自己的图片路径
+excerpt: 一欢迎来到我的博客，Trailblaze。这里，记录的是一场关于自我探索与不断成长的旅程。不是跟随既有的轨迹，而是试着用自己的脚步，去走出一条属于自己的路。
+tags:        # 这个是标签
+  - 学习
+  - 感悟
+categories:  # 这个是分类
+  - 思考
 ---
 ### Trailblaze｜开辟新路
 
