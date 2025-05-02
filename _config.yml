@@ -138,9 +138,7 @@ excerpt:
   enable: true
   length: 300
 
-# 首页封面图支持
-post_meta:
-  cover: true
+
 
 highlight:
   enable: true
