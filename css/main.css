@@ -1217,7 +1217,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #0454aa;
+  background: #996e8e;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2655,4 +2655,7 @@ header.header {
   aspect-ratio: 3/2;
   object-fit: cover;
   border-radius: 12px;
+}
+.custom-logo-image {
+  display: none !important;
 }
