@@ -20,7 +20,8 @@ function commitAndPushSubmodules() {
       if (status.trim().length > 0) {
         const now = dayjs().format('YYYY-MM-DD HH:mm:ss');
         run(`git commit -m "子模块更新：${now}"`);
-        run('git push origin main');
+        const branch = execSync('git rev-parse --abbrev-ref HEAD', { encoding: 'utf8' }).trim();
+        run(`git push origin ${branch}`);
         console.log(`✅ 子模块 ${path} 已提交并推送`);
       } else {
         console.log(`⚡ 子模块 ${path} 没有改动`);
