@@ -14,7 +14,7 @@
     "version": "7.3.0"
   },
   "dependencies": {
-    "cheerio": "^1.0.0",
+    "cheerio": "^1.1.0",
     "dayjs": "^1.11.13",
     "hexo": "^7.3.0",
     "hexo-deployer-git": "^4.0.0",
