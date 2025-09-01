@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 'Trailblaze_blog'
-subtitle: ' '
-description: '记录我的思考与成长旅程的博客'
+title: "Trailblaze_blog"
+subtitle: " "
+description: "记录我的思考与成长旅程的博客"
 keywords:
 author: Mr.Wang
 language: zh-CN
-timezone: 'Asia/Shanghai'
+timezone: "Asia/Shanghai"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -38,7 +38,7 @@ titlecase: false # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
   field: site # Apply to the whole site
-  exclude: ''
+  exclude: ""
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -46,13 +46,12 @@ relative_link: false
 future: true
 syntax_highlighter: highlight.js
 
-
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: ""
   per_page: 10
   order_by: -date
 
@@ -72,7 +71,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
-updated_option: 'mtime'
+updated_option: "mtime"
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -106,29 +105,33 @@ search:
   field: post
   format: html
 
-wordcount:
-  enable: true
-  separator: ''
-  language: zh-CN
-  total_wordcount: true
-  display_time: true
-  time_ago: false
-  awl: 300          # 平均每分钟阅读字数
-  wpm: 300
+#
+# wordcount:
+#   enable: true
+#   separator: ''
+#   language: zh-CN
+#   total_wordcount: true
+#   display_time: true
+#   time_ago: false
+#   awl: 300          # 平均每分钟阅读字数
+#   wpm: 300
+# 👉 插件 hexo-word-counter 不兼容 Node 20+，建议使用 hexo-wordcount 替代
 
-optimize:
-  enable: true
-  css:
-    enable: true
-    exclude:
-  js:
-    enable: true
-    exclude:
-  html:
-    enable: true
-    exclude:
-  remove_comments: true
-  simple_doctype: false
+#
+# optimize:
+#   enable: true
+#   css:
+#     enable: true
+#     exclude:
+#   js:
+#     enable: true
+#     exclude:
+#   html:
+#     enable: true
+#     exclude:
+#   remove_comments: true
+#   simple_doctype: false
+# 👉 插件 hexo-optimize 会导致 Hexo 报错，建议卸载或升级后再启用
 
 pangu:
   enable: true
@@ -138,8 +141,6 @@ excerpt:
   enable: true
   length: 300
 
-
-
 highlight:
   enable: true
   line_number: true
@@ -147,7 +148,7 @@ highlight:
   tab_replace:
   wrap: true
   hljs: false
-  light: false   # 🔥这就是错误中缺失的字段
+  light: false # 🔥这就是错误中缺失的字段
 
 injects:
   style:
