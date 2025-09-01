@@ -105,17 +105,15 @@ search:
   field: post
   format: html
 
-#
-# wordcount:
-#   enable: true
-#   separator: ''
-#   language: zh-CN
-#   total_wordcount: true
-#   display_time: true
-#   time_ago: false
-#   awl: 300          # 平均每分钟阅读字数
-#   wpm: 300
-# 👉 插件 hexo-word-counter 不兼容 Node 20+，建议使用 hexo-wordcount 替代
+wordcount:
+  enable: true
+  separator: ""
+  language: zh-CN
+  total_wordcount: true
+  display_time: true
+  time_ago: false
+  awl: 300 # 每分钟阅读字数
+  wpm: 300
 
 #
 # optimize:
