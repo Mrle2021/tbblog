@@ -6,8 +6,8 @@ function run(cmd, options = {}) {
 }
 
 function commitAndPushSubmodules() {
-  // 获取子模块路径列表（此例假设只有 themes/next，可拓展）
-  const submodules = ['themes/next'];
+  // 获取子模块路径列表（已支持多个子模块）
+  const submodules = ['themes/next', 'themes/next-backup']; // ✅ 添加你的子模块
 
   submodules.forEach(path => {
     try {
