@@ -11,10 +11,11 @@ try {
   if (status.trim().length > 0) {
     const now = dayjs().format('YYYY-MM-DD HH:mm:ss');
     execSync(`git commit -m "更新博客内容：${now}"`, { stdio: 'inherit' });
-    execSync('git push origin main', { stdio: 'inherit' });
 
     // 构建并部署 hexo 博客页面
     execSync('npx hexo clean && npx hexo generate && npx hexo deploy', { stdio: 'inherit' });
+
+    execSync('git push origin main', { stdio: 'inherit' });
 
     console.log(`✅ 博客内容已更新并部署成功：${now}`);
   } else {
