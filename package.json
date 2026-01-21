@@ -37,7 +37,7 @@
     "hexo-theme-stellar": "^1.29.1",
     "hexo-wordcount": "^6.0.1",
     "highlight.js": "^11.11.1",
-    "lodash": "^4.17.21",
+    "lodash": "^4.17.23",
     "slugify": "^1.6.6"
   }
 }
