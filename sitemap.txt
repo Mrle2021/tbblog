@@ -1,8 +1,4 @@
-https://mrle2021.github.io/tbblog/2026/05/10/world-observation-001-ai-understand-world/
-https://mrle2021.github.io/tbblog/about/index.html
-https://mrle2021.github.io/tbblog/2025/05/10/zhuangzi-self-anxiety/
 https://mrle2021.github.io/tbblog/2025/05/02/zarathustra-nietzsche-strauss-kubrick/
-https://mrle2021.github.io/tbblog/2025/05/02/why-and-how/
 https://mrle2021.github.io/tbblog/2025/05/02/reality-and-illusion/
 https://mrle2021.github.io/tbblog/2025/05/10/love-and-nihilism/
 https://mrle2021.github.io/tbblog/2025/05/10/human-machine-age/
@@ -10,6 +6,10 @@ https://mrle2021.github.io/tbblog/2026/03/08/history-and-reality/
 https://mrle2021.github.io/tbblog/2025/05/10/guilt-and-judgment/
 https://mrle2021.github.io/tbblog/2025/09/02/buddhism-self-illusion/
 https://mrle2021.github.io/tbblog/2025/05/10/absurd-existence-anxiety/
+https://mrle2021.github.io/tbblog/2025/05/10/zhuangzi-self-anxiety/
+https://mrle2021.github.io/tbblog/2026/05/10/world-observation-001-ai-understand-world/
+https://mrle2021.github.io/tbblog/2025/05/02/why-and-how/
+https://mrle2021.github.io/tbblog/about/index.html
 https://mrle2021.github.io/tbblog/categories/index.html
 https://mrle2021.github.io/tbblog/tags/index.html
 https://mrle2021.github.io/tbblog
