@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name>Mr.Wang</name>
+  </author>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  <icon>https://mrle2021.github.io/tbblog/images/site-cover.jpg</icon>
+  <id>https://mrle2021.github.io/tbblog/</id>
+  <link href="https://mrle2021.github.io/tbblog/" rel="alternate"/>
+  <link href="https://mrle2021.github.io/tbblog/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, Mr.Wang</rights>
+  <subtitle>用 AI 辅助的信息整理、哲学解释和人文判断，理解正在变化的世界</subtitle>
+  <title>Trailblaze Blog</title>
+  <updated>2026-05-10T03:41:14.232Z</updated>
+  <entry>
+    <author>
+      <name>Mr.Wang</name>
+    </author>
+    <category term="AI 读世界" scheme="https://mrle2021.github.io/tbblog/categories/AI-%E8%AF%BB%E4%B8%96%E7%95%8C/"/>
+    <category term="AI读世界" scheme="https://mrle2021.github.io/tbblog/tags/AI%E8%AF%BB%E4%B8%96%E7%95%8C/"/>
+    <category term="世界观察" scheme="https://mrle2021.github.io/tbblog/tags/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
+    <category term="方法论" scheme="https://mrle2021.github.io/tbblog/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/"/>
+    <id>https://mrle2021.github.io/tbblog/2026/05/10/world-observation-001-ai-understand-world/</id>
+    <link href="https://mrle2021.github.io/tbblog/2026/05/10/world-observation-001-ai-understand-world/"/>
+    <published>2026-05-09T16:00:00.000Z</published>
+    <summary>信息越来越多，理解却没有变得更容易。我想把这个博客改造成一个长期的观察系统：用 AI 辅助整理世界，用思想工具解释现实，再由自己给出判断。</summary>
+    <title>世界观察 001：我为什么想用 AI 帮自己理解这个世界？</title>
+    <updated>2026-05-10T03:41:14.232Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Mr.Wang</name>
+    </author>
+    <category term="世界观察" scheme="https://mrle2021.github.io/tbblog/categories/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
+    <category term="自我认知" scheme="https://mrle2021.github.io/tbblog/tags/%E8%87%AA%E6%88%91%E8%AE%A4%E7%9F%A5/"/>
+    <category term="历史思考" scheme="https://mrle2021.github.io/tbblog/tags/%E5%8E%86%E5%8F%B2%E6%80%9D%E8%80%83/"/>
+    <category term="社会议题" scheme="https://mrle2021.github.io/tbblog/tags/%E7%A4%BE%E4%BC%9A%E8%AE%AE%E9%A2%98/"/>
+    <id>https://mrle2021.github.io/tbblog/2026/03/08/history-and-reality/</id>
+    <link href="https://mrle2021.github.io/tbblog/2026/03/08/history-and-reality/"/>
+    <published>2026-03-08T13:00:00.000Z</published>
+    <summary>为什么诚实讲历史会让人不舒服？并不是因为历史太沉重，而是因为它会迫使我们重新解释今天。它会让那些看似自然的差异显出结构性的来历，让那些被包装成荣耀的叙事露出代价，也让那些被归咎于个人的问题重新回到制度和权力的层面。</summary>
+    <title>当我们回避历史时，我们也在误解现实</title>
+    <updated>2026-05-10T03:41:13.838Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Mr.Wang</name>
+    </author>
+    <category term="思想工具箱" scheme="https://mrle2021.github.io/tbblog/categories/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
+    <category term="自我认知" scheme="https://mrle2021.github.io/tbblog/tags/%E8%87%AA%E6%88%91%E8%AE%A4%E7%9F%A5/"/>
+    <category term="佛教" scheme="https://mrle2021.github.io/tbblog/tags/%E4%BD%9B%E6%95%99/"/>
+    <category term="无我" scheme="https://mrle2021.github.io/tbblog/tags/%E6%97%A0%E6%88%91/"/>
+    <id>https://mrle2021.github.io/tbblog/2025/09/02/buddhism-self-illusion/</id>
+    <link href="https://mrle2021.github.io/tbblog/2025/09/02/buddhism-self-illusion/"/>
+    <published>2025-09-02T04:00:00.000Z</published>
+    <summary>我们活在一个不断强调“做自己”的时代，但谁又能说得清，那个“自己”到底是什么？从佛教的五蕴理论到现代心理学对自我机制的研究，这篇文章带你重新审视“我是谁”这个问题，并揭示一个令人不安但也可能解脱的真相：你执着的“我”，可能从未真正存在过。</summary>
+    <title>佛教如何拆解自我幻觉</title>
+    <updated>2026-05-10T03:41:13.746Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Mr.Wang</name>
+    </author>
+    <category term="自我与时代" scheme="https://mrle2021.github.io/tbblog/categories/%E8%87%AA%E6%88%91%E4%B8%8E%E6%97%B6%E4%BB%A3/"/>
+    <category term="自我认知" scheme="https://mrle2021.github.io/tbblog/tags/%E8%87%AA%E6%88%91%E8%AE%A4%E7%9F%A5/"/>
+    <category term="存在主义" scheme="https://mrle2021.github.io/tbblog/tags/%E5%AD%98%E5%9C%A8%E4%B8%BB%E4%B9%89/"/>
+    <category term="加缪" scheme="https://mrle2021.github.io/tbblog/tags/%E5%8A%A0%E7%BC%AA/"/>
+    <id>https://mrle2021.github.io/tbblog/2025/05/10/absurd-existence-anxiety/</id>
+    <link href="https://mrle2021.github.io/tbblog/2025/05/10/absurd-existence-anxiety/"/>
+    <published>2025-05-10T04:00:00.000Z</published>
+    <summary>在现代社会的巨大喧嚣和数字化的孤岛中，我们常常在内心深处浮现出一个朴素却令人战栗的问题：“我为什么要活着？”这个问题并不新鲜，它贯穿了整部哲学史，但到了20世纪，它获得了一种前所未有的存在重量。这种重量不仅仅来自于科学对宇宙无边冷漠的揭示，更来自现代人精神世界的空洞化——我们既摆脱了传统的宗教神话，又尚未建立起足以支撑自我的价值体系。</summary>
+    <title>我们活在荒诞之中：存在焦虑</title>
+    <updated>2026-05-10T03:41:13.697Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Mr.Wang</name>
+    </author>
+    <category term="影像与声音" scheme="https://mrle2021.github.io/tbblog/categories/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/"/>
+    <category term="卡夫卡" scheme="https://mrle2021.github.io/tbblog/tags/%E5%8D%A1%E5%A4%AB%E5%8D%A1/"/>
+    <category term="电影推荐" scheme="https://mrle2021.github.io/tbblog/tags/%E7%94%B5%E5%BD%B1%E6%8E%A8%E8%8D%90/"/>
+    <category term="审判" scheme="https://mrle2021.github.io/tbblog/tags/%E5%AE%A1%E5%88%A4/"/>
+    <id>https://mrle2021.github.io/tbblog/2025/05/10/guilt-and-judgment/</id>
+    <link href="https://mrle2021.github.io/tbblog/2025/05/10/guilt-and-judgment/"/>
+    <published>2025-05-10T04:00:00.000Z</published>
+    <summary>卡夫卡我们每个人或许都曾在午夜梦回时，隐隐感到一种难以言明的“罪”：一种不是源于具体行为，而是更像存在本身所附带的原罪感。你未必做错了什么，却总觉得哪里出了错。这种被隐形法庭注视的存在感，正是卡夫卡、肖斯塔科维奇与电影《七宗罪》共同探讨的主题——人类与“审判”的永恒关系。</summary>
+    <title>罪与审判：在卡夫卡、肖斯塔科维奇与《七宗罪》中，我们被谁审判？</title>
+    <updated>2026-05-10T03:41:13.792Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Mr.Wang</name>
+    </author>
+    <category term="自我与时代" scheme="https://mrle2021.github.io/tbblog/categories/%E8%87%AA%E6%88%91%E4%B8%8E%E6%97%B6%E4%BB%A3/"/>
+    <category term="自我认知" scheme="https://mrle2021.github.io/tbblog/tags/%E8%87%AA%E6%88%91%E8%AE%A4%E7%9F%A5/"/>
+    <category term="爱" scheme="https://mrle2021.github.io/tbblog/tags/%E7%88%B1/"/>
+    <category term="虚无主义" scheme="https://mrle2021.github.io/tbblog/tags/%E8%99%9A%E6%97%A0%E4%B8%BB%E4%B9%89/"/>
+    <id>https://mrle2021.github.io/tbblog/2025/05/10/love-and-nihilism/</id>
+    <link href="https://mrle2021.github.io/tbblog/2025/05/10/love-and-nihilism/"/>
+    <published>2025-05-10T04:00:00.000Z</published>
+    <summary>卡夫卡我们每个人或许都曾在午夜梦回时，隐隐感到一种难以言明的“罪”：一种不是源于具体行为，而是更像存在本身所附带的原罪感。你未必做错了什么，却总觉得哪里出了错。这种被隐形法庭注视的存在感，正是卡夫卡、肖斯塔科维奇与电影《七宗罪》共同探讨的主题——人类与“审判”的永恒关系。</summary>
+    <title>“爱，是虚无中的幻影，还是意志的回声？”—‘爱与虚无’三重奏</title>
+    <updated>2026-05-10T03:41:13.928Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Mr.Wang</name>
+    </author>
+    <category term="自我与时代" scheme="https://mrle2021.github.io/tbblog/categories/%E8%87%AA%E6%88%91%E4%B8%8E%E6%97%B6%E4%BB%A3/"/>
+    <category term="技术" scheme="https://mrle2021.github.io/tbblog/tags/%E6%8A%80%E6%9C%AF/"/>
+    <category term="人性" scheme="https://mrle2021.github.io/tbblog/tags/%E4%BA%BA%E6%80%A7/"/>
+    <category term="AI" scheme="https://mrle2021.github.io/tbblog/tags/AI/"/>
+    <id>https://mrle2021.github.io/tbblog/2025/05/10/human-machine-age/</id>
+    <link href="https://mrle2021.github.io/tbblog/2025/05/10/human-machine-age/"/>
+    <published>2025-05-10T04:00:00.000Z</published>
+    <summary>我们生活在一个技术无处不在的时代。从智能手机到生成式AI，从基因编辑到脑机接口，技术正以前所未有的速度改变着人类的生存方式。而一个根本性的问题也日益尖锐：**我们与机器的界限在哪里？人性还能守住它的边疆吗？**20世纪的思想家早已预见这一问题的逼近。其中，阿兰·图灵提出“图灵测试”，开启人工智能的哲学思辨；埃里希·弗洛姆则在《逃避自由》中警告：人类在技术面前可能主动放弃人性，选择“顺从与效率”。</summary>
+    <title>人之将机：技术时代的人性镜像</title>
+    <updated>2026-05-10T03:41:13.884Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Mr.Wang</name>
+    </author>
+    <category term="自我与时代" scheme="https://mrle2021.github.io/tbblog/categories/%E8%87%AA%E6%88%91%E4%B8%8E%E6%97%B6%E4%BB%A3/"/>
+    <category term="自我认知" scheme="https://mrle2021.github.io/tbblog/tags/%E8%87%AA%E6%88%91%E8%AE%A4%E7%9F%A5/"/>
+    <category term="无我" scheme="https://mrle2021.github.io/tbblog/tags/%E6%97%A0%E6%88%91/"/>
+    <category term="庄子" scheme="https://mrle2021.github.io/tbblog/tags/%E5%BA%84%E5%AD%90/"/>
+    <id>https://mrle2021.github.io/tbblog/2025/05/10/zhuangzi-self-anxiety/</id>
+    <link href="https://mrle2021.github.io/tbblog/2025/05/10/zhuangzi-self-anxiety/"/>
+    <published>2025-05-10T04:00:00.000Z</published>
+    <summary>在这个人人讲“做自己”的时代，我们却越来越活得不像自己。你是否曾陷入这样的困境：努力活成别人眼中的样子，却在深夜质疑“这真的是我吗”？明明拼尽全力，却始终感到“不够好”？自我焦虑已经成为现代人普遍的心理状态，而我们急需一种更深的哲学路径，重新认识“我是谁”。在中国古代思想体系中，庄子也许是最早直面“自我幻觉”的思想家之一。他不仅质疑“自我”的本质，更试图引导人们走出执着与比较，进入一种“无我而自足”的境界。本文将借助庄子的核心思想，带你理解：放下自我，才是真正拥有自我。</summary>
+    <title>无我即真我：庄子如何帮我们走出 “自我焦虑”</title>
+    <updated>2026-05-10T03:41:14.109Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Mr.Wang</name>
+    </author>
+    <category term="影像与声音" scheme="https://mrle2021.github.io/tbblog/categories/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/"/>
+    <category term="电影推荐" scheme="https://mrle2021.github.io/tbblog/tags/%E7%94%B5%E5%BD%B1%E6%8E%A8%E8%8D%90/"/>
+    <category term="真实" scheme="https://mrle2021.github.io/tbblog/tags/%E7%9C%9F%E5%AE%9E/"/>
+    <category term="黑客帝国" scheme="https://mrle2021.github.io/tbblog/tags/%E9%BB%91%E5%AE%A2%E5%B8%9D%E5%9B%BD/"/>
+    <id>https://mrle2021.github.io/tbblog/2025/05/02/reality-and-illusion/</id>
+    <link href="https://mrle2021.github.io/tbblog/2025/05/02/reality-and-illusion/"/>
+    <published>2025-05-02T13:24:41.000Z</published>
+    <summary>当一个人首次观看《黑客帝国》（The Matrix）时，很难不被其初期场景中炫目的镜头语言、阴暗的视觉风格与紧张的节奏所吸引。这部电影的核心设定也极具震撼力：人类身处由人工智能系统构建的虚拟现实中，而他们却以为那是真实。影片中经典的“红色药丸与蓝色药丸”场景道出了它的哲学核心：**我们所以为的“现实”，真的是真实吗？**这不是一部简单的科幻片，而是一次文化、声音与哲学的交汇实验。围绕“真实与幻象”的主题，我们将在下文中从三个核心维度展开：**柏拉图的“洞穴寓言”、后现代电子声音艺术，以及电影《黑客帝国》的象征体系。**</summary>
+    <title>真实与幻象：从洞穴到矩阵，由柏拉图到后现代声音艺术</title>
+    <updated>2026-05-10T03:41:13.974Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Mr.Wang</name>
+    </author>
+    <category term="影像与声音" scheme="https://mrle2021.github.io/tbblog/categories/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/"/>
+    <category term="电影推荐" scheme="https://mrle2021.github.io/tbblog/tags/%E7%94%B5%E5%BD%B1%E6%8E%A8%E8%8D%90/"/>
+    <category term="尼采" scheme="https://mrle2021.github.io/tbblog/tags/%E5%B0%BC%E9%87%87/"/>
+    <category term="音乐推荐" scheme="https://mrle2021.github.io/tbblog/tags/%E9%9F%B3%E4%B9%90%E6%8E%A8%E8%8D%90/"/>
+    <id>https://mrle2021.github.io/tbblog/2025/05/02/zarathustra-nietzsche-strauss-kubrick/</id>
+    <link href="https://mrle2021.github.io/tbblog/2025/05/02/zarathustra-nietzsche-strauss-kubrick/"/>
+    <published>2025-05-02T13:24:41.000Z</published>
+    <summary>当人们第一次听到理查·施特劳斯的《查拉图斯特拉如是说》的开场铜管时，往往不由自主地想起深邃宇宙、时间的流逝、文明的演化——特别是那个著名的镜头：猿人高举骨头，骨头在空中旋转，画面突然切换为太空中盘旋的太空船。这一跨越百万年的蒙太奇，不仅是电影史上的神来之笔，更是尼采哲学思想在音乐与影像中的一次重生与重构。本文试图从三个维度探讨《查拉图斯特拉如是说》——尼采的原著、施特劳斯的交响诗以及库布里克的电影《2001太空漫游》——是如何在不同媒介中不断演化，并最终汇聚为20世纪最具象征意义的文化符号之一。</summary>
+    <title>从尼采到库布里克：《查拉图斯特拉如是说》的三重演化</title>
+    <updated>2026-05-10T03:41:14.064Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Mr.Wang</name>
+    </author>
+    <category term="思想工具箱" scheme="https://mrle2021.github.io/tbblog/categories/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
+    <category term="自我认知" scheme="https://mrle2021.github.io/tbblog/tags/%E8%87%AA%E6%88%91%E8%AE%A4%E7%9F%A5/"/>
+    <category term="尼采" scheme="https://mrle2021.github.io/tbblog/tags/%E5%B0%BC%E9%87%87/"/>
+    <category term="自我创造" scheme="https://mrle2021.github.io/tbblog/tags/%E8%87%AA%E6%88%91%E5%88%9B%E9%80%A0/"/>
+    <id>https://mrle2021.github.io/tbblog/2025/05/02/why-and-how/</id>
+    <link href="https://mrle2021.github.io/tbblog/2025/05/02/why-and-how/"/>
+    <published>2025-05-02T10:41:41.000Z</published>
+    <summary>骆驼、狮子、孩子、超人、上帝已死和爱命运，通往“自我创造”的道路。</summary>
+    <title>Why？and How？</title>
+    <updated>2026-05-10T03:41:14.019Z</updated>
+  </entry>
+</feed>
