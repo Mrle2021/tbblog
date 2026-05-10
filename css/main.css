@@ -1193,7 +1193,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #59edff;
+  background: #4af26a;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2423,4 +2423,91 @@ embed {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+/* 封面卡片样式 */
+.posts-expand .post {
+  box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 30px;
+  background: #fff;
+  transition: box-shadow 0.3s ease;
+}
+.posts-expand .post:hover {
+  box-shadow: 0 12px 32px rgba(0,0,0,0.1);
+}
+/* 封面图片圆角 */
+.posts-expand .post .post-cover {
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 16px;
+  max-height: 240px;
+  object-fit: cover;
+}
+/* 摘要居中 */
+.posts-expand .post .post-excerpt {
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.8;
+  margin: 16px auto;
+  color: #555;
+}
+/* 首页标题居中 */
+.posts-expand .post-title {
+  text-align: center;
+  font-size: 1.6em;
+  margin-bottom: 8px;
+}
+/* 阅读时间图标微调 */
+.post-meta .post-meta-item .fa-clock {
+  margin-right: 4px;
+}
+.post-cover img {
+  width: 100%;
+  max-height: 240px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+/* 统一封面图片比例为 3:2，支持响应式 */
+.post-cover img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3/2;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.post-body {
+  font-size: 16px;
+  line-height: 1.9;
+}
+.post-body p {
+  margin-bottom: 1.1em;
+}
+.post-body img {
+  border-radius: 8px;
+}
+.search-popup #search-result {
+  display: block !important;
+  height: auto !important;
+  min-height: 0 !important;
+  padding-bottom: 0 !important;
+}
+.search-popup #no-result {
+  display: none !important;
+}
+.search-popup #no-result .fa {
+  display: none !important;
+}
+@media (max-width: 767px) {
+  .posts-expand .post {
+    padding: 18px;
+    margin-bottom: 22px;
+  }
+  .posts-expand .post-title {
+    font-size: 1.35em;
+  }
+  .posts-expand .post .post-excerpt {
+    font-size: 15px;
+  }
 }
