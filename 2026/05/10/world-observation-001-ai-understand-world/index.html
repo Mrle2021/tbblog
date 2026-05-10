@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 7.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/tbblog/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/tbblog/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/tbblog/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/tbblog/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/tbblog/css/main.css">
+
+
+<link rel="stylesheet" href="/tbblog/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"mrle2021.github.io","root":"/tbblog/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":true},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="信息越来越多，理解却没有变得更容易。我想把这个博客改造成一个长期的观察系统：用 AI 辅助整理世界，用思想工具解释现实，再由自己给出判断。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="世界观察 001：我为什么想用 AI 帮自己理解这个世界？">
+<meta property="og:url" content="https://mrle2021.github.io/tbblog/2026/05/10/world-observation-001-ai-understand-world/index.html">
+<meta property="og:site_name" content="Trailblaze Blog">
+<meta property="og:description" content="信息越来越多，理解却没有变得更容易。我想把这个博客改造成一个长期的观察系统：用 AI 辅助整理世界，用思想工具解释现实，再由自己给出判断。">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2026-05-09T16:00:00.000Z">
+<meta property="article:modified_time" content="2026-05-10T03:41:14.232Z">
+<meta property="article:author" content="Mr.Wang">
+<meta property="article:tag" content="AI读世界">
+<meta property="article:tag" content="世界观察">
+<meta property="article:tag" content="方法论">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://mrle2021.github.io/tbblog/2026/05/10/world-observation-001-ai-understand-world/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>世界观察 001：我为什么想用 AI 帮自己理解这个世界？ | Trailblaze Blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/tbblog/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Trailblaze Blog</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">用 AI 辅助的信息整理、哲学解释和人文判断，理解正在变化的世界</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/tbblog/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/tbblog/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-世界观察">
+
+    <a href="/tbblog/categories/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/" rel="section"><i class="fa fa-globe fa-fw"></i>世界观察</a>
+
+  </li>
+        <li class="menu-item menu-item-思想工具箱">
+
+    <a href="/tbblog/categories/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/" rel="section"><i class="fa fa-book fa-fw"></i>思想工具箱</a>
+
+  </li>
+        <li class="menu-item menu-item-影像与声音">
+
+    <a href="/tbblog/categories/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/" rel="section"><i class="fa fa-film fa-fw"></i>影像与声音</a>
+
+  </li>
+        <li class="menu-item menu-item-自我与时代">
+
+    <a href="/tbblog/categories/%E8%87%AA%E6%88%91%E4%B8%8E%E6%97%B6%E4%BB%A3/" rel="section"><i class="fa fa-user fa-fw"></i>自我与时代</a>
+
+  </li>
+        <li class="menu-item menu-item-ai-读世界">
+
+    <a href="/tbblog/categories/AI-%E8%AF%BB%E4%B8%96%E7%95%8C/" rel="section"><i class="fa fa-robot fa-fw"></i>AI 读世界</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/tbblog/about/" rel="section"><i class="fa fa-info-circle fa-fw"></i>关于</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+  
+  
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://mrle2021.github.io/tbblog/2026/05/10/world-observation-001-ai-understand-world/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/tbblog/images/avatar.gif">
+      <meta itemprop="name" content="Mr.Wang">
+      <meta itemprop="description" content="用 AI 辅助的信息整理、哲学解释和人文判断，帮普通人理解正在变化的世界。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Trailblaze Blog">
+    </span>
+      
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          世界观察 001：我为什么想用 AI 帮自己理解这个世界？
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2026-05-10 00:00:00 / 修改时间：11:41:14" itemprop="dateCreated datePublished" datetime="2026-05-10T00:00:00+08:00">2026-05-10</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/tbblog/categories/AI-%E8%AF%BB%E4%B8%96%E7%95%8C/" itemprop="url" rel="index"><span itemprop="name">AI 读世界</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>1.4k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>我开始重新整理这个博客，是因为一个越来越强烈的感受：我们并不缺信息，我们缺的是理解信息的结构。</p>
+<p>每天都有新闻、评论、数据、短视频、争论和情绪涌过来。它们看起来都很重要，但真正留下来的东西并不多。很多时候，我们只是知道了更多事件，却没有更理解这个世界。</p>
+<p>这也是我想引入 AI 的原因。不是为了让 AI 替我写作，也不是为了更快地产出观点，而是为了让它帮助我整理材料、比较观点、发现遗漏，最后把判断重新交还给自己。</p>
+<h2 id="本期最值得理解的-3-件事"><a href="#本期最值得理解的-3-件事" class="headerlink" title="本期最值得理解的 3 件事"></a>本期最值得理解的 3 件事</h2><p>第一件事，是信息过载已经成为一种日常处境。一个普通人想理解世界，必须同时面对国际政治、经济周期、技术变化、社会情绪和个人生活压力。单靠碎片化浏览，很难形成稳定判断。</p>
+<p>第二件事，是 AI 正在改变知识工作的入口。过去我们需要自己从零开始搜索、筛选和归纳，现在 AI 可以先帮我们搭出问题地图。但这也带来新的风险：如果我们不保留自己的判断，AI 只会让我们更快接受一个看似完整的答案。</p>
+<p>第三件事，是个人写作需要从 “表达感受” 升级为 “建立方法”。如果一个博客只是偶尔记录想法，它很容易变成文章仓库；如果它有固定栏目、固定问题和固定复盘，它就可能成为一个长期理解世界的系统。</p>
+<h2 id="它们共同指向什么趋势"><a href="#它们共同指向什么趋势" class="headerlink" title="它们共同指向什么趋势"></a>它们共同指向什么趋势</h2><p>这些变化共同指向一个趋势：理解世界正在从 “获取信息” 转向 “组织信息”。</p>
+<p>真正稀缺的不是新闻，而是把新闻放进结构里的能力。真正重要的也不是观点，而是观点背后的证据、路径和边界。</p>
+<p>这意味着，以后的写作不能只问 “我怎么看”，还要问：</p>
+<ul>
+<li>我是如何得到这个判断的？</li>
+<li>我忽略了哪些相反证据？</li>
+<li>这个问题背后有没有更大的结构？</li>
+<li>如果换一个时间尺度，结论还成立吗？</li>
+</ul>
+<h2 id="一个关键数据"><a href="#一个关键数据" class="headerlink" title="一个关键数据"></a>一个关键数据</h2><p>我暂时不把这一期写成数据分析，因为这是一篇方法论开篇。但从下一期开始，“世界观察” 会尽量固定加入一个数据锚点。</p>
+<p>这个数据可以是失业率、汇率、出生率、消费数据、AI 投资规模，也可以是战争伤亡、平台用户时间、心理健康调查。</p>
+<p>数据的作用不是制造权威感，而是提醒自己：不要只在情绪里判断世界。</p>
+<h2 id="一个思想工具"><a href="#一个思想工具" class="headerlink" title="一个思想工具"></a>一个思想工具</h2><p>这一期我想借用的思想工具是 “解释框架”。</p>
+<p>同一条新闻，放在不同框架里，会得到完全不同的意义。一个经济数据可以被解释成周期波动，也可以被解释成社会信心变化；一场技术革命可以被解释成效率提升，也可以被解释成新的异化形式。</p>
+<p>所以这个博客以后要做的，不只是收集事件，而是不断训练解释框架。</p>
+<p>哲学、电影、音乐、历史和社会理论，都会成为解释现实的工具。AI 则负责帮我更快地整理材料、发现联系和暴露盲点。</p>
+<h2 id="我的判断"><a href="#我的判断" class="headerlink" title="我的判断"></a>我的判断</h2><p>我的判断是：AI 最有价值的地方，不是替人输出结论，而是帮助人建立更好的问题意识。</p>
+<p>如果我只是让 AI 给我答案，我会变得更懒。如果我让 AI 帮我列出事实、反方观点、关键数据和可能遗漏，我反而能更认真地思考。</p>
+<p>所以这个博客接下来会尽量坚持一个原则：</p>
+<blockquote>
+<p>AI 辅助整理，思想提供框架，个人承担判断。</p>
+</blockquote>
+<h2 id="我还没想清楚的问题"><a href="#我还没想清楚的问题" class="headerlink" title="我还没想清楚的问题"></a>我还没想清楚的问题</h2><p>我还没有完全想清楚的是：在 AI 参与写作之后，怎样保持文章的个人性。</p>
+<p>一篇文章如果太依赖 AI，很容易变得正确、完整、平滑，但没有真正的痛感和立场。真正值得保留的，可能正是那些不够标准化的困惑、犹豫和追问。</p>
+<p>这会是我后续持续复盘的问题。</p>
+<h2 id="推荐继续读-看-听"><a href="#推荐继续读-看-听" class="headerlink" title="推荐继续读/看/听"></a>推荐继续读 / 看 / 听</h2><ul>
+<li>尼采：关于价值重估和自我创造。</li>
+<li>加缪：关于荒诞处境中的清醒。</li>
+<li>庄子：关于放下自我执念后的自由。</li>
+<li>《黑客帝国》：关于真实、幻象和系统性认知。</li>
+</ul>
+<p>这篇文章是一个起点。以后我希望每一期 “世界观察” 都能回答一个问题：这一周的世界，到底在提醒我们什么？</p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tbblog/tags/AI%E8%AF%BB%E4%B8%96%E7%95%8C/" rel="tag"># AI读世界</a>
+              <a href="/tbblog/tags/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/" rel="tag"># 世界观察</a>
+              <a href="/tbblog/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/" rel="tag"># 方法论</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/tbblog/2026/03/08/history-and-reality/" rel="prev" title="当我们回避历史时，我们也在误解现实">
+      <i class="fa fa-chevron-left"></i> 当我们回避历史时，我们也在误解现实
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%AC%E6%9C%9F%E6%9C%80%E5%80%BC%E5%BE%97%E7%90%86%E8%A7%A3%E7%9A%84-3-%E4%BB%B6%E4%BA%8B"><span class="nav-number">1.</span> <span class="nav-text">本期最值得理解的 3 件事</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%83%E4%BB%AC%E5%85%B1%E5%90%8C%E6%8C%87%E5%90%91%E4%BB%80%E4%B9%88%E8%B6%8B%E5%8A%BF"><span class="nav-number">2.</span> <span class="nav-text">它们共同指向什么趋势</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E4%B8%AA%E5%85%B3%E9%94%AE%E6%95%B0%E6%8D%AE"><span class="nav-number">3.</span> <span class="nav-text">一个关键数据</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E4%B8%AA%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7"><span class="nav-number">4.</span> <span class="nav-text">一个思想工具</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%88%91%E7%9A%84%E5%88%A4%E6%96%AD"><span class="nav-number">5.</span> <span class="nav-text">我的判断</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%88%91%E8%BF%98%E6%B2%A1%E6%83%B3%E6%B8%85%E6%A5%9A%E7%9A%84%E9%97%AE%E9%A2%98"><span class="nav-number">6.</span> <span class="nav-text">我还没想清楚的问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%8E%A8%E8%8D%90%E7%BB%A7%E7%BB%AD%E8%AF%BB-%E7%9C%8B-%E5%90%AC"><span class="nav-number">7.</span> <span class="nav-text">推荐继续读 &#x2F; 看 &#x2F; 听</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Mr.Wang</p>
+  <div class="site-description" itemprop="description">用 AI 辅助的信息整理、哲学解释和人文判断，帮普通人理解正在变化的世界。</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/tbblog/archives/">
+        
+          <span class="site-state-item-count">11</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/tbblog/categories/">
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tbblog/tags/">
+        <span class="site-state-item-count">24</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2026</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Mr.Wang</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+    <span title="站点总字数">31k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">28 分钟</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/tbblog/lib/anime.min.js"></script>
+  <script src="/tbblog/lib/velocity/velocity.min.js"></script>
+  <script src="/tbblog/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/tbblog/js/utils.js"></script>
+
+<script src="/tbblog/js/motion.js"></script>
+
+
+<script src="/tbblog/js/schemes/muse.js"></script>
+
+
+<script src="/tbblog/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/tbblog/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
