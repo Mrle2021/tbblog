@@ -6,7 +6,7 @@
     <description>用 AI 辅助的信息整理、哲学解释和人文判断，理解正在变化的世界</description>
     <language>zh-CN</language>
     <copyright>All rights reserved 2026, Mr.Wang</copyright>
-    <lastBuildDate>Sun, 10 May 2026 05:48:42 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 14:47:54 GMT</lastBuildDate>
     <generator>Hexo</generator>
     <image>
       <url>https://mrle2021.github.io/tbblog/images/site-cover.jpg</url>
@@ -14,6 +14,18 @@
       <link>https://mrle2021.github.io/tbblog/</link>
     </image>
     <atom:link href="https://mrle2021.github.io/tbblog/rss2.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>世界观察 002：为什么我们越来越难相信新闻？</title>
+      <link>https://mrle2021.github.io/tbblog/2026/05/11/world-observation-002-why-news-trust-declines/</link>
+      <description>新闻越来越多，但信任没有增加。本文从媒体碎片化、算法推荐、立场先行、AI 内容和事实核查成本出发，分析为什么我们越来越难相信新闻。</description>
+      <author>Mr.Wang</author>
+      <category domain="https://mrle2021.github.io/tbblog/categories/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/">世界观察</category>
+      <category domain="https://mrle2021.github.io/tbblog/tags/AI%E8%AF%BB%E4%B8%96%E7%95%8C/">AI读世界</category>
+      <category domain="https://mrle2021.github.io/tbblog/tags/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/">世界观察</category>
+      <category domain="https://mrle2021.github.io/tbblog/tags/%E5%AA%92%E4%BD%93%E7%B4%A0%E5%85%BB/">媒体素养</category>
+      <category domain="https://mrle2021.github.io/tbblog/tags/%E4%BF%A1%E6%81%AF%E8%BF%87%E8%BD%BD/">信息过载</category>
+      <pubDate>Mon, 11 May 2026 14:50:00 GMT</pubDate>
+    </item>
     <item>
       <title>我如何用 AI 理解世界？一个个人知识系统的开始</title>
       <link>https://mrle2021.github.io/tbblog/2026/05/10/world-observation-001-ai-understand-world/</link>
