@@ -11,7 +11,23 @@
   <rights>All rights reserved 2026, Mr.Wang</rights>
   <subtitle>用 AI 辅助的信息整理、哲学解释和人文判断，理解正在变化的世界</subtitle>
   <title>Trailblaze Blog</title>
-  <updated>2026-05-12T15:23:12.490Z</updated>
+  <updated>2026-05-12T15:39:35.166Z</updated>
+  <entry>
+    <author>
+      <name>Mr.Wang</name>
+    </author>
+    <category term="世界观察" scheme="https://mrle2021.github.io/tbblog/categories/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
+    <category term="社会议题" scheme="https://mrle2021.github.io/tbblog/tags/%E7%A4%BE%E4%BC%9A%E8%AE%AE%E9%A2%98/"/>
+    <category term="世界观察" scheme="https://mrle2021.github.io/tbblog/tags/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
+    <category term="现代焦虑" scheme="https://mrle2021.github.io/tbblog/tags/%E7%8E%B0%E4%BB%A3%E7%84%A6%E8%99%91/"/>
+    <category term="长期主义" scheme="https://mrle2021.github.io/tbblog/tags/%E9%95%BF%E6%9C%9F%E4%B8%BB%E4%B9%89/"/>
+    <id>https://mrle2021.github.io/tbblog/2026/05/12/world-observation-006-why-long-termism-is-hard/</id>
+    <link href="https://mrle2021.github.io/tbblog/2026/05/12/world-observation-006-why-long-termism-is-hard/"/>
+    <published>2026-05-12T02:30:00.000Z</published>
+    <summary>长期主义不是一句励志口号，而是一种需要稳定预期、现实回报和心理安全感支撑的能力。本文从就业不确定、生活成本、算法即时反馈和未来焦虑解释长期主义为什么变难。</summary>
+    <title>世界观察 006：为什么我们越来越难拥有长期主义？</title>
+    <updated>2026-05-12T15:39:35.166Z</updated>
+  </entry>
   <entry>
     <author>
       <name>Mr.Wang</name>
@@ -58,7 +74,7 @@
     <published>2026-05-11T16:10:00.000Z</published>
     <summary>《黑客帝国》不只是科幻电影，它仍然适合解释今天的算法现实、信息茧房、虚拟身份和系统依赖。本文从影像、声音和哲学框架重新理解这部电影。</summary>
     <title>影像与声音：《黑客帝国》为什么仍然适合解释今天？</title>
-    <updated>2026-05-12T14:19:37.681Z</updated>
+    <updated>2026-05-12T15:38:51.224Z</updated>
   </entry>
   <entry>
     <author>
@@ -74,7 +90,7 @@
     <published>2026-05-11T15:58:00.000Z</published>
     <summary>AI 正在降低知识工作的门槛，也在制造新的认知外包。本文从效率、判断力、工作结构、信息依赖和个人知识系统出发，分析 AI 会让普通人更自由还是更依赖系统。</summary>
     <title>世界观察 004：AI 会让普通人更自由，还是更依赖系统？</title>
-    <updated>2026-05-12T14:19:37.904Z</updated>
+    <updated>2026-05-12T15:39:15.898Z</updated>
   </entry>
   <entry>
     <author>
@@ -90,7 +106,7 @@
     <published>2026-05-11T15:55:00.000Z</published>
     <summary>解释框架决定我们如何理解同一件事。本文用新闻、经济、历史和个人生活案例，说明为什么比起急着表达观点，更重要的是看清观点背后的解释框架。</summary>
     <title>思想工具箱：什么是 “解释框架”？为什么它比观点更重要？</title>
-    <updated>2026-05-12T14:19:37.727Z</updated>
+    <updated>2026-05-12T15:39:43.203Z</updated>
   </entry>
   <entry>
     <author>
@@ -106,7 +122,7 @@
     <published>2026-05-11T15:40:00.000Z</published>
     <summary>年轻人并不是不愿努力，而是越来越怀疑努力和回报之间的连接是否还稳定。本文从就业、教育回报、住房成本、算法竞争和阶层流动分析努力叙事为何失效。</summary>
     <title>世界观察 003：年轻人为什么越来越不相信 “努力会有回报”？</title>
-    <updated>2026-05-12T14:19:37.861Z</updated>
+    <updated>2026-05-12T15:40:10.283Z</updated>
   </entry>
   <entry>
     <author>
@@ -122,7 +138,7 @@
     <published>2026-05-11T15:20:00.000Z</published>
     <summary>本文记录一套用 AI 整理一周新闻的方法：从信息收集、主题分类、事实核查、反方观点到个人判断，建立一个普通人可执行的新闻理解流程。</summary>
     <title>AI 读世界：我如何让 AI 帮我整理一周新闻？</title>
-    <updated>2026-05-12T14:19:37.636Z</updated>
+    <updated>2026-05-12T15:40:37.325Z</updated>
   </entry>
   <entry>
     <author>
@@ -138,7 +154,7 @@
     <published>2026-05-11T14:50:00.000Z</published>
     <summary>新闻越来越多，但信任没有增加。本文从媒体碎片化、算法推荐、立场先行、AI 内容和事实核查成本出发，分析为什么我们越来越难相信新闻。</summary>
     <title>世界观察 002：为什么我们越来越难相信新闻？</title>
-    <updated>2026-05-12T14:19:37.815Z</updated>
+    <updated>2026-05-12T15:41:04.939Z</updated>
   </entry>
   <entry>
     <author>
@@ -153,7 +169,7 @@
     <published>2026-05-09T16:00:00.000Z</published>
     <summary>信息越来越多，理解却没有更容易。本文说明如何用 AI 辅助整理新闻、比较观点和发现盲点，同时保留人的判断。</summary>
     <title>我如何用 AI 理解世界？一个个人知识系统的开始</title>
-    <updated>2026-05-12T14:19:37.770Z</updated>
+    <updated>2026-05-12T15:41:30.323Z</updated>
   </entry>
   <entry>
     <author>
@@ -189,6 +205,21 @@
     <author>
       <name>Mr.Wang</name>
     </author>
+    <category term="自我与时代" scheme="https://mrle2021.github.io/tbblog/categories/%E8%87%AA%E6%88%91%E4%B8%8E%E6%97%B6%E4%BB%A3/"/>
+    <category term="自我认知" scheme="https://mrle2021.github.io/tbblog/tags/%E8%87%AA%E6%88%91%E8%AE%A4%E7%9F%A5/"/>
+    <category term="存在主义" scheme="https://mrle2021.github.io/tbblog/tags/%E5%AD%98%E5%9C%A8%E4%B8%BB%E4%B9%89/"/>
+    <category term="加缪" scheme="https://mrle2021.github.io/tbblog/tags/%E5%8A%A0%E7%BC%AA/"/>
+    <id>https://mrle2021.github.io/tbblog/2025/05/10/absurd-existence-anxiety/</id>
+    <link href="https://mrle2021.github.io/tbblog/2025/05/10/absurd-existence-anxiety/"/>
+    <published>2025-05-10T04:00:00.000Z</published>
+    <summary>现代人的存在焦虑来自意义系统失效。本文借加缪的荒诞哲学和海德格尔的向死而生，解释我们如何在虚无中重新建立生活方向。</summary>
+    <title>存在焦虑是什么？从加缪的荒诞到海德格尔的向死而生</title>
+    <updated>2026-05-10T05:49:42.704Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Mr.Wang</name>
+    </author>
     <category term="影像与声音" scheme="https://mrle2021.github.io/tbblog/categories/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/"/>
     <category term="卡夫卡" scheme="https://mrle2021.github.io/tbblog/tags/%E5%8D%A1%E5%A4%AB%E5%8D%A1/"/>
     <category term="电影推荐" scheme="https://mrle2021.github.io/tbblog/tags/%E7%94%B5%E5%BD%B1%E6%8E%A8%E8%8D%90/"/>
@@ -206,14 +237,14 @@
     </author>
     <category term="自我与时代" scheme="https://mrle2021.github.io/tbblog/categories/%E8%87%AA%E6%88%91%E4%B8%8E%E6%97%B6%E4%BB%A3/"/>
     <category term="自我认知" scheme="https://mrle2021.github.io/tbblog/tags/%E8%87%AA%E6%88%91%E8%AE%A4%E7%9F%A5/"/>
-    <category term="存在主义" scheme="https://mrle2021.github.io/tbblog/tags/%E5%AD%98%E5%9C%A8%E4%B8%BB%E4%B9%89/"/>
-    <category term="加缪" scheme="https://mrle2021.github.io/tbblog/tags/%E5%8A%A0%E7%BC%AA/"/>
-    <id>https://mrle2021.github.io/tbblog/2025/05/10/absurd-existence-anxiety/</id>
-    <link href="https://mrle2021.github.io/tbblog/2025/05/10/absurd-existence-anxiety/"/>
+    <category term="爱" scheme="https://mrle2021.github.io/tbblog/tags/%E7%88%B1/"/>
+    <category term="虚无主义" scheme="https://mrle2021.github.io/tbblog/tags/%E8%99%9A%E6%97%A0%E4%B8%BB%E4%B9%89/"/>
+    <id>https://mrle2021.github.io/tbblog/2025/05/10/love-and-nihilism/</id>
+    <link href="https://mrle2021.github.io/tbblog/2025/05/10/love-and-nihilism/"/>
     <published>2025-05-10T04:00:00.000Z</published>
-    <summary>现代人的存在焦虑来自意义系统失效。本文借加缪的荒诞哲学和海德格尔的向死而生，解释我们如何在虚无中重新建立生活方向。</summary>
-    <title>存在焦虑是什么？从加缪的荒诞到海德格尔的向死而生</title>
-    <updated>2026-05-10T05:49:42.704Z</updated>
+    <summary>爱情究竟是自由选择，还是意志和欲望制造的幻觉？本文从叔本华、尼采和现代亲密关系出发，讨论爱与虚无的关系。</summary>
+    <title>爱情是幻觉吗？叔本华、尼采与现代人的虚无之爱</title>
+    <updated>2026-05-10T05:49:42.952Z</updated>
   </entry>
   <entry>
     <author>
@@ -229,21 +260,6 @@
     <summary>当 AI、脑机接口和算法系统改变生活方式，人性是否会被机器吞没？本文借图灵测试和弗洛姆思想，讨论技术时代的人性边界。</summary>
     <title>AI 时代人性还剩什么？从图灵测试到弗洛姆的技术批判</title>
     <updated>2026-05-10T05:49:42.905Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Mr.Wang</name>
-    </author>
-    <category term="自我与时代" scheme="https://mrle2021.github.io/tbblog/categories/%E8%87%AA%E6%88%91%E4%B8%8E%E6%97%B6%E4%BB%A3/"/>
-    <category term="自我认知" scheme="https://mrle2021.github.io/tbblog/tags/%E8%87%AA%E6%88%91%E8%AE%A4%E7%9F%A5/"/>
-    <category term="爱" scheme="https://mrle2021.github.io/tbblog/tags/%E7%88%B1/"/>
-    <category term="虚无主义" scheme="https://mrle2021.github.io/tbblog/tags/%E8%99%9A%E6%97%A0%E4%B8%BB%E4%B9%89/"/>
-    <id>https://mrle2021.github.io/tbblog/2025/05/10/love-and-nihilism/</id>
-    <link href="https://mrle2021.github.io/tbblog/2025/05/10/love-and-nihilism/"/>
-    <published>2025-05-10T04:00:00.000Z</published>
-    <summary>爱情究竟是自由选择，还是意志和欲望制造的幻觉？本文从叔本华、尼采和现代亲密关系出发，讨论爱与虚无的关系。</summary>
-    <title>爱情是幻觉吗？叔本华、尼采与现代人的虚无之爱</title>
-    <updated>2026-05-10T05:49:42.952Z</updated>
   </entry>
   <entry>
     <author>
