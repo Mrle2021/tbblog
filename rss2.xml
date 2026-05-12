@@ -6,7 +6,7 @@
     <description>用 AI 辅助的信息整理、哲学解释和人文判断，理解正在变化的世界</description>
     <language>zh-CN</language>
     <copyright>All rights reserved 2026, Mr.Wang</copyright>
-    <lastBuildDate>Mon, 11 May 2026 15:22:26 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 14:19:37 GMT</lastBuildDate>
     <generator>Hexo</generator>
     <image>
       <url>https://mrle2021.github.io/tbblog/images/site-cover.jpg</url>
@@ -20,10 +20,10 @@
       <description>AI 的答案常常完整、流畅、像真的，但这不等于它一定可靠。本文从事实核查、来源追踪、幻觉、解释框架和个人判断出发，讨论我们应该如何信任 AI。</description>
       <author>Mr.Wang</author>
       <category domain="https://mrle2021.github.io/tbblog/categories/AI-%E8%AF%BB%E4%B8%96%E7%95%8C/">AI 读世界</category>
-      <category domain="https://mrle2021.github.io/tbblog/tags/AI/">AI</category>
       <category domain="https://mrle2021.github.io/tbblog/tags/AI%E8%AF%BB%E4%B8%96%E7%95%8C/">AI读世界</category>
-      <category domain="https://mrle2021.github.io/tbblog/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/">方法论</category>
+      <category domain="https://mrle2021.github.io/tbblog/tags/AI/">AI</category>
       <category domain="https://mrle2021.github.io/tbblog/tags/%E4%BA%8B%E5%AE%9E%E6%A0%B8%E6%9F%A5/">事实核查</category>
+      <category domain="https://mrle2021.github.io/tbblog/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/">方法论</category>
       <pubDate>Mon, 11 May 2026 16:40:00 GMT</pubDate>
     </item>
     <item>
@@ -45,9 +45,9 @@
       <author>Mr.Wang</author>
       <category domain="https://mrle2021.github.io/tbblog/categories/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/">影像与声音</category>
       <category domain="https://mrle2021.github.io/tbblog/tags/%E7%94%B5%E5%BD%B1%E6%8E%A8%E8%8D%90/">电影推荐</category>
-      <category domain="https://mrle2021.github.io/tbblog/tags/%E7%9C%9F%E5%AE%9E/">真实</category>
-      <category domain="https://mrle2021.github.io/tbblog/tags/%E9%BB%91%E5%AE%A2%E5%B8%9D%E5%9B%BD/">黑客帝国</category>
       <category domain="https://mrle2021.github.io/tbblog/tags/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/">影像与声音</category>
+      <category domain="https://mrle2021.github.io/tbblog/tags/%E9%BB%91%E5%AE%A2%E5%B8%9D%E5%9B%BD/">黑客帝国</category>
+      <category domain="https://mrle2021.github.io/tbblog/tags/%E7%9C%9F%E5%AE%9E/">真实</category>
       <pubDate>Mon, 11 May 2026 16:10:00 GMT</pubDate>
     </item>
     <item>
@@ -57,8 +57,8 @@
       <author>Mr.Wang</author>
       <category domain="https://mrle2021.github.io/tbblog/categories/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/">世界观察</category>
       <category domain="https://mrle2021.github.io/tbblog/tags/AI%E8%AF%BB%E4%B8%96%E7%95%8C/">AI读世界</category>
-      <category domain="https://mrle2021.github.io/tbblog/tags/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/">世界观察</category>
       <category domain="https://mrle2021.github.io/tbblog/tags/%E4%B8%AA%E4%BA%BA%E7%9F%A5%E8%AF%86%E7%B3%BB%E7%BB%9F/">个人知识系统</category>
+      <category domain="https://mrle2021.github.io/tbblog/tags/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/">世界观察</category>
       <category domain="https://mrle2021.github.io/tbblog/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/">人工智能</category>
       <pubDate>Mon, 11 May 2026 15:58:00 GMT</pubDate>
     </item>
@@ -69,9 +69,9 @@
       <author>Mr.Wang</author>
       <category domain="https://mrle2021.github.io/tbblog/categories/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/">思想工具箱</category>
       <category domain="https://mrle2021.github.io/tbblog/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/">方法论</category>
-      <category domain="https://mrle2021.github.io/tbblog/tags/%E5%AA%92%E4%BD%93%E7%B4%A0%E5%85%BB/">媒体素养</category>
       <category domain="https://mrle2021.github.io/tbblog/tags/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/">思想工具箱</category>
       <category domain="https://mrle2021.github.io/tbblog/tags/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B4/">批判性思维</category>
+      <category domain="https://mrle2021.github.io/tbblog/tags/%E5%AA%92%E4%BD%93%E7%B4%A0%E5%85%BB/">媒体素养</category>
       <pubDate>Mon, 11 May 2026 15:55:00 GMT</pubDate>
     </item>
     <item>
@@ -105,8 +105,8 @@
       <author>Mr.Wang</author>
       <category domain="https://mrle2021.github.io/tbblog/categories/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/">世界观察</category>
       <category domain="https://mrle2021.github.io/tbblog/tags/AI%E8%AF%BB%E4%B8%96%E7%95%8C/">AI读世界</category>
-      <category domain="https://mrle2021.github.io/tbblog/tags/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/">世界观察</category>
       <category domain="https://mrle2021.github.io/tbblog/tags/%E5%AA%92%E4%BD%93%E7%B4%A0%E5%85%BB/">媒体素养</category>
+      <category domain="https://mrle2021.github.io/tbblog/tags/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/">世界观察</category>
       <category domain="https://mrle2021.github.io/tbblog/tags/%E4%BF%A1%E6%81%AF%E8%BF%87%E8%BD%BD/">信息过载</category>
       <pubDate>Mon, 11 May 2026 14:50:00 GMT</pubDate>
     </item>
@@ -117,8 +117,8 @@
       <author>Mr.Wang</author>
       <category domain="https://mrle2021.github.io/tbblog/categories/AI-%E8%AF%BB%E4%B8%96%E7%95%8C/">AI 读世界</category>
       <category domain="https://mrle2021.github.io/tbblog/tags/AI%E8%AF%BB%E4%B8%96%E7%95%8C/">AI读世界</category>
-      <category domain="https://mrle2021.github.io/tbblog/tags/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/">世界观察</category>
       <category domain="https://mrle2021.github.io/tbblog/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/">方法论</category>
+      <category domain="https://mrle2021.github.io/tbblog/tags/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/">世界观察</category>
       <pubDate>Sat, 09 May 2026 16:00:00 GMT</pubDate>
     </item>
     <item>
@@ -155,17 +155,6 @@
       <pubDate>Sat, 10 May 2025 04:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>AI 时代人性还剩什么？从图灵测试到弗洛姆的技术批判</title>
-      <link>https://mrle2021.github.io/tbblog/2025/05/10/human-machine-age/</link>
-      <description>当 AI、脑机接口和算法系统改变生活方式，人性是否会被机器吞没？本文借图灵测试和弗洛姆思想，讨论技术时代的人性边界。</description>
-      <author>Mr.Wang</author>
-      <category domain="https://mrle2021.github.io/tbblog/categories/%E8%87%AA%E6%88%91%E4%B8%8E%E6%97%B6%E4%BB%A3/">自我与时代</category>
-      <category domain="https://mrle2021.github.io/tbblog/tags/%E6%8A%80%E6%9C%AF/">技术</category>
-      <category domain="https://mrle2021.github.io/tbblog/tags/%E4%BA%BA%E6%80%A7/">人性</category>
-      <category domain="https://mrle2021.github.io/tbblog/tags/AI/">AI</category>
-      <pubDate>Sat, 10 May 2025 04:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>《七宗罪》为什么像卡夫卡的《审判》？现代人的罪感与无形审判</title>
       <link>https://mrle2021.github.io/tbblog/2025/05/10/guilt-and-judgment/</link>
       <description>从卡夫卡《审判》、肖斯塔科维奇第十四交响曲到电影《七宗罪》，理解现代社会中的罪感、道德审判和无形权力。</description>
@@ -174,6 +163,17 @@
       <category domain="https://mrle2021.github.io/tbblog/tags/%E5%8D%A1%E5%A4%AB%E5%8D%A1/">卡夫卡</category>
       <category domain="https://mrle2021.github.io/tbblog/tags/%E7%94%B5%E5%BD%B1%E6%8E%A8%E8%8D%90/">电影推荐</category>
       <category domain="https://mrle2021.github.io/tbblog/tags/%E5%AE%A1%E5%88%A4/">审判</category>
+      <pubDate>Sat, 10 May 2025 04:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI 时代人性还剩什么？从图灵测试到弗洛姆的技术批判</title>
+      <link>https://mrle2021.github.io/tbblog/2025/05/10/human-machine-age/</link>
+      <description>当 AI、脑机接口和算法系统改变生活方式，人性是否会被机器吞没？本文借图灵测试和弗洛姆思想，讨论技术时代的人性边界。</description>
+      <author>Mr.Wang</author>
+      <category domain="https://mrle2021.github.io/tbblog/categories/%E8%87%AA%E6%88%91%E4%B8%8E%E6%97%B6%E4%BB%A3/">自我与时代</category>
+      <category domain="https://mrle2021.github.io/tbblog/tags/AI/">AI</category>
+      <category domain="https://mrle2021.github.io/tbblog/tags/%E6%8A%80%E6%9C%AF/">技术</category>
+      <category domain="https://mrle2021.github.io/tbblog/tags/%E4%BA%BA%E6%80%A7/">人性</category>
       <pubDate>Sat, 10 May 2025 04:00:00 GMT</pubDate>
     </item>
     <item>
@@ -205,8 +205,8 @@
       <author>Mr.Wang</author>
       <category domain="https://mrle2021.github.io/tbblog/categories/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/">影像与声音</category>
       <category domain="https://mrle2021.github.io/tbblog/tags/%E7%94%B5%E5%BD%B1%E6%8E%A8%E8%8D%90/">电影推荐</category>
-      <category domain="https://mrle2021.github.io/tbblog/tags/%E7%9C%9F%E5%AE%9E/">真实</category>
       <category domain="https://mrle2021.github.io/tbblog/tags/%E9%BB%91%E5%AE%A2%E5%B8%9D%E5%9B%BD/">黑客帝国</category>
+      <category domain="https://mrle2021.github.io/tbblog/tags/%E7%9C%9F%E5%AE%9E/">真实</category>
       <pubDate>Fri, 02 May 2025 13:24:41 GMT</pubDate>
     </item>
     <item>
