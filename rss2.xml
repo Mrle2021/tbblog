@@ -6,7 +6,7 @@
     <description>用 AI 辅助的信息整理、哲学解释和人文判断，理解正在变化的世界</description>
     <language>zh-CN</language>
     <copyright>All rights reserved 2026, Mr.Wang</copyright>
-    <lastBuildDate>Tue, 12 May 2026 15:39:35 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 15:53:01 GMT</lastBuildDate>
     <generator>Hexo</generator>
     <image>
       <url>https://mrle2021.github.io/tbblog/images/site-cover.jpg</url>
@@ -15,6 +15,18 @@
     </image>
     <atom:link href="https://mrle2021.github.io/tbblog/rss2.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>思想工具箱：什么是 “系统性问题”？</title>
+      <link>https://mrle2021.github.io/tbblog/2026/05/12/thinking-toolbox-systemic-problem/</link>
+      <description>系统性问题不是一句逃避责任的话，而是提醒我们：很多现实困境不是单个坏人、单次失误或个人选择造成的。本文解释什么是系统性问题，以及如何避免把复杂问题简单化。</description>
+      <author>Mr.Wang</author>
+      <category domain="https://mrle2021.github.io/tbblog/categories/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/">思想工具箱</category>
+      <category domain="https://mrle2021.github.io/tbblog/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/">方法论</category>
+      <category domain="https://mrle2021.github.io/tbblog/tags/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/">思想工具箱</category>
+      <category domain="https://mrle2021.github.io/tbblog/tags/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B4/">批判性思维</category>
+      <category domain="https://mrle2021.github.io/tbblog/tags/%E7%B3%BB%E7%BB%9F%E6%80%A7%E9%97%AE%E9%A2%98/">系统性问题</category>
+      <pubDate>Tue, 12 May 2026 02:55:00 GMT</pubDate>
+    </item>
+    <item>
       <title>世界观察 006：为什么我们越来越难拥有长期主义？</title>
       <link>https://mrle2021.github.io/tbblog/2026/05/12/world-observation-006-why-long-termism-is-hard/</link>
       <description>长期主义不是一句励志口号，而是一种需要稳定预期、现实回报和心理安全感支撑的能力。本文从就业不确定、生活成本、算法即时反馈和未来焦虑解释长期主义为什么变难。</description>
@@ -22,8 +34,8 @@
       <category domain="https://mrle2021.github.io/tbblog/categories/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/">世界观察</category>
       <category domain="https://mrle2021.github.io/tbblog/tags/%E7%A4%BE%E4%BC%9A%E8%AE%AE%E9%A2%98/">社会议题</category>
       <category domain="https://mrle2021.github.io/tbblog/tags/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/">世界观察</category>
-      <category domain="https://mrle2021.github.io/tbblog/tags/%E7%8E%B0%E4%BB%A3%E7%84%A6%E8%99%91/">现代焦虑</category>
       <category domain="https://mrle2021.github.io/tbblog/tags/%E9%95%BF%E6%9C%9F%E4%B8%BB%E4%B9%89/">长期主义</category>
+      <category domain="https://mrle2021.github.io/tbblog/tags/%E7%8E%B0%E4%BB%A3%E7%84%A6%E8%99%91/">现代焦虑</category>
       <pubDate>Tue, 12 May 2026 02:30:00 GMT</pubDate>
     </item>
     <item>
@@ -178,17 +190,6 @@
       <pubDate>Sat, 10 May 2025 04:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>爱情是幻觉吗？叔本华、尼采与现代人的虚无之爱</title>
-      <link>https://mrle2021.github.io/tbblog/2025/05/10/love-and-nihilism/</link>
-      <description>爱情究竟是自由选择，还是意志和欲望制造的幻觉？本文从叔本华、尼采和现代亲密关系出发，讨论爱与虚无的关系。</description>
-      <author>Mr.Wang</author>
-      <category domain="https://mrle2021.github.io/tbblog/categories/%E8%87%AA%E6%88%91%E4%B8%8E%E6%97%B6%E4%BB%A3/">自我与时代</category>
-      <category domain="https://mrle2021.github.io/tbblog/tags/%E8%87%AA%E6%88%91%E8%AE%A4%E7%9F%A5/">自我认知</category>
-      <category domain="https://mrle2021.github.io/tbblog/tags/%E7%88%B1/">爱</category>
-      <category domain="https://mrle2021.github.io/tbblog/tags/%E8%99%9A%E6%97%A0%E4%B8%BB%E4%B9%89/">虚无主义</category>
-      <pubDate>Sat, 10 May 2025 04:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>AI 时代人性还剩什么？从图灵测试到弗洛姆的技术批判</title>
       <link>https://mrle2021.github.io/tbblog/2025/05/10/human-machine-age/</link>
       <description>当 AI、脑机接口和算法系统改变生活方式，人性是否会被机器吞没？本文借图灵测试和弗洛姆思想，讨论技术时代的人性边界。</description>
@@ -197,6 +198,17 @@
       <category domain="https://mrle2021.github.io/tbblog/tags/AI/">AI</category>
       <category domain="https://mrle2021.github.io/tbblog/tags/%E6%8A%80%E6%9C%AF/">技术</category>
       <category domain="https://mrle2021.github.io/tbblog/tags/%E4%BA%BA%E6%80%A7/">人性</category>
+      <pubDate>Sat, 10 May 2025 04:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>爱情是幻觉吗？叔本华、尼采与现代人的虚无之爱</title>
+      <link>https://mrle2021.github.io/tbblog/2025/05/10/love-and-nihilism/</link>
+      <description>爱情究竟是自由选择，还是意志和欲望制造的幻觉？本文从叔本华、尼采和现代亲密关系出发，讨论爱与虚无的关系。</description>
+      <author>Mr.Wang</author>
+      <category domain="https://mrle2021.github.io/tbblog/categories/%E8%87%AA%E6%88%91%E4%B8%8E%E6%97%B6%E4%BB%A3/">自我与时代</category>
+      <category domain="https://mrle2021.github.io/tbblog/tags/%E8%87%AA%E6%88%91%E8%AE%A4%E7%9F%A5/">自我认知</category>
+      <category domain="https://mrle2021.github.io/tbblog/tags/%E7%88%B1/">爱</category>
+      <category domain="https://mrle2021.github.io/tbblog/tags/%E8%99%9A%E6%97%A0%E4%B8%BB%E4%B9%89/">虚无主义</category>
       <pubDate>Sat, 10 May 2025 04:00:00 GMT</pubDate>
     </item>
     <item>
@@ -231,17 +243,6 @@
       <category domain="https://mrle2021.github.io/tbblog/tags/%E5%B0%BC%E9%87%87/">尼采</category>
       <category domain="https://mrle2021.github.io/tbblog/tags/%E9%9F%B3%E4%B9%90%E6%8E%A8%E8%8D%90/">音乐推荐</category>
       <pubDate>Fri, 02 May 2025 13:24:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>尼采的三重转变是什么？骆驼、狮子、孩子与自我创造</title>
-      <link>https://mrle2021.github.io/tbblog/2025/05/02/why-and-how/</link>
-      <description>通过查拉图斯特拉的寓言，解释尼采“三重转变”、上帝已死、超人与爱命运，理解现代人如何走向自我创造。</description>
-      <author>Mr.Wang</author>
-      <category domain="https://mrle2021.github.io/tbblog/categories/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/">思想工具箱</category>
-      <category domain="https://mrle2021.github.io/tbblog/tags/%E8%87%AA%E6%88%91%E8%AE%A4%E7%9F%A5/">自我认知</category>
-      <category domain="https://mrle2021.github.io/tbblog/tags/%E5%B0%BC%E9%87%87/">尼采</category>
-      <category domain="https://mrle2021.github.io/tbblog/tags/%E8%87%AA%E6%88%91%E5%88%9B%E9%80%A0/">自我创造</category>
-      <pubDate>Fri, 02 May 2025 10:41:41 GMT</pubDate>
     </item>
   </channel>
 </rss>

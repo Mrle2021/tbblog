@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://mrle2021.github.io/tbblog/2026/05/12/world-observation-006-why-long-termism-is-hard/</loc>
+    
+    <lastmod>2026-05-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mrle2021.github.io/tbblog/2026/05/12/thinking-toolbox-systemic-problem/</loc>
+    
+    <lastmod>2026-05-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mrle2021.github.io/tbblog/images/world-observation-006-why-long-termism-is-hard/credits.json</loc>
+    
+    <lastmod>2026-05-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://mrle2021.github.io/tbblog/2026/05/10/world-observation-001-ai-understand-world/</loc>
     
     <lastmod>2026-05-12</lastmod>
@@ -84,15 +111,6 @@
   
   <url>
     <loc>https://mrle2021.github.io/tbblog/images/thinking-toolbox-explanatory-framework/credits.json</loc>
-    
-    <lastmod>2026-05-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://mrle2021.github.io/tbblog/2026/05/12/world-observation-006-why-long-termism-is-hard/</loc>
     
     <lastmod>2026-05-12</lastmod>
     
@@ -272,7 +290,7 @@
   </url>
   
   <url>
-    <loc>https://mrle2021.github.io/tbblog/tags/index.html</loc>
+    <loc>https://mrle2021.github.io/tbblog/categories/index.html</loc>
     
     <lastmod>2025-08-31</lastmod>
     
@@ -281,7 +299,7 @@
   </url>
   
   <url>
-    <loc>https://mrle2021.github.io/tbblog/categories/index.html</loc>
+    <loc>https://mrle2021.github.io/tbblog/tags/index.html</loc>
     
     <lastmod>2025-08-31</lastmod>
     
@@ -411,21 +429,14 @@
   </url>
   
   <url>
-    <loc>https://mrle2021.github.io/tbblog/tags/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/</loc>
+    <loc>https://mrle2021.github.io/tbblog/tags/%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://mrle2021.github.io/tbblog/tags/%E9%BB%91%E5%AE%A2%E5%B8%9D%E5%9B%BD/</loc>
-    <lastmod>2026-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://mrle2021.github.io/tbblog/tags/%E7%9C%9F%E5%AE%9E/</loc>
+    <loc>https://mrle2021.github.io/tbblog/tags/%E4%BA%BA%E6%80%A7/</loc>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -446,14 +457,21 @@
   </url>
   
   <url>
-    <loc>https://mrle2021.github.io/tbblog/tags/%E6%8A%80%E6%9C%AF/</loc>
+    <loc>https://mrle2021.github.io/tbblog/tags/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/</loc>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://mrle2021.github.io/tbblog/tags/%E4%BA%BA%E6%80%A7/</loc>
+    <loc>https://mrle2021.github.io/tbblog/tags/%E9%BB%91%E5%AE%A2%E5%B8%9D%E5%9B%BD/</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://mrle2021.github.io/tbblog/tags/%E7%9C%9F%E5%AE%9E/</loc>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -481,6 +499,13 @@
   </url>
   
   <url>
+    <loc>https://mrle2021.github.io/tbblog/tags/%E7%B3%BB%E7%BB%9F%E6%80%A7%E9%97%AE%E9%A2%98/</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://mrle2021.github.io/tbblog/tags/%E5%B0%BC%E9%87%87/</loc>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -502,13 +527,6 @@
   </url>
   
   <url>
-    <loc>https://mrle2021.github.io/tbblog/tags/%E4%BF%A1%E6%81%AF%E8%BF%87%E8%BD%BD/</loc>
-    <lastmod>2026-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://mrle2021.github.io/tbblog/tags/%E5%B9%B4%E8%BD%BB%E4%BA%BA/</loc>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -523,21 +541,14 @@
   </url>
   
   <url>
-    <loc>https://mrle2021.github.io/tbblog/tags/%E7%8E%B0%E4%BB%A3%E7%84%A6%E8%99%91/</loc>
-    <lastmod>2026-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://mrle2021.github.io/tbblog/tags/%E5%BF%83%E7%90%86%E5%81%A5%E5%BA%B7/</loc>
-    <lastmod>2026-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://mrle2021.github.io/tbblog/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://mrle2021.github.io/tbblog/tags/%E4%BF%A1%E6%81%AF%E8%BF%87%E8%BD%BD/</loc>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -551,7 +562,7 @@
   </url>
   
   <url>
-    <loc>https://mrle2021.github.io/tbblog/tags/%E9%9F%B3%E4%B9%90%E6%8E%A8%E8%8D%90/</loc>
+    <loc>https://mrle2021.github.io/tbblog/tags/%E7%8E%B0%E4%BB%A3%E7%84%A6%E8%99%91/</loc>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -559,6 +570,20 @@
   
   <url>
     <loc>https://mrle2021.github.io/tbblog/tags/%E5%BA%84%E5%AD%90/</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://mrle2021.github.io/tbblog/tags/%E5%BF%83%E7%90%86%E5%81%A5%E5%BA%B7/</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://mrle2021.github.io/tbblog/tags/%E9%9F%B3%E4%B9%90%E6%8E%A8%E8%8D%90/</loc>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
