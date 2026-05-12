@@ -11,7 +11,7 @@
   <rights>All rights reserved 2026, Mr.Wang</rights>
   <subtitle>用 AI 辅助的信息整理、哲学解释和人文判断，理解正在变化的世界</subtitle>
   <title>Trailblaze Blog</title>
-  <updated>2026-05-12T14:19:37.587Z</updated>
+  <updated>2026-05-12T15:23:12.490Z</updated>
   <entry>
     <author>
       <name>Mr.Wang</name>
@@ -26,7 +26,7 @@
     <published>2026-05-11T16:40:00.000Z</published>
     <summary>AI 的答案常常完整、流畅、像真的，但这不等于它一定可靠。本文从事实核查、来源追踪、幻觉、解释框架和个人判断出发，讨论我们应该如何信任 AI。</summary>
     <title>AI 读世界：AI 给我的答案，我应该相信多少？</title>
-    <updated>2026-05-12T14:19:37.587Z</updated>
+    <updated>2026-05-12T15:23:12.490Z</updated>
   </entry>
   <entry>
     <author>
@@ -42,7 +42,7 @@
     <published>2026-05-11T16:25:00.000Z</published>
     <summary>现代社会提供了更多选择、技术和便利，却没有自动带来更稳定的内心。本文从选择过载、比较机制、身份压力、孤独感和未来不确定性解释现代焦虑。</summary>
     <title>世界观察 005：为什么社会越发达，人反而越焦虑？</title>
-    <updated>2026-05-12T14:19:37.947Z</updated>
+    <updated>2026-05-12T15:20:34.409Z</updated>
   </entry>
   <entry>
     <author>
@@ -189,21 +189,6 @@
     <author>
       <name>Mr.Wang</name>
     </author>
-    <category term="自我与时代" scheme="https://mrle2021.github.io/tbblog/categories/%E8%87%AA%E6%88%91%E4%B8%8E%E6%97%B6%E4%BB%A3/"/>
-    <category term="自我认知" scheme="https://mrle2021.github.io/tbblog/tags/%E8%87%AA%E6%88%91%E8%AE%A4%E7%9F%A5/"/>
-    <category term="存在主义" scheme="https://mrle2021.github.io/tbblog/tags/%E5%AD%98%E5%9C%A8%E4%B8%BB%E4%B9%89/"/>
-    <category term="加缪" scheme="https://mrle2021.github.io/tbblog/tags/%E5%8A%A0%E7%BC%AA/"/>
-    <id>https://mrle2021.github.io/tbblog/2025/05/10/absurd-existence-anxiety/</id>
-    <link href="https://mrle2021.github.io/tbblog/2025/05/10/absurd-existence-anxiety/"/>
-    <published>2025-05-10T04:00:00.000Z</published>
-    <summary>现代人的存在焦虑来自意义系统失效。本文借加缪的荒诞哲学和海德格尔的向死而生，解释我们如何在虚无中重新建立生活方向。</summary>
-    <title>存在焦虑是什么？从加缪的荒诞到海德格尔的向死而生</title>
-    <updated>2026-05-10T05:49:42.704Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Mr.Wang</name>
-    </author>
     <category term="影像与声音" scheme="https://mrle2021.github.io/tbblog/categories/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/"/>
     <category term="卡夫卡" scheme="https://mrle2021.github.io/tbblog/tags/%E5%8D%A1%E5%A4%AB%E5%8D%A1/"/>
     <category term="电影推荐" scheme="https://mrle2021.github.io/tbblog/tags/%E7%94%B5%E5%BD%B1%E6%8E%A8%E8%8D%90/"/>
@@ -214,6 +199,21 @@
     <summary>从卡夫卡《审判》、肖斯塔科维奇第十四交响曲到电影《七宗罪》，理解现代社会中的罪感、道德审判和无形权力。</summary>
     <title>《七宗罪》为什么像卡夫卡的《审判》？现代人的罪感与无形审判</title>
     <updated>2026-05-10T05:49:42.810Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Mr.Wang</name>
+    </author>
+    <category term="自我与时代" scheme="https://mrle2021.github.io/tbblog/categories/%E8%87%AA%E6%88%91%E4%B8%8E%E6%97%B6%E4%BB%A3/"/>
+    <category term="自我认知" scheme="https://mrle2021.github.io/tbblog/tags/%E8%87%AA%E6%88%91%E8%AE%A4%E7%9F%A5/"/>
+    <category term="存在主义" scheme="https://mrle2021.github.io/tbblog/tags/%E5%AD%98%E5%9C%A8%E4%B8%BB%E4%B9%89/"/>
+    <category term="加缪" scheme="https://mrle2021.github.io/tbblog/tags/%E5%8A%A0%E7%BC%AA/"/>
+    <id>https://mrle2021.github.io/tbblog/2025/05/10/absurd-existence-anxiety/</id>
+    <link href="https://mrle2021.github.io/tbblog/2025/05/10/absurd-existence-anxiety/"/>
+    <published>2025-05-10T04:00:00.000Z</published>
+    <summary>现代人的存在焦虑来自意义系统失效。本文借加缪的荒诞哲学和海德格尔的向死而生，解释我们如何在虚无中重新建立生活方向。</summary>
+    <title>存在焦虑是什么？从加缪的荒诞到海德格尔的向死而生</title>
+    <updated>2026-05-10T05:49:42.704Z</updated>
   </entry>
   <entry>
     <author>
