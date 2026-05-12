@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 7.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/tbblog/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/tbblog/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/tbblog/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/tbblog/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/tbblog/css/main.css">
+
+
+<link rel="stylesheet" href="/tbblog/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"mrle2021.github.io","root":"/tbblog/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":true},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="深度文章不是把资料堆起来，而是围绕一个问题建立证据、背景、分歧和判断。本文记录一套用 AI 做资料整理的工作流，帮助把信息转化为可写作的结构。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AI 读世界：我如何用 AI 做一篇深度文章的资料整理？">
+<meta property="og:url" content="https://mrle2021.github.io/tbblog/2026/05/12/ai-reading-world-research-workflow-for-essay/index.html">
+<meta property="og:site_name" content="Trailblaze Blog">
+<meta property="og:description" content="深度文章不是把资料堆起来，而是围绕一个问题建立证据、背景、分歧和判断。本文记录一套用 AI 做资料整理的工作流，帮助把信息转化为可写作的结构。">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2026-05-12T03:15:00.000Z">
+<meta property="article:modified_time" content="2026-05-12T15:57:58.141Z">
+<meta property="article:author" content="Mr.Wang">
+<meta property="article:tag" content="AI读世界">
+<meta property="article:tag" content="方法论">
+<meta property="article:tag" content="信息整理">
+<meta property="article:tag" content="AI写作">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://mrle2021.github.io/tbblog/2026/05/12/ai-reading-world-research-workflow-for-essay/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+
+<meta name="author" content="Mr.Wang">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:image" content="https://mrle2021.github.io/tbblog/images/site-cover.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://mrle2021.github.io/tbblog/images/site-cover.jpg">
+<link rel="alternate" type="application/atom+xml" title="Trailblaze Blog Atom Feed" href="https://mrle2021.github.io/tbblog/atom.xml">
+<link rel="alternate" type="application/rss+xml" title="Trailblaze Blog RSS Feed" href="https://mrle2021.github.io/tbblog/rss2.xml">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "Trailblaze Blog",
+  "description": "用 AI 辅助的信息整理、哲学解释和人文判断，帮普通人理解正在变化的世界。",
+  "url": "https://mrle2021.github.io/tbblog/",
+  "inLanguage": "zh-CN",
+  "author": {
+    "@type": "Person",
+    "name": "Mr.Wang"
+  }
+}
+</script>
+
+  <title>AI 读世界：我如何用 AI 做一篇深度文章的资料整理？ | Trailblaze Blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/tbblog/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Trailblaze Blog</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">用 AI 辅助的信息整理、哲学解释和人文判断，理解正在变化的世界</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/tbblog/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/tbblog/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-世界观察">
+
+    <a href="/tbblog/categories/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/" rel="section"><i class="fa fa-globe fa-fw"></i>世界观察</a>
+
+  </li>
+        <li class="menu-item menu-item-思想工具箱">
+
+    <a href="/tbblog/categories/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/" rel="section"><i class="fa fa-book fa-fw"></i>思想工具箱</a>
+
+  </li>
+        <li class="menu-item menu-item-影像与声音">
+
+    <a href="/tbblog/categories/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/" rel="section"><i class="fa fa-film fa-fw"></i>影像与声音</a>
+
+  </li>
+        <li class="menu-item menu-item-自我与时代">
+
+    <a href="/tbblog/categories/%E8%87%AA%E6%88%91%E4%B8%8E%E6%97%B6%E4%BB%A3/" rel="section"><i class="fa fa-user fa-fw"></i>自我与时代</a>
+
+  </li>
+        <li class="menu-item menu-item-ai-读世界">
+
+    <a href="/tbblog/categories/AI-%E8%AF%BB%E4%B8%96%E7%95%8C/" rel="section"><i class="fa fa-robot fa-fw"></i>AI 读世界</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/tbblog/about/" rel="section"><i class="fa fa-info-circle fa-fw"></i>关于</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+  
+  
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://mrle2021.github.io/tbblog/2026/05/12/ai-reading-world-research-workflow-for-essay/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/tbblog/images/avatar.gif">
+      <meta itemprop="name" content="Mr.Wang">
+      <meta itemprop="description" content="用 AI 辅助的信息整理、哲学解释和人文判断，帮普通人理解正在变化的世界。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Trailblaze Blog">
+    </span>
+      
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          AI 读世界：我如何用 AI 做一篇深度文章的资料整理？
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2026-05-12 11:15:00 / 修改时间：23:57:58" itemprop="dateCreated datePublished" datetime="2026-05-12T11:15:00+08:00">2026-05-12</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/tbblog/categories/AI-%E8%AF%BB%E4%B8%96%E7%95%8C/" itemprop="url" rel="index"><span itemprop="name">AI 读世界</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>3.2k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>3 分钟</span>
+            </span>
+            <div class="post-description">深度文章不是把资料堆起来，而是围绕一个问题建立证据、背景、分歧和判断。本文记录一套用 AI 做资料整理的工作流，帮助把信息转化为可写作的结构。</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h2 id="为什么资料整理比写作本身更重要？"><a href="#为什么资料整理比写作本身更重要？" class="headerlink" title="为什么资料整理比写作本身更重要？"></a>为什么资料整理比写作本身更重要？</h2><p>很多人以为写一篇深度文章，最难的是下笔。</p>
+<p>但我越来越觉得，真正困难的不是写，而是整理。</p>
+<p>如果资料是散的，文章就会变成资料堆积；如果问题是模糊的，文章就会变成观点漂浮；如果证据没有分层，文章就会把事实、解释和情绪混在一起；如果没有反方观点，文章就会变成自我确认。</p>
+<p>所以，深度文章不是从 “我要写点什么” 开始，而是从一个更清楚的问题开始：</p>
+<blockquote>
+<p>我到底想解释什么？</p>
+</blockquote>
+<p>AI 对写作最有价值的地方，不是替我生成正文，而是帮助我把混乱的信息变成可以写作的结构。</p>
+<h2 id="第一步：先把题目改写成问题"><a href="#第一步：先把题目改写成问题" class="headerlink" title="第一步：先把题目改写成问题"></a>第一步：先把题目改写成问题</h2><p>很多选题表面上是标题，实际上还不是问题。</p>
+<p>比如：</p>
+<figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">AI 与新闻信任</span><br><span class="line">年轻人和长期主义</span><br><span class="line">现代焦虑</span><br><span class="line">系统性问题</span><br></pre></td></tr></tbody></table></figure>
+
+<p>这些都是主题，但还不是文章问题。</p>
+<p>我会先让 AI 帮我把主题改写成 5-10 个问题：</p>
+<figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">我想写一篇关于“长期主义为什么变难”的文章。</span><br><span class="line">请不要直接给我大纲。</span><br><span class="line">请先把这个主题改写成 10 个具体问题。</span><br><span class="line">每个问题要能引出一篇文章的中心论证。</span><br></pre></td></tr></tbody></table></figure>
+
+<p>这样做的好处是，它能避免文章一开始就变成泛泛而谈。</p>
+<p>例如，“长期主义为什么变难” 可以拆成：</p>
+<ul>
+<li>是人变浮躁了，还是环境变短期化了？</li>
+<li>什么样的现实条件会削弱长期投入？</li>
+<li>算法反馈如何改变人的时间感？</li>
+<li>当未来不确定时，人还如何规划未来？</li>
+<li>长期主义是不是需要被重新定义？</li>
+</ul>
+<p>当问题变清楚，资料整理才有方向。</p>
+<h2 id="第二步：建立资料篮，而不是立刻筛选"><a href="#第二步：建立资料篮，而不是立刻筛选" class="headerlink" title="第二步：建立资料篮，而不是立刻筛选"></a>第二步：建立资料篮，而不是立刻筛选</h2><p>在最开始，我不会急着判断哪些资料有用。</p>
+<p>我会先建立一个 “资料篮”，把可能相关的材料都放进去。它可以包括：</p>
+<ul>
+<li>新闻报道</li>
+<li>官方报告</li>
+<li>调查数据</li>
+<li>学术研究</li>
+<li>书籍章节</li>
+<li>公开演讲</li>
+<li>历史案例</li>
+<li>个人观察</li>
+<li>反方观点</li>
+<li>影视文本</li>
+</ul>
+<p>这个阶段的目标不是精确，而是覆盖。</p>
+<p>我会让 AI 帮我列出资料类型：</p>
+<figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">围绕这个问题，我应该收集哪些类型的资料？</span><br><span class="line">请按以下类别列出：</span><br><span class="line">1. 数据报告；</span><br><span class="line">2. 新闻事件；</span><br><span class="line">3. 历史背景；</span><br><span class="line">4. 不同立场观点；</span><br><span class="line">5. 可以帮助解释的概念；</span><br><span class="line">6. 可能使用的案例。</span><br></pre></td></tr></tbody></table></figure>
+
+<p>这一步会让我知道自己缺什么。</p>
+<p>很多文章写得空，不是因为作者没有观点，而是因为资料类型太单一。只有评论，没有数据；只有数据，没有故事；只有个人感受，没有结构背景；只有宏大概念，没有具体案例。</p>
+<h2 id="第三步：让-AI-帮我做资料分类"><a href="#第三步：让-AI-帮我做资料分类" class="headerlink" title="第三步：让 AI 帮我做资料分类"></a>第三步：让 AI 帮我做资料分类</h2><p>当资料变多之后，我会让 AI 帮我分类，而不是让它直接总结。</p>
+<p>我常用的提示词是：</p>
+<figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">下面是我收集的资料清单。</span><br><span class="line">请你不要写文章，也不要下结论。</span><br><span class="line">请先把资料分成几组：</span><br><span class="line"></span><br><span class="line">1. 事实和数据；</span><br><span class="line">2. 背景和历史；</span><br><span class="line">3. 支持我初步观点的材料；</span><br><span class="line">4. 反对或修正我观点的材料；</span><br><span class="line">5. 只能作为例子、不能作为证据的材料；</span><br><span class="line">6. 需要进一步核查的材料。</span><br></pre></td></tr></tbody></table></figure>
+
+<p>这个分类很关键。</p>
+<p>因为不是所有材料都具有同样价值。</p>
+<p>有些材料可以作为证据，有些只能作为案例；有些可以支撑论点，有些只能提供背景；有些看起来很有冲击力，但来源不稳定，只能暂时放着。</p>
+<p>资料分类的目的，是防止我把 “有感觉的材料” 误当成 “有证明力的材料”。</p>
+<h2 id="第四步：区分事实、解释和判断"><a href="#第四步：区分事实、解释和判断" class="headerlink" title="第四步：区分事实、解释和判断"></a>第四步：区分事实、解释和判断</h2><p>深度文章最容易混乱的地方，是把事实、解释和判断写在一起。</p>
+<p>比如：</p>
+<figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">年轻人越来越不相信努力会有回报，因为社会流动变差了。</span><br></pre></td></tr></tbody></table></figure>
+
+<p>这句话里面至少有三层：</p>
+<ul>
+<li>事实：年轻人是否真的更不相信努力有回报？</li>
+<li>解释：这种变化是否由社会流动变差导致？</li>
+<li>判断：这说明努力叙事正在失效。</li>
+</ul>
+<p>如果这三层不拆开，文章就会显得很有气势，但证据不稳。</p>
+<p>我会让 AI 帮我拆：</p>
+<figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">请把下面这段初步观点拆成三层：</span><br><span class="line">1. 需要被证明的事实；</span><br><span class="line">2. 可能的解释路径；</span><br><span class="line">3. 作者自己的判断。</span><br><span class="line"></span><br><span class="line">请指出每一层分别需要什么证据。</span><br></pre></td></tr></tbody></table></figure>
+
+<p>这一步能防止我过早下结论。</p>
+<h2 id="第五步：建立反方资料区"><a href="#第五步：建立反方资料区" class="headerlink" title="第五步：建立反方资料区"></a>第五步：建立反方资料区</h2><p>如果一篇文章只有支持自己的资料，它就很容易变成自我说服。</p>
+<p>所以我会专门建立一个 “反方资料区”。</p>
+<p>我会问 AI：</p>
+<figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">如果有人不同意我的观点，他最可能从哪些角度反驳？</span><br><span class="line">请列出至少 5 个反方观点。</span><br><span class="line">每个观点请说明：</span><br><span class="line">1. 它的合理之处；</span><br><span class="line">2. 它可能使用哪些证据；</span><br><span class="line">3. 我应该如何回应，或者承认它修正了我的判断。</span><br></pre></td></tr></tbody></table></figure>
+
+<p>反方观点不是为了表演平衡，而是为了提高判断质量。</p>
+<p>有些反方观点确实站不住脚；有些反方观点会逼我修改文章；还有些反方观点会让我意识到：原来的选题问法本身就需要调整。</p>
+<p>真正有价值的写作，不是把自己原本相信的东西说得更漂亮，而是在整理资料之后，允许自己的判断变得更准确。</p>
+<h2 id="第六步：做来源核查表"><a href="#第六步：做来源核查表" class="headerlink" title="第六步：做来源核查表"></a>第六步：做来源核查表</h2><p>涉及数据、报告、新闻和政策时，我会做一个简单来源表。</p>
+<p>格式是：</p>
+<figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">来源名称：</span><br><span class="line">发布机构：</span><br><span class="line">发布时间：</span><br><span class="line">链接：</span><br><span class="line">我使用的数据或观点：</span><br><span class="line">它能证明什么：</span><br><span class="line">它不能证明什么：</span><br><span class="line">是否需要二次核查：</span><br></pre></td></tr></tbody></table></figure>
+
+<p>这个表看起来麻烦，但它能避免一个常见问题：引用一个数据，却忘了它到底能证明什么。</p>
+<p>很多数据只能证明局部事实，不能证明宏大判断。</p>
+<p>比如，一个国家的青年就业数据，不能直接证明全球年轻人心态变化；一项平台调查，也不能直接证明整个社会结构变化；一篇评论文章，更不能当成事实来源。</p>
+<p>AI 可以帮助我整理来源表，但我必须自己打开原始链接检查关键内容。</p>
+<h2 id="第七步：把资料转成文章结构"><a href="#第七步：把资料转成文章结构" class="headerlink" title="第七步：把资料转成文章结构"></a>第七步：把资料转成文章结构</h2><p>只有到这一步，我才让 AI 帮我生成文章大纲。</p>
+<p>我会这样问：</p>
+<figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">基于以上资料，请帮我生成一篇文章结构。</span><br><span class="line"></span><br><span class="line">要求：</span><br><span class="line">1. 文章不是资料堆积，而是围绕一个核心问题展开；</span><br><span class="line">2. 每个小节都要回答一个具体问题；</span><br><span class="line">3. 先提出现象，再解释结构，再呈现数据，再讨论分歧，最后给出我的判断；</span><br><span class="line">4. 请标出每个小节需要使用哪些资料；</span><br><span class="line">5. 不要替我写正文。</span><br></pre></td></tr></tbody></table></figure>
+
+<p>我不希望 AI 一上来就写正文，因为正文太容易被它写得完整但空泛。</p>
+<p>先有结构，才有文章。</p>
+<p>好的大纲应该能回答三个问题：</p>
+<ul>
+<li>读者为什么要关心？</li>
+<li>这个问题背后的结构是什么？</li>
+<li>我的判断和别人有什么不同？</li>
+</ul>
+<h2 id="第八步：最后才进入写作"><a href="#第八步：最后才进入写作" class="headerlink" title="第八步：最后才进入写作"></a>第八步：最后才进入写作</h2><p>真正开始写作时，我会尽量不用 AI 直接生成大段正文。</p>
+<p>我更愿意自己写第一稿。</p>
+<p>原因是，第一稿最能保留一个人的问题意识、语气和判断节奏。AI 可以帮我改清楚，但不能替我决定文章的内在张力。</p>
+<p>写完第一稿后，我会让 AI 做三类检查：</p>
+<figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">请帮我检查这篇文章：</span><br><span class="line">1. 哪些段落重复；</span><br><span class="line">2. 哪些判断证据不足；</span><br><span class="line">3. 哪些地方读者可能跟不上；</span><br><span class="line">4. 哪些小节标题不够明确；</span><br><span class="line">5. 哪些观点需要反方补充。</span><br></pre></td></tr></tbody></table></figure>
+
+<p>这时 AI 更像编辑，而不是作者。</p>
+<p>这是我目前比较舒服的位置：AI 做资料助理、反方读者和结构编辑；我负责问题意识、最终判断和文字承担。</p>
+<h2 id="一个完整工作流"><a href="#一个完整工作流" class="headerlink" title="一个完整工作流"></a>一个完整工作流</h2><p>如果压缩成一套流程，就是：</p>
+<figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">1. 把主题改写成问题；</span><br><span class="line">2. 建立资料篮；</span><br><span class="line">3. 按事实、背景、支持、反方、案例、待核查分类；</span><br><span class="line">4. 拆分事实、解释和判断；</span><br><span class="line">5. 建立反方资料区；</span><br><span class="line">6. 做来源核查表；</span><br><span class="line">7. 把资料转成文章结构；</span><br><span class="line">8. 自己写第一稿；</span><br><span class="line">9. 让 AI 做编辑检查；</span><br><span class="line">10. 最后由自己确认判断。</span><br></pre></td></tr></tbody></table></figure>
+
+<p>这个流程看起来慢，但它能避免一个更大的问题：文章写得很快，却没有真正理解。</p>
+<p>AI 时代，写得快越来越容易。</p>
+<p>真正稀缺的是：知道自己为什么这样写。</p>
+<h2 id="我的判断"><a href="#我的判断" class="headerlink" title="我的判断"></a>我的判断</h2><p>AI 会改变写作，但不应该把写作变成自动生成。</p>
+<p>对我来说，写作不是把文字排列出来，而是把一个问题想清楚。</p>
+<p>如果 AI 只是让我更快生成文章，它对我帮助有限；如果 AI 能让我更好地整理资料、发现盲点、核查证据、建立结构，它才真正提高了写作质量。</p>
+<p>深度文章的关键，不是信息量大，而是结构清楚。</p>
+<p>结构清楚的文章，背后一定有一套资料整理方法。</p>
+<p>这也是我想持续记录 “AI 读世界” 的原因：不是展示 AI 能写什么，而是探索 AI 如何帮助一个普通人更认真地理解世界。</p>
+<h2 id="固定提示词"><a href="#固定提示词" class="headerlink" title="固定提示词"></a>固定提示词</h2><figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">我准备写一篇深度文章，主题是：____。</span><br><span class="line"></span><br><span class="line">请不要直接替我写正文。</span><br><span class="line"></span><br><span class="line">请先帮我完成资料整理：</span><br><span class="line"></span><br><span class="line">1. 把主题改写成 10 个具体问题；</span><br><span class="line">2. 列出我需要收集的资料类型；</span><br><span class="line">3. 给出可能的事实来源、背景来源和反方来源；</span><br><span class="line">4. 帮我区分事实、解释和判断；</span><br><span class="line">5. 列出至少 5 个反方观点；</span><br><span class="line">6. 设计一个来源核查表；</span><br><span class="line">7. 最后生成文章大纲。</span><br><span class="line"></span><br><span class="line">要求：</span><br><span class="line">- 每个小节都要回答一个具体问题；</span><br><span class="line">- 不要把不确定的内容写成确定事实；</span><br><span class="line">- 不要只提供支持我观点的材料；</span><br><span class="line">- 最终判断留给我。</span><br></pre></td></tr></tbody></table></figure>
+
+<h2 id="相关阅读"><a href="#相关阅读" class="headerlink" title="相关阅读"></a>相关阅读</h2><ul>
+<li><a href="/tbblog/2026/05/11/ai-reading-world-weekly-news-workflow/">AI 读世界：我如何让 AI 帮我整理一周新闻？</a></li>
+<li><a href="/tbblog/2026/05/12/ai-reading-world-how-much-trust-ai-answers/">AI 读世界：AI 给我的答案，我应该相信多少？</a></li>
+<li><a href="/tbblog/2026/05/11/thinking-toolbox-explanatory-framework/">思想工具箱：什么是 “解释框架”？为什么它比观点更重要？</a></li>
+</ul>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tbblog/tags/AI%E8%AF%BB%E4%B8%96%E7%95%8C/" rel="tag"># AI读世界</a>
+              <a href="/tbblog/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/" rel="tag"># 方法论</a>
+              <a href="/tbblog/tags/%E4%BF%A1%E6%81%AF%E6%95%B4%E7%90%86/" rel="tag"># 信息整理</a>
+              <a href="/tbblog/tags/AI%E5%86%99%E4%BD%9C/" rel="tag"># AI写作</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/tbblog/2026/05/12/thinking-toolbox-systemic-problem/" rel="prev" title="思想工具箱：什么是 “系统性问题”？">
+      <i class="fa fa-chevron-left"></i> 思想工具箱：什么是 “系统性问题”？
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/tbblog/2026/05/12/image-sound-her-ai-intimacy/" rel="next" title="影像与声音：《她》为什么适合解释 AI 时代的亲密关系？">
+      影像与声音：《她》为什么适合解释 AI 时代的亲密关系？ <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86%E6%AF%94%E5%86%99%E4%BD%9C%E6%9C%AC%E8%BA%AB%E6%9B%B4%E9%87%8D%E8%A6%81%EF%BC%9F"><span class="nav-number">1.</span> <span class="nav-text">为什么资料整理比写作本身更重要？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E6%AD%A5%EF%BC%9A%E5%85%88%E6%8A%8A%E9%A2%98%E7%9B%AE%E6%94%B9%E5%86%99%E6%88%90%E9%97%AE%E9%A2%98"><span class="nav-number">2.</span> <span class="nav-text">第一步：先把题目改写成问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%BA%8C%E6%AD%A5%EF%BC%9A%E5%BB%BA%E7%AB%8B%E8%B5%84%E6%96%99%E7%AF%AE%EF%BC%8C%E8%80%8C%E4%B8%8D%E6%98%AF%E7%AB%8B%E5%88%BB%E7%AD%9B%E9%80%89"><span class="nav-number">3.</span> <span class="nav-text">第二步：建立资料篮，而不是立刻筛选</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%B8%89%E6%AD%A5%EF%BC%9A%E8%AE%A9-AI-%E5%B8%AE%E6%88%91%E5%81%9A%E8%B5%84%E6%96%99%E5%88%86%E7%B1%BB"><span class="nav-number">4.</span> <span class="nav-text">第三步：让 AI 帮我做资料分类</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E5%9B%9B%E6%AD%A5%EF%BC%9A%E5%8C%BA%E5%88%86%E4%BA%8B%E5%AE%9E%E3%80%81%E8%A7%A3%E9%87%8A%E5%92%8C%E5%88%A4%E6%96%AD"><span class="nav-number">5.</span> <span class="nav-text">第四步：区分事实、解释和判断</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%BA%94%E6%AD%A5%EF%BC%9A%E5%BB%BA%E7%AB%8B%E5%8F%8D%E6%96%B9%E8%B5%84%E6%96%99%E5%8C%BA"><span class="nav-number">6.</span> <span class="nav-text">第五步：建立反方资料区</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E5%85%AD%E6%AD%A5%EF%BC%9A%E5%81%9A%E6%9D%A5%E6%BA%90%E6%A0%B8%E6%9F%A5%E8%A1%A8"><span class="nav-number">7.</span> <span class="nav-text">第六步：做来源核查表</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%B8%83%E6%AD%A5%EF%BC%9A%E6%8A%8A%E8%B5%84%E6%96%99%E8%BD%AC%E6%88%90%E6%96%87%E7%AB%A0%E7%BB%93%E6%9E%84"><span class="nav-number">8.</span> <span class="nav-text">第七步：把资料转成文章结构</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E5%85%AB%E6%AD%A5%EF%BC%9A%E6%9C%80%E5%90%8E%E6%89%8D%E8%BF%9B%E5%85%A5%E5%86%99%E4%BD%9C"><span class="nav-number">9.</span> <span class="nav-text">第八步：最后才进入写作</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E4%B8%AA%E5%AE%8C%E6%95%B4%E5%B7%A5%E4%BD%9C%E6%B5%81"><span class="nav-number">10.</span> <span class="nav-text">一个完整工作流</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%88%91%E7%9A%84%E5%88%A4%E6%96%AD"><span class="nav-number">11.</span> <span class="nav-text">我的判断</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%BA%E5%AE%9A%E6%8F%90%E7%A4%BA%E8%AF%8D"><span class="nav-number">12.</span> <span class="nav-text">固定提示词</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%9B%B8%E5%85%B3%E9%98%85%E8%AF%BB"><span class="nav-number">13.</span> <span class="nav-text">相关阅读</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Mr.Wang</p>
+  <div class="site-description" itemprop="description">用 AI 辅助的信息整理、哲学解释和人文判断，帮普通人理解正在变化的世界。</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/tbblog/archives/">
+        
+          <span class="site-state-item-count">23</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/tbblog/categories/">
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tbblog/tags/">
+        <span class="site-state-item-count">41</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2026</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Mr.Wang</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+    <span title="站点总字数">71k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">1:05</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/tbblog/lib/anime.min.js"></script>
+  <script src="/tbblog/lib/velocity/velocity.min.js"></script>
+  <script src="/tbblog/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/tbblog/js/utils.js"></script>
+
+<script src="/tbblog/js/motion.js"></script>
+
+
+<script src="/tbblog/js/schemes/muse.js"></script>
+
+
+<script src="/tbblog/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/tbblog/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>

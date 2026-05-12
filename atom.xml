@@ -11,7 +11,39 @@
   <rights>All rights reserved 2026, Mr.Wang</rights>
   <subtitle>用 AI 辅助的信息整理、哲学解释和人文判断，理解正在变化的世界</subtitle>
   <title>Trailblaze Blog</title>
-  <updated>2026-05-12T15:56:51.275Z</updated>
+  <updated>2026-05-12T16:00:22.198Z</updated>
+  <entry>
+    <author>
+      <name>Mr.Wang</name>
+    </author>
+    <category term="影像与声音" scheme="https://mrle2021.github.io/tbblog/categories/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/"/>
+    <category term="AI" scheme="https://mrle2021.github.io/tbblog/tags/AI/"/>
+    <category term="电影推荐" scheme="https://mrle2021.github.io/tbblog/tags/%E7%94%B5%E5%BD%B1%E6%8E%A8%E8%8D%90/"/>
+    <category term="影像与声音" scheme="https://mrle2021.github.io/tbblog/tags/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/"/>
+    <category term="亲密关系" scheme="https://mrle2021.github.io/tbblog/tags/%E4%BA%B2%E5%AF%86%E5%85%B3%E7%B3%BB/"/>
+    <id>https://mrle2021.github.io/tbblog/2026/05/12/image-sound-her-ai-intimacy/</id>
+    <link href="https://mrle2021.github.io/tbblog/2026/05/12/image-sound-her-ai-intimacy/"/>
+    <published>2026-05-12T03:35:00.000Z</published>
+    <summary>电影《她》不只是一个人爱上 AI 的故事，它更适合解释 AI 时代的亲密关系：被理解的幻觉、情感外包、孤独、陪伴和人的不可替代性。</summary>
+    <title>影像与声音：《她》为什么适合解释 AI 时代的亲密关系？</title>
+    <updated>2026-05-12T16:00:22.198Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Mr.Wang</name>
+    </author>
+    <category term="AI 读世界" scheme="https://mrle2021.github.io/tbblog/categories/AI-%E8%AF%BB%E4%B8%96%E7%95%8C/"/>
+    <category term="AI读世界" scheme="https://mrle2021.github.io/tbblog/tags/AI%E8%AF%BB%E4%B8%96%E7%95%8C/"/>
+    <category term="方法论" scheme="https://mrle2021.github.io/tbblog/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/"/>
+    <category term="信息整理" scheme="https://mrle2021.github.io/tbblog/tags/%E4%BF%A1%E6%81%AF%E6%95%B4%E7%90%86/"/>
+    <category term="AI写作" scheme="https://mrle2021.github.io/tbblog/tags/AI%E5%86%99%E4%BD%9C/"/>
+    <id>https://mrle2021.github.io/tbblog/2026/05/12/ai-reading-world-research-workflow-for-essay/</id>
+    <link href="https://mrle2021.github.io/tbblog/2026/05/12/ai-reading-world-research-workflow-for-essay/"/>
+    <published>2026-05-12T03:15:00.000Z</published>
+    <summary>深度文章不是把资料堆起来，而是围绕一个问题建立证据、背景、分歧和判断。本文记录一套用 AI 做资料整理的工作流，帮助把信息转化为可写作的结构。</summary>
+    <title>AI 读世界：我如何用 AI 做一篇深度文章的资料整理？</title>
+    <updated>2026-05-12T15:57:58.141Z</updated>
+  </entry>
   <entry>
     <author>
       <name>Mr.Wang</name>
@@ -291,35 +323,5 @@
     <summary>在人人都想“做自己”的时代，庄子提醒我们焦虑来自对自我的执着。本文从齐物论、逍遥游和无我思想理解自我焦虑。</summary>
     <title>庄子如何缓解自我焦虑？从齐物论到逍遥游理解 “无我”</title>
     <updated>2026-05-10T05:48:42.270Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Mr.Wang</name>
-    </author>
-    <category term="影像与声音" scheme="https://mrle2021.github.io/tbblog/categories/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/"/>
-    <category term="电影推荐" scheme="https://mrle2021.github.io/tbblog/tags/%E7%94%B5%E5%BD%B1%E6%8E%A8%E8%8D%90/"/>
-    <category term="黑客帝国" scheme="https://mrle2021.github.io/tbblog/tags/%E9%BB%91%E5%AE%A2%E5%B8%9D%E5%9B%BD/"/>
-    <category term="真实" scheme="https://mrle2021.github.io/tbblog/tags/%E7%9C%9F%E5%AE%9E/"/>
-    <id>https://mrle2021.github.io/tbblog/2025/05/02/reality-and-illusion/</id>
-    <link href="https://mrle2021.github.io/tbblog/2025/05/02/reality-and-illusion/"/>
-    <published>2025-05-02T13:24:41.000Z</published>
-    <summary>从柏拉图洞穴寓言到《黑客帝国》，再到后现代声音艺术，本文讨论真实、幻象和系统性认知如何塑造现代人的世界感。</summary>
-    <title>《黑客帝国》与洞穴寓言：我们如何分辨真实与幻象？</title>
-    <updated>2026-05-10T05:49:42.999Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Mr.Wang</name>
-    </author>
-    <category term="影像与声音" scheme="https://mrle2021.github.io/tbblog/categories/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/"/>
-    <category term="电影推荐" scheme="https://mrle2021.github.io/tbblog/tags/%E7%94%B5%E5%BD%B1%E6%8E%A8%E8%8D%90/"/>
-    <category term="尼采" scheme="https://mrle2021.github.io/tbblog/tags/%E5%B0%BC%E9%87%87/"/>
-    <category term="音乐推荐" scheme="https://mrle2021.github.io/tbblog/tags/%E9%9F%B3%E4%B9%90%E6%8E%A8%E8%8D%90/"/>
-    <id>https://mrle2021.github.io/tbblog/2025/05/02/zarathustra-nietzsche-strauss-kubrick/</id>
-    <link href="https://mrle2021.github.io/tbblog/2025/05/02/zarathustra-nietzsche-strauss-kubrick/"/>
-    <published>2025-05-02T13:24:41.000Z</published>
-    <summary>从尼采原著、理查·施特劳斯交响诗到库布里克《2001太空漫游》，梳理“查拉图斯特拉”如何在哲学、音乐与电影中演化。</summary>
-    <title>《查拉图斯特拉如是说》如何影响《2001 太空漫游》？</title>
-    <updated>2026-05-10T05:49:43.044Z</updated>
   </entry>
 </feed>

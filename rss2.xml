@@ -6,7 +6,7 @@
     <description>用 AI 辅助的信息整理、哲学解释和人文判断，理解正在变化的世界</description>
     <language>zh-CN</language>
     <copyright>All rights reserved 2026, Mr.Wang</copyright>
-    <lastBuildDate>Tue, 12 May 2026 15:56:51 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 16:00:22 GMT</lastBuildDate>
     <generator>Hexo</generator>
     <image>
       <url>https://mrle2021.github.io/tbblog/images/site-cover.jpg</url>
@@ -14,6 +14,30 @@
       <link>https://mrle2021.github.io/tbblog/</link>
     </image>
     <atom:link href="https://mrle2021.github.io/tbblog/rss2.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>影像与声音：《她》为什么适合解释 AI 时代的亲密关系？</title>
+      <link>https://mrle2021.github.io/tbblog/2026/05/12/image-sound-her-ai-intimacy/</link>
+      <description>电影《她》不只是一个人爱上 AI 的故事，它更适合解释 AI 时代的亲密关系：被理解的幻觉、情感外包、孤独、陪伴和人的不可替代性。</description>
+      <author>Mr.Wang</author>
+      <category domain="https://mrle2021.github.io/tbblog/categories/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/">影像与声音</category>
+      <category domain="https://mrle2021.github.io/tbblog/tags/AI/">AI</category>
+      <category domain="https://mrle2021.github.io/tbblog/tags/%E7%94%B5%E5%BD%B1%E6%8E%A8%E8%8D%90/">电影推荐</category>
+      <category domain="https://mrle2021.github.io/tbblog/tags/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/">影像与声音</category>
+      <category domain="https://mrle2021.github.io/tbblog/tags/%E4%BA%B2%E5%AF%86%E5%85%B3%E7%B3%BB/">亲密关系</category>
+      <pubDate>Tue, 12 May 2026 03:35:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI 读世界：我如何用 AI 做一篇深度文章的资料整理？</title>
+      <link>https://mrle2021.github.io/tbblog/2026/05/12/ai-reading-world-research-workflow-for-essay/</link>
+      <description>深度文章不是把资料堆起来，而是围绕一个问题建立证据、背景、分歧和判断。本文记录一套用 AI 做资料整理的工作流，帮助把信息转化为可写作的结构。</description>
+      <author>Mr.Wang</author>
+      <category domain="https://mrle2021.github.io/tbblog/categories/AI-%E8%AF%BB%E4%B8%96%E7%95%8C/">AI 读世界</category>
+      <category domain="https://mrle2021.github.io/tbblog/tags/AI%E8%AF%BB%E4%B8%96%E7%95%8C/">AI读世界</category>
+      <category domain="https://mrle2021.github.io/tbblog/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/">方法论</category>
+      <category domain="https://mrle2021.github.io/tbblog/tags/%E4%BF%A1%E6%81%AF%E6%95%B4%E7%90%86/">信息整理</category>
+      <category domain="https://mrle2021.github.io/tbblog/tags/AI%E5%86%99%E4%BD%9C/">AI写作</category>
+      <pubDate>Tue, 12 May 2026 03:15:00 GMT</pubDate>
+    </item>
     <item>
       <title>思想工具箱：什么是 “系统性问题”？</title>
       <link>https://mrle2021.github.io/tbblog/2026/05/12/thinking-toolbox-systemic-problem/</link>
@@ -221,28 +245,6 @@
       <category domain="https://mrle2021.github.io/tbblog/tags/%E6%97%A0%E6%88%91/">无我</category>
       <category domain="https://mrle2021.github.io/tbblog/tags/%E5%BA%84%E5%AD%90/">庄子</category>
       <pubDate>Sat, 10 May 2025 04:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>《黑客帝国》与洞穴寓言：我们如何分辨真实与幻象？</title>
-      <link>https://mrle2021.github.io/tbblog/2025/05/02/reality-and-illusion/</link>
-      <description>从柏拉图洞穴寓言到《黑客帝国》，再到后现代声音艺术，本文讨论真实、幻象和系统性认知如何塑造现代人的世界感。</description>
-      <author>Mr.Wang</author>
-      <category domain="https://mrle2021.github.io/tbblog/categories/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/">影像与声音</category>
-      <category domain="https://mrle2021.github.io/tbblog/tags/%E7%94%B5%E5%BD%B1%E6%8E%A8%E8%8D%90/">电影推荐</category>
-      <category domain="https://mrle2021.github.io/tbblog/tags/%E9%BB%91%E5%AE%A2%E5%B8%9D%E5%9B%BD/">黑客帝国</category>
-      <category domain="https://mrle2021.github.io/tbblog/tags/%E7%9C%9F%E5%AE%9E/">真实</category>
-      <pubDate>Fri, 02 May 2025 13:24:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>《查拉图斯特拉如是说》如何影响《2001 太空漫游》？</title>
-      <link>https://mrle2021.github.io/tbblog/2025/05/02/zarathustra-nietzsche-strauss-kubrick/</link>
-      <description>从尼采原著、理查·施特劳斯交响诗到库布里克《2001太空漫游》，梳理“查拉图斯特拉”如何在哲学、音乐与电影中演化。</description>
-      <author>Mr.Wang</author>
-      <category domain="https://mrle2021.github.io/tbblog/categories/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/">影像与声音</category>
-      <category domain="https://mrle2021.github.io/tbblog/tags/%E7%94%B5%E5%BD%B1%E6%8E%A8%E8%8D%90/">电影推荐</category>
-      <category domain="https://mrle2021.github.io/tbblog/tags/%E5%B0%BC%E9%87%87/">尼采</category>
-      <category domain="https://mrle2021.github.io/tbblog/tags/%E9%9F%B3%E4%B9%90%E6%8E%A8%E8%8D%90/">音乐推荐</category>
-      <pubDate>Fri, 02 May 2025 13:24:41 GMT</pubDate>
     </item>
   </channel>
 </rss>
