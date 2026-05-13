@@ -11,7 +11,71 @@
   <rights>All rights reserved 2026, Mr.Wang</rights>
   <subtitle>用 AI 辅助的信息整理、哲学解释和人文判断，理解正在变化的世界</subtitle>
   <title>Trailblaze Blog</title>
-  <updated>2026-05-13T14:59:09.283Z</updated>
+  <updated>2026-05-13T16:12:51.757Z</updated>
+  <entry>
+    <author>
+      <name>Mr.Wang</name>
+    </author>
+    <category term="自我与时代" scheme="https://mrle2021.github.io/tbblog/categories/%E8%87%AA%E6%88%91%E4%B8%8E%E6%97%B6%E4%BB%A3/"/>
+    <category term="自我认知" scheme="https://mrle2021.github.io/tbblog/tags/%E8%87%AA%E6%88%91%E8%AE%A4%E7%9F%A5/"/>
+    <category term="自我与时代" scheme="https://mrle2021.github.io/tbblog/tags/%E8%87%AA%E6%88%91%E4%B8%8E%E6%97%B6%E4%BB%A3/"/>
+    <category term="现代焦虑" scheme="https://mrle2021.github.io/tbblog/tags/%E7%8E%B0%E4%BB%A3%E7%84%A6%E8%99%91/"/>
+    <category term="社会比较" scheme="https://mrle2021.github.io/tbblog/tags/%E7%A4%BE%E4%BC%9A%E6%AF%94%E8%BE%83/"/>
+    <id>https://mrle2021.github.io/tbblog/2026/05/13/self-and-era-fear-of-being-ordinary/</id>
+    <link href="https://mrle2021.github.io/tbblog/2026/05/13/self-and-era-fear-of-being-ordinary/"/>
+    <published>2026-05-12T17:10:00.000Z</published>
+    <summary>我们越来越害怕成为普通人，并不只是因为虚荣，而是因为现代社会把普通和失败、不可见、低价值绑定在一起。本文讨论普通焦虑背后的评价体系和生活想象。</summary>
+    <title>自我与时代：为什么我们越来越害怕成为普通人？</title>
+    <updated>2026-05-13T16:12:51.757Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Mr.Wang</name>
+    </author>
+    <category term="AI 读世界" scheme="https://mrle2021.github.io/tbblog/categories/AI-%E8%AF%BB%E4%B8%96%E7%95%8C/"/>
+    <category term="AI读世界" scheme="https://mrle2021.github.io/tbblog/tags/AI%E8%AF%BB%E4%B8%96%E7%95%8C/"/>
+    <category term="AI" scheme="https://mrle2021.github.io/tbblog/tags/AI/"/>
+    <category term="批判性思维" scheme="https://mrle2021.github.io/tbblog/tags/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B4/"/>
+    <category term="方法论" scheme="https://mrle2021.github.io/tbblog/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/"/>
+    <id>https://mrle2021.github.io/tbblog/2026/05/13/ai-reading-world-ai-detect-my-bias/</id>
+    <link href="https://mrle2021.github.io/tbblog/2026/05/13/ai-reading-world-ai-detect-my-bias/"/>
+    <published>2026-05-12T16:55:00.000Z</published>
+    <summary>AI 不能替我决定什么是真理，但它可以帮助我看见自己忽略了什么、预设了什么、过早相信了什么。本文记录一套用 AI 发现自身偏见的思考方法。</summary>
+    <title>AI 读世界：我如何让 AI 帮我发现自己的偏见？</title>
+    <updated>2026-05-13T15:51:36.112Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Mr.Wang</name>
+    </author>
+    <category term="思想工具箱" scheme="https://mrle2021.github.io/tbblog/categories/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
+    <category term="批判性思维" scheme="https://mrle2021.github.io/tbblog/tags/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B4/"/>
+    <category term="思想工具箱" scheme="https://mrle2021.github.io/tbblog/tags/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
+    <category term="激励机制" scheme="https://mrle2021.github.io/tbblog/tags/%E6%BF%80%E5%8A%B1%E6%9C%BA%E5%88%B6/"/>
+    <category term="制度设计" scheme="https://mrle2021.github.io/tbblog/tags/%E5%88%B6%E5%BA%A6%E8%AE%BE%E8%AE%A1/"/>
+    <id>https://mrle2021.github.io/tbblog/2026/05/13/thinking-toolbox-incentive-mechanism/</id>
+    <link href="https://mrle2021.github.io/tbblog/2026/05/13/thinking-toolbox-incentive-mechanism/"/>
+    <published>2026-05-12T16:40:00.000Z</published>
+    <summary>激励机制不是一句冷冰冰的管理术语，而是理解现实世界的重要工具。它解释了为什么很多人明知道什么是对的，却仍然会选择对自己更有利、更安全或更省力的行动。</summary>
+    <title>思想工具箱：什么是 “激励机制”？为什么人不总是按道德行动？</title>
+    <updated>2026-05-13T15:52:09.077Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Mr.Wang</name>
+    </author>
+    <category term="世界观察" scheme="https://mrle2021.github.io/tbblog/categories/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
+    <category term="世界观察" scheme="https://mrle2021.github.io/tbblog/tags/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
+    <category term="媒体素养" scheme="https://mrle2021.github.io/tbblog/tags/%E5%AA%92%E4%BD%93%E7%B4%A0%E5%85%BB/"/>
+    <category term="公共讨论" scheme="https://mrle2021.github.io/tbblog/tags/%E5%85%AC%E5%85%B1%E8%AE%A8%E8%AE%BA/"/>
+    <category term="社交媒体" scheme="https://mrle2021.github.io/tbblog/tags/%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93/"/>
+    <id>https://mrle2021.github.io/tbblog/2026/05/13/world-observation-007-public-discourse-emotional-war/</id>
+    <link href="https://mrle2021.github.io/tbblog/2026/05/13/world-observation-007-public-discourse-emotional-war/"/>
+    <published>2026-05-12T16:25:00.000Z</published>
+    <summary>公共讨论越来越像情绪战争，并不是因为人突然变得不理性，而是平台激励、身份焦虑、信任下降和信息过载共同改变了讨论结构。本文分析公共讨论为什么越来越难好好说话。</summary>
+    <title>世界观察 007：为什么公共讨论越来越像情绪战争？</title>
+    <updated>2026-05-13T15:52:43.498Z</updated>
+  </entry>
   <entry>
     <author>
       <name>Mr.Wang</name>
@@ -35,8 +99,8 @@
     <category term="AI 读世界" scheme="https://mrle2021.github.io/tbblog/categories/AI-%E8%AF%BB%E4%B8%96%E7%95%8C/"/>
     <category term="AI读世界" scheme="https://mrle2021.github.io/tbblog/tags/AI%E8%AF%BB%E4%B8%96%E7%95%8C/"/>
     <category term="方法论" scheme="https://mrle2021.github.io/tbblog/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/"/>
-    <category term="信息整理" scheme="https://mrle2021.github.io/tbblog/tags/%E4%BF%A1%E6%81%AF%E6%95%B4%E7%90%86/"/>
     <category term="AI写作" scheme="https://mrle2021.github.io/tbblog/tags/AI%E5%86%99%E4%BD%9C/"/>
+    <category term="信息整理" scheme="https://mrle2021.github.io/tbblog/tags/%E4%BF%A1%E6%81%AF%E6%95%B4%E7%90%86/"/>
     <id>https://mrle2021.github.io/tbblog/2026/05/12/ai-reading-world-research-workflow-for-essay/</id>
     <link href="https://mrle2021.github.io/tbblog/2026/05/12/ai-reading-world-research-workflow-for-essay/"/>
     <published>2026-05-12T03:15:00.000Z</published>
@@ -49,9 +113,9 @@
       <name>Mr.Wang</name>
     </author>
     <category term="思想工具箱" scheme="https://mrle2021.github.io/tbblog/categories/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
+    <category term="批判性思维" scheme="https://mrle2021.github.io/tbblog/tags/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B4/"/>
     <category term="方法论" scheme="https://mrle2021.github.io/tbblog/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/"/>
     <category term="思想工具箱" scheme="https://mrle2021.github.io/tbblog/tags/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
-    <category term="批判性思维" scheme="https://mrle2021.github.io/tbblog/tags/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B4/"/>
     <category term="系统性问题" scheme="https://mrle2021.github.io/tbblog/tags/%E7%B3%BB%E7%BB%9F%E6%80%A7%E9%97%AE%E9%A2%98/"/>
     <id>https://mrle2021.github.io/tbblog/2026/05/12/thinking-toolbox-systemic-problem/</id>
     <link href="https://mrle2021.github.io/tbblog/2026/05/12/thinking-toolbox-systemic-problem/"/>
@@ -66,8 +130,8 @@
     </author>
     <category term="世界观察" scheme="https://mrle2021.github.io/tbblog/categories/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
     <category term="社会议题" scheme="https://mrle2021.github.io/tbblog/tags/%E7%A4%BE%E4%BC%9A%E8%AE%AE%E9%A2%98/"/>
-    <category term="世界观察" scheme="https://mrle2021.github.io/tbblog/tags/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
     <category term="现代焦虑" scheme="https://mrle2021.github.io/tbblog/tags/%E7%8E%B0%E4%BB%A3%E7%84%A6%E8%99%91/"/>
+    <category term="世界观察" scheme="https://mrle2021.github.io/tbblog/tags/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
     <category term="长期主义" scheme="https://mrle2021.github.io/tbblog/tags/%E9%95%BF%E6%9C%9F%E4%B8%BB%E4%B9%89/"/>
     <id>https://mrle2021.github.io/tbblog/2026/05/12/world-observation-006-why-long-termism-is-hard/</id>
     <link href="https://mrle2021.github.io/tbblog/2026/05/12/world-observation-006-why-long-termism-is-hard/"/>
@@ -83,8 +147,8 @@
     <category term="AI 读世界" scheme="https://mrle2021.github.io/tbblog/categories/AI-%E8%AF%BB%E4%B8%96%E7%95%8C/"/>
     <category term="AI读世界" scheme="https://mrle2021.github.io/tbblog/tags/AI%E8%AF%BB%E4%B8%96%E7%95%8C/"/>
     <category term="AI" scheme="https://mrle2021.github.io/tbblog/tags/AI/"/>
-    <category term="事实核查" scheme="https://mrle2021.github.io/tbblog/tags/%E4%BA%8B%E5%AE%9E%E6%A0%B8%E6%9F%A5/"/>
     <category term="方法论" scheme="https://mrle2021.github.io/tbblog/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/"/>
+    <category term="事实核查" scheme="https://mrle2021.github.io/tbblog/tags/%E4%BA%8B%E5%AE%9E%E6%A0%B8%E6%9F%A5/"/>
     <id>https://mrle2021.github.io/tbblog/2026/05/12/ai-reading-world-how-much-trust-ai-answers/</id>
     <link href="https://mrle2021.github.io/tbblog/2026/05/12/ai-reading-world-how-much-trust-ai-answers/"/>
     <published>2026-05-11T16:40:00.000Z</published>
@@ -98,8 +162,8 @@
     </author>
     <category term="世界观察" scheme="https://mrle2021.github.io/tbblog/categories/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
     <category term="社会议题" scheme="https://mrle2021.github.io/tbblog/tags/%E7%A4%BE%E4%BC%9A%E8%AE%AE%E9%A2%98/"/>
-    <category term="世界观察" scheme="https://mrle2021.github.io/tbblog/tags/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
     <category term="现代焦虑" scheme="https://mrle2021.github.io/tbblog/tags/%E7%8E%B0%E4%BB%A3%E7%84%A6%E8%99%91/"/>
+    <category term="世界观察" scheme="https://mrle2021.github.io/tbblog/tags/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
     <category term="心理健康" scheme="https://mrle2021.github.io/tbblog/tags/%E5%BF%83%E7%90%86%E5%81%A5%E5%BA%B7/"/>
     <id>https://mrle2021.github.io/tbblog/2026/05/12/world-observation-005-developed-society-anxiety/</id>
     <link href="https://mrle2021.github.io/tbblog/2026/05/12/world-observation-005-developed-society-anxiety/"/>
@@ -145,9 +209,9 @@
       <name>Mr.Wang</name>
     </author>
     <category term="思想工具箱" scheme="https://mrle2021.github.io/tbblog/categories/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
+    <category term="批判性思维" scheme="https://mrle2021.github.io/tbblog/tags/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B4/"/>
     <category term="方法论" scheme="https://mrle2021.github.io/tbblog/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/"/>
     <category term="思想工具箱" scheme="https://mrle2021.github.io/tbblog/tags/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
-    <category term="批判性思维" scheme="https://mrle2021.github.io/tbblog/tags/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B4/"/>
     <category term="媒体素养" scheme="https://mrle2021.github.io/tbblog/tags/%E5%AA%92%E4%BD%93%E7%B4%A0%E5%85%BB/"/>
     <id>https://mrle2021.github.io/tbblog/2026/05/11/thinking-toolbox-explanatory-framework/</id>
     <link href="https://mrle2021.github.io/tbblog/2026/05/11/thinking-toolbox-explanatory-framework/"/>
@@ -194,8 +258,8 @@
     </author>
     <category term="世界观察" scheme="https://mrle2021.github.io/tbblog/categories/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
     <category term="AI读世界" scheme="https://mrle2021.github.io/tbblog/tags/AI%E8%AF%BB%E4%B8%96%E7%95%8C/"/>
-    <category term="媒体素养" scheme="https://mrle2021.github.io/tbblog/tags/%E5%AA%92%E4%BD%93%E7%B4%A0%E5%85%BB/"/>
     <category term="世界观察" scheme="https://mrle2021.github.io/tbblog/tags/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
+    <category term="媒体素养" scheme="https://mrle2021.github.io/tbblog/tags/%E5%AA%92%E4%BD%93%E7%B4%A0%E5%85%BB/"/>
     <category term="信息过载" scheme="https://mrle2021.github.io/tbblog/tags/%E4%BF%A1%E6%81%AF%E8%BF%87%E8%BD%BD/"/>
     <id>https://mrle2021.github.io/tbblog/2026/05/11/world-observation-002-why-news-trust-declines/</id>
     <link href="https://mrle2021.github.io/tbblog/2026/05/11/world-observation-002-why-news-trust-declines/"/>
@@ -263,65 +327,5 @@
     <summary>现代人的存在焦虑来自意义系统失效。本文借加缪的荒诞哲学和海德格尔的向死而生，解释我们如何在虚无中重新建立生活方向。</summary>
     <title>存在焦虑是什么？从加缪的荒诞到海德格尔的向死而生</title>
     <updated>2026-05-10T05:49:42.704Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Mr.Wang</name>
-    </author>
-    <category term="影像与声音" scheme="https://mrle2021.github.io/tbblog/categories/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/"/>
-    <category term="卡夫卡" scheme="https://mrle2021.github.io/tbblog/tags/%E5%8D%A1%E5%A4%AB%E5%8D%A1/"/>
-    <category term="电影推荐" scheme="https://mrle2021.github.io/tbblog/tags/%E7%94%B5%E5%BD%B1%E6%8E%A8%E8%8D%90/"/>
-    <category term="审判" scheme="https://mrle2021.github.io/tbblog/tags/%E5%AE%A1%E5%88%A4/"/>
-    <id>https://mrle2021.github.io/tbblog/2025/05/10/guilt-and-judgment/</id>
-    <link href="https://mrle2021.github.io/tbblog/2025/05/10/guilt-and-judgment/"/>
-    <published>2025-05-10T04:00:00.000Z</published>
-    <summary>从卡夫卡《审判》、肖斯塔科维奇第十四交响曲到电影《七宗罪》，理解现代社会中的罪感、道德审判和无形权力。</summary>
-    <title>《七宗罪》为什么像卡夫卡的《审判》？现代人的罪感与无形审判</title>
-    <updated>2026-05-13T15:12:02.701Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Mr.Wang</name>
-    </author>
-    <category term="自我与时代" scheme="https://mrle2021.github.io/tbblog/categories/%E8%87%AA%E6%88%91%E4%B8%8E%E6%97%B6%E4%BB%A3/"/>
-    <category term="AI" scheme="https://mrle2021.github.io/tbblog/tags/AI/"/>
-    <category term="技术" scheme="https://mrle2021.github.io/tbblog/tags/%E6%8A%80%E6%9C%AF/"/>
-    <category term="人性" scheme="https://mrle2021.github.io/tbblog/tags/%E4%BA%BA%E6%80%A7/"/>
-    <id>https://mrle2021.github.io/tbblog/2025/05/10/human-machine-age/</id>
-    <link href="https://mrle2021.github.io/tbblog/2025/05/10/human-machine-age/"/>
-    <published>2025-05-10T04:00:00.000Z</published>
-    <summary>当 AI、脑机接口和算法系统改变生活方式，人性是否会被机器吞没？本文借图灵测试和弗洛姆思想，讨论技术时代的人性边界。</summary>
-    <title>AI 时代人性还剩什么？从图灵测试到弗洛姆的技术批判</title>
-    <updated>2026-05-13T15:12:52.917Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Mr.Wang</name>
-    </author>
-    <category term="自我与时代" scheme="https://mrle2021.github.io/tbblog/categories/%E8%87%AA%E6%88%91%E4%B8%8E%E6%97%B6%E4%BB%A3/"/>
-    <category term="自我认知" scheme="https://mrle2021.github.io/tbblog/tags/%E8%87%AA%E6%88%91%E8%AE%A4%E7%9F%A5/"/>
-    <category term="爱" scheme="https://mrle2021.github.io/tbblog/tags/%E7%88%B1/"/>
-    <category term="虚无主义" scheme="https://mrle2021.github.io/tbblog/tags/%E8%99%9A%E6%97%A0%E4%B8%BB%E4%B9%89/"/>
-    <id>https://mrle2021.github.io/tbblog/2025/05/10/love-and-nihilism/</id>
-    <link href="https://mrle2021.github.io/tbblog/2025/05/10/love-and-nihilism/"/>
-    <published>2025-05-10T04:00:00.000Z</published>
-    <summary>爱情究竟是自由选择，还是意志和欲望制造的幻觉？本文从叔本华、尼采和现代亲密关系出发，讨论爱与虚无的关系。</summary>
-    <title>爱情是幻觉吗？叔本华、尼采与现代人的虚无之爱</title>
-    <updated>2026-05-13T15:02:14.949Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Mr.Wang</name>
-    </author>
-    <category term="自我与时代" scheme="https://mrle2021.github.io/tbblog/categories/%E8%87%AA%E6%88%91%E4%B8%8E%E6%97%B6%E4%BB%A3/"/>
-    <category term="自我认知" scheme="https://mrle2021.github.io/tbblog/tags/%E8%87%AA%E6%88%91%E8%AE%A4%E7%9F%A5/"/>
-    <category term="无我" scheme="https://mrle2021.github.io/tbblog/tags/%E6%97%A0%E6%88%91/"/>
-    <category term="庄子" scheme="https://mrle2021.github.io/tbblog/tags/%E5%BA%84%E5%AD%90/"/>
-    <id>https://mrle2021.github.io/tbblog/2025/05/10/zhuangzi-self-anxiety/</id>
-    <link href="https://mrle2021.github.io/tbblog/2025/05/10/zhuangzi-self-anxiety/"/>
-    <published>2025-05-10T04:00:00.000Z</published>
-    <summary>在人人都想“做自己”的时代，庄子提醒我们焦虑来自对自我的执着。本文从齐物论、逍遥游和无我思想理解自我焦虑。</summary>
-    <title>庄子如何缓解自我焦虑？从齐物论到逍遥游理解 “无我”</title>
-    <updated>2026-05-13T15:02:30.696Z</updated>
   </entry>
 </feed>

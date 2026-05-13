@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 7.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/tbblog/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/tbblog/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/tbblog/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/tbblog/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/tbblog/css/main.css">
+
+
+<link rel="stylesheet" href="/tbblog/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"mrle2021.github.io","root":"/tbblog/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":true},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="AI 不能替我决定什么是真理，但它可以帮助我看见自己忽略了什么、预设了什么、过早相信了什么。本文记录一套用 AI 发现自身偏见的思考方法。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AI 读世界：我如何让 AI 帮我发现自己的偏见？">
+<meta property="og:url" content="https://mrle2021.github.io/tbblog/2026/05/13/ai-reading-world-ai-detect-my-bias/index.html">
+<meta property="og:site_name" content="Trailblaze Blog">
+<meta property="og:description" content="AI 不能替我决定什么是真理，但它可以帮助我看见自己忽略了什么、预设了什么、过早相信了什么。本文记录一套用 AI 发现自身偏见的思考方法。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://mrle2021.github.io/tbblog/images/ai-reading-world-ai-detect-my-bias/cover.webp">
+<meta property="og:image" content="https://mrle2021.github.io/tbblog/images/ai-reading-world-ai-detect-my-bias/fig-01.webp">
+<meta property="og:image" content="https://mrle2021.github.io/tbblog/images/ai-reading-world-ai-detect-my-bias/fig-02.webp">
+<meta property="og:image" content="https://mrle2021.github.io/tbblog/images/ai-reading-world-ai-detect-my-bias/fig-03.webp">
+<meta property="og:image" content="https://mrle2021.github.io/tbblog/images/ai-reading-world-ai-detect-my-bias/fig-04.webp">
+<meta property="og:image" content="https://mrle2021.github.io/tbblog/images/ai-reading-world-ai-detect-my-bias/fig-05.webp">
+<meta property="article:published_time" content="2026-05-12T16:55:00.000Z">
+<meta property="article:modified_time" content="2026-05-13T15:51:36.112Z">
+<meta property="article:author" content="Mr.Wang">
+<meta property="article:tag" content="AI读世界">
+<meta property="article:tag" content="AI">
+<meta property="article:tag" content="批判性思维">
+<meta property="article:tag" content="方法论">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://mrle2021.github.io/tbblog/images/ai-reading-world-ai-detect-my-bias/cover.webp">
+
+<link rel="canonical" href="https://mrle2021.github.io/tbblog/2026/05/13/ai-reading-world-ai-detect-my-bias/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+
+<meta name="author" content="Mr.Wang">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:image" content="/images/ai-reading-world-ai-detect-my-bias/cover.webp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="/images/ai-reading-world-ai-detect-my-bias/cover.webp">
+<link rel="alternate" type="application/atom+xml" title="Trailblaze Blog Atom Feed" href="https://mrle2021.github.io/tbblog/atom.xml">
+<link rel="alternate" type="application/rss+xml" title="Trailblaze Blog RSS Feed" href="https://mrle2021.github.io/tbblog/rss2.xml">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "Trailblaze Blog",
+  "description": "用 AI 辅助的信息整理、哲学解释和人文判断，帮普通人理解正在变化的世界。",
+  "url": "https://mrle2021.github.io/tbblog/",
+  "inLanguage": "zh-CN",
+  "author": {
+    "@type": "Person",
+    "name": "Mr.Wang"
+  }
+}
+</script>
+
+  <title>AI 读世界：我如何让 AI 帮我发现自己的偏见？ | Trailblaze Blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/tbblog/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Trailblaze Blog</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">用 AI 辅助的信息整理、哲学解释和人文判断，理解正在变化的世界</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/tbblog/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/tbblog/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-世界观察">
+
+    <a href="/tbblog/categories/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/" rel="section"><i class="fa fa-globe fa-fw"></i>世界观察</a>
+
+  </li>
+        <li class="menu-item menu-item-思想工具箱">
+
+    <a href="/tbblog/categories/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/" rel="section"><i class="fa fa-book fa-fw"></i>思想工具箱</a>
+
+  </li>
+        <li class="menu-item menu-item-影像与声音">
+
+    <a href="/tbblog/categories/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/" rel="section"><i class="fa fa-film fa-fw"></i>影像与声音</a>
+
+  </li>
+        <li class="menu-item menu-item-自我与时代">
+
+    <a href="/tbblog/categories/%E8%87%AA%E6%88%91%E4%B8%8E%E6%97%B6%E4%BB%A3/" rel="section"><i class="fa fa-user fa-fw"></i>自我与时代</a>
+
+  </li>
+        <li class="menu-item menu-item-ai-读世界">
+
+    <a href="/tbblog/categories/AI-%E8%AF%BB%E4%B8%96%E7%95%8C/" rel="section"><i class="fa fa-robot fa-fw"></i>AI 读世界</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/tbblog/about/" rel="section"><i class="fa fa-info-circle fa-fw"></i>关于</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+  
+  
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://mrle2021.github.io/tbblog/2026/05/13/ai-reading-world-ai-detect-my-bias/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/tbblog/images/avatar.gif">
+      <meta itemprop="name" content="Mr.Wang">
+      <meta itemprop="description" content="用 AI 辅助的信息整理、哲学解释和人文判断，帮普通人理解正在变化的世界。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Trailblaze Blog">
+    </span>
+      
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          AI 读世界：我如何让 AI 帮我发现自己的偏见？
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2026-05-13 00:55:00 / 修改时间：23:51:36" itemprop="dateCreated datePublished" datetime="2026-05-13T00:55:00+08:00">2026-05-13</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/tbblog/categories/AI-%E8%AF%BB%E4%B8%96%E7%95%8C/" itemprop="url" rel="index"><span itemprop="name">AI 读世界</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>3.1k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>3 分钟</span>
+            </span>
+            <div class="post-description">AI 不能替我决定什么是真理，但它可以帮助我看见自己忽略了什么、预设了什么、过早相信了什么。本文记录一套用 AI 发现自身偏见的思考方法。</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p><img src="/tbblog/images/ai-reading-world-ai-detect-my-bias/cover.webp" alt="AI 读世界：我如何让 AI 帮我发现自己的偏见？ 封面图"></p>
+<h2 id="为什么我要让-AI-帮我发现偏见？"><a href="#为什么我要让-AI-帮我发现偏见？" class="headerlink" title="为什么我要让 AI 帮我发现偏见？"></a>为什么我要让 AI 帮我发现偏见？</h2><p><img src="/tbblog/images/ai-reading-world-ai-detect-my-bias/fig-01.webp" alt="为什么我要让 AI 帮我发现偏见？ 章节配图"><br>我们通常以为，偏见是别人身上的问题。</p>
+<p>别人被立场绑架，别人被情绪影响，别人只看自己愿意看的信息，别人总是误解复杂现实。</p>
+<p>但真正困难的地方在于：偏见最强的时候，往往不会以 “偏见” 的样子出现。</p>
+<p>它会以常识、经验、直觉、正义感、判断力的样子出现。</p>
+<p>一个人最难发现的，不是自己不知道什么，而是自己以为已经知道了什么。</p>
+<p>这也是我使用 AI 的一个重要原因。</p>
+<p>我并不把 AI 当成最终裁判，也不认为 AI 一定比我更客观。但它可以作为一个外部视角，帮助我把自己的判断拆开，看见里面隐藏的前提、情绪和选择性注意。</p>
+<p>对我来说，AI 最有价值的地方之一，不是替我形成观点，而是帮助我检查：</p>
+<blockquote>
+<p>我是不是太快相信了某个解释？</p>
+</blockquote>
+<h2 id="偏见不是愚蠢，而是认知的默认设置"><a href="#偏见不是愚蠢，而是认知的默认设置" class="headerlink" title="偏见不是愚蠢，而是认知的默认设置"></a>偏见不是愚蠢，而是认知的默认设置</h2><p><img src="/tbblog/images/ai-reading-world-ai-detect-my-bias/fig-02.webp" alt="偏见不是愚蠢，而是认知的默认设置 章节配图"><br>谈到偏见，我们很容易把它理解成一种道德缺陷。</p>
+<p>好像一个人有偏见，就说明他不理性、不开放、不诚实。</p>
+<p>但更现实的理解是：偏见是人类认知的默认设置。</p>
+<p>我们不可能从零开始理解世界。每个人都会依赖已有经验、情绪记忆、身份位置、信息来源和语言框架来判断现实。</p>
+<p>这并不一定是坏事。</p>
+<p>如果没有预设，我们根本无法快速理解世界。问题在于，当预设变得太隐蔽、太坚硬、太不愿被修正时，它就会变成偏见。</p>
+<p>所以，我不把 “发现自己的偏见” 理解成羞辱自己。</p>
+<p>它更像是一种认知清理：</p>
+<p>我需要知道自己站在哪里，带着什么前提，看见了什么，也没看见什么。</p>
+<h2 id="第一步：让-AI-找出我文章里的隐藏前提"><a href="#第一步：让-AI-找出我文章里的隐藏前提" class="headerlink" title="第一步：让 AI 找出我文章里的隐藏前提"></a>第一步：让 AI 找出我文章里的隐藏前提</h2><p><img src="/tbblog/images/ai-reading-world-ai-detect-my-bias/fig-03.webp" alt="第一步：让 AI 找出我文章里的隐藏前提 章节配图"><br>当我写完一段判断，最常用的做法，是让 AI 不评价文采，而是专门找前提。</p>
+<p>提示词可以这样写：</p>
+<figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">请不要润色这段文字。</span><br><span class="line">请只帮我分析：这段话里有哪些没有明说的前提？</span><br><span class="line">哪些前提是可以争议的？</span><br><span class="line">哪些前提如果不成立，整段判断就会变弱？</span><br><span class="line">请用清单列出。</span><br></pre></td></tr></tbody></table></figure>
+
+<p>这个步骤很重要。</p>
+<p>因为很多文章的问题，不在于观点表达得不清楚，而在于观点背后的前提没有被检查。</p>
+<p>比如我写：</p>
+<p>“年轻人越来越不相信长期主义，是因为社会给他们的确定性变少了。”</p>
+<p>这句话听起来合理，但里面至少有几个前提：</p>
+<p>年轻人真的更不相信长期主义吗？</p>
+<p>“长期主义” 指的是职业规划、投资、婚育、学习，还是人生意义？</p>
+<p>确定性变少，是主观感受，还是可以被数据支持的社会变化？</p>
+<p>有没有一些年轻人不是不相信长期，而是换了一种长期目标？</p>
+<p>AI 的作用不是告诉我哪一个前提一定正确，而是提醒我：我正在把哪些东西当成理所当然。</p>
+<h2 id="第二步：让-AI-扮演一个认真反对我的人"><a href="#第二步：让-AI-扮演一个认真反对我的人" class="headerlink" title="第二步：让 AI 扮演一个认真反对我的人"></a>第二步：让 AI 扮演一个认真反对我的人</h2><p><img src="/tbblog/images/ai-reading-world-ai-detect-my-bias/fig-04.webp" alt="第二步：让 AI 扮演一个认真反对我的人 章节配图"><br>很多时候，我不是没有反方观点，而是没有认真对待反方观点。</p>
+<p>我会本能地选择比较弱的反方，然后轻松反驳它。这样文章看起来完整，实际上只是强化了我原来的判断。</p>
+<p>所以我会让 AI 扮演一个 “强反方”。</p>
+<p>提示词可以这样写：</p>
+<figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">请你站在一个理性反对者的角度，反驳我下面的观点。</span><br><span class="line">不要使用情绪化攻击。</span><br><span class="line">请给出最强的三个反对理由。</span><br><span class="line">每个理由都要指出：我的论证忽略了什么，或者把什么说得太绝对。</span><br></pre></td></tr></tbody></table></figure>
+
+<p>这个方法的关键是 “最强反对理由”。</p>
+<p>我不是要 AI 随便唱反调，而是要它帮我建立更好的压力测试。</p>
+<p>如果一个观点只能战胜最弱的反对意见，它还不够可靠。</p>
+<p>真正有价值的判断，应该经得起强反方的挑战。</p>
+<h2 id="第三步：让-AI-区分事实、解释和情绪"><a href="#第三步：让-AI-区分事实、解释和情绪" class="headerlink" title="第三步：让 AI 区分事实、解释和情绪"></a>第三步：让 AI 区分事实、解释和情绪</h2><p><img src="/tbblog/images/ai-reading-world-ai-detect-my-bias/fig-05.webp" alt="第三步：让 AI 区分事实、解释和情绪 章节配图"><br>偏见经常不是直接出现在结论里，而是混在事实、解释和情绪之间。</p>
+<p>例如：</p>
+<p>“现在的公共讨论已经完全没法讲道理了。”</p>
+<p>这句话里有事实，也有解释，还有情绪。</p>
+<p>事实部分可能是：某些平台上的争议更激烈，辱骂和站队更常见。</p>
+<p>解释部分是：公共讨论机制正在情绪化。</p>
+<p>情绪部分是：我对这种环境感到疲惫、失望或厌烦。</p>
+<p>如果三者混在一起，我就很容易把自己的情绪当成现实全貌。</p>
+<p>所以我会让 AI 帮我拆分：</p>
+<figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">请把下面这段话拆成三类：</span><br><span class="line">1. 可以被验证的事实判断</span><br><span class="line">2. 对事实的解释</span><br><span class="line">3. 作者的情绪或价值判断</span><br><span class="line">请指出哪些地方需要证据支持，哪些地方只是表达态度。</span><br></pre></td></tr></tbody></table></figure>
+
+<p>这个步骤能让文章变得更清醒。</p>
+<p>不是不能有情绪，而是要知道情绪在什么位置。</p>
+<p>不是不能有判断，而是要知道判断建立在什么事实之上。</p>
+<h2 id="第四步：让-AI-提醒我可能遗漏了哪些人"><a href="#第四步：让-AI-提醒我可能遗漏了哪些人" class="headerlink" title="第四步：让 AI 提醒我可能遗漏了哪些人"></a>第四步：让 AI 提醒我可能遗漏了哪些人</h2><p>很多偏见来自视角太窄。</p>
+<p>我们以为自己在讨论一个公共问题，其实只是在讨论 “像我这样的人” 看到的问题。</p>
+<p>比如谈 AI，我可能更容易从写作者、知识工作者、内容创作者的角度出发，却忽略客服、翻译、设计师、教师、程序员、工厂员工、公司管理者、学生和老年人的处境差异。</p>
+<p>谈长期主义，我可能更容易讨论中产焦虑，却忽略低收入者的现实压力。</p>
+<p>谈新闻信任，我可能更关注媒体结构，却忽略普通读者的时间限制和生活疲惫。</p>
+<p>这时可以这样问 AI：</p>
+<figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">请帮我检查这篇文章的视角盲区。</span><br><span class="line">它主要代表了哪些人的经验？</span><br><span class="line">可能忽略了哪些群体？</span><br><span class="line">如果从这些被忽略群体的角度看，文章的结论会发生什么变化？</span><br></pre></td></tr></tbody></table></figure>
+
+<p>这个问题很有用。</p>
+<p>它会迫使我意识到：我的 “普遍判断”，有时只是特定位置上的判断。</p>
+<p>一个观点越想解释世界，越需要意识到自己从哪里出发。</p>
+<h2 id="第五步：让-AI-检查我的语言是否过度确定"><a href="#第五步：让-AI-检查我的语言是否过度确定" class="headerlink" title="第五步：让 AI 检查我的语言是否过度确定"></a>第五步：让 AI 检查我的语言是否过度确定</h2><p>偏见还有一种表现，就是语言过于确定。</p>
+<p>“一定”</p>
+<p>“必然”</p>
+<p>“所有人”</p>
+<p>“本质上”</p>
+<p>“不过是”</p>
+<p>“完全说明”</p>
+<p>这些词并不一定错，但它们很容易让复杂问题变得过度简化。</p>
+<p>我会让 AI 专门检查这些表达：</p>
+<figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">请检查下面这篇文章中是否有过度确定、过度概括或把复杂问题简单化的表达。</span><br><span class="line">请标出原句，并建议更谨慎但仍然有判断力的改写方式。</span><br></pre></td></tr></tbody></table></figure>
+
+<p>这个步骤不是为了把文章写得模糊。</p>
+<p>我不喜欢那种什么都 “两面看”、最后什么也不判断的文章。</p>
+<p>真正的问题是：判断可以明确，但边界也要清楚。</p>
+<p>一个好的判断，不是声音最大，而是知道自己适用到哪里，不适用到哪里。</p>
+<h2 id="第六步：让-AI-追问我为什么相信这个结论"><a href="#第六步：让-AI-追问我为什么相信这个结论" class="headerlink" title="第六步：让 AI 追问我为什么相信这个结论"></a>第六步：让 AI 追问我为什么相信这个结论</h2><p>有时候，我写下一句话，并不是因为它经过充分论证，而是因为它符合我的气质。</p>
+<p>比如我可能天然更相信结构解释，更警惕个人道德批判。</p>
+<p>这不是错误，但如果我不自知，就会形成固定倾向。</p>
+<p>所以我会让 AI 追问我的理由：</p>
+<figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">请连续追问我 5 个“为什么”。</span><br><span class="line">目标不是反驳我，而是逼我说明：我为什么相信这个结论？</span><br><span class="line">每次追问都要针对我上一轮回答里最关键、最未经证明的地方。</span><br></pre></td></tr></tbody></table></figure>
+
+<p>这个方法适合用于文章定稿前。</p>
+<p>它会让一个看似成熟的观点，暴露出更深层的信念来源。</p>
+<p>有时候我会发现，自己其实没有证据，只是有一种强烈感受。</p>
+<p>有时候我会发现，自己的判断来自过去经验，而不是当前事实。</p>
+<p>有时候我也会发现，某个观点虽然还不完整，但它确实指向一个值得继续研究的问题。</p>
+<p>这就是 AI 作为 “追问者” 的价值。</p>
+<h2 id="AI-不能替我消除偏见"><a href="#AI-不能替我消除偏见" class="headerlink" title="AI 不能替我消除偏见"></a>AI 不能替我消除偏见</h2><p>需要警惕的是：AI 本身也有偏见。</p>
+<p>它的训练材料、回答方式、安全规则、语言习惯、默认价值框架，都会影响它给出的反馈。</p>
+<p>所以，用 AI 发现偏见，并不意味着把自己的判断交给 AI。</p>
+<p>更准确地说，AI 是一面不完美的镜子。</p>
+<p>它能照出一些东西，也会扭曲一些东西。</p>
+<p>我不能因为 AI 说我有偏见，就立刻否定自己；也不能因为 AI 说我的论证完整，就认为自己已经足够可靠。</p>
+<p>AI 的反馈应该被当作问题清单，而不是最终裁决。</p>
+<p>它最适合帮我提出：</p>
+<p>你是不是忽略了这个角度？</p>
+<p>你是不是把这个前提想得太当然？</p>
+<p>你是不是把情绪当成了证据？</p>
+<p>你是不是只反驳了最弱的反方？</p>
+<p>最后的判断，仍然要由我负责。</p>
+<h2 id="我的判断"><a href="#我的判断" class="headerlink" title="我的判断"></a>我的判断</h2><p>让 AI 帮我发现偏见，本质上不是技术问题，而是态度问题。</p>
+<p>如果我只是想让 AI 支持我，它很容易成为观点放大器。</p>
+<p>如果我愿意让它追问我、反驳我、拆解我，它就可能成为一种认知训练工具。</p>
+<p>这也是我理解 “AI 读世界” 的核心：</p>
+<p>AI 不应该只是更快地给我答案。</p>
+<p>它应该帮助我更慢地形成判断。</p>
+<p>在一个信息过载、立场分裂、情绪很容易先于事实抵达的时代，真正稀缺的不是观点，而是自我校正能力。</p>
+<p>发现自己的偏见，就是自我校正的开始。</p>
+<h2 id="相关阅读"><a href="#相关阅读" class="headerlink" title="相关阅读"></a>相关阅读</h2><ul>
+<li><a href="/tbblog/2026/05/12/ai-reading-world-how-much-trust-ai-answers/">AI 读世界：AI 给我的答案，我应该相信多少？</a></li>
+<li><a href="/tbblog/2026/05/12/ai-reading-world-research-workflow-for-essay/">AI 读世界：我如何用 AI 做一篇深度文章的资料整理？</a></li>
+<li><a href="/tbblog/2026/05/11/thinking-toolbox-explanatory-framework/">思想工具箱：什么是 “解释框架”？为什么它比观点更重要？</a></li>
+<li><a href="/tbblog/2026/05/13/thinking-toolbox-incentive-mechanism/">思想工具箱：什么是 “激励机制”？为什么人不总是按道德行动？</a></li>
+</ul>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tbblog/tags/AI%E8%AF%BB%E4%B8%96%E7%95%8C/" rel="tag"># AI读世界</a>
+              <a href="/tbblog/tags/AI/" rel="tag"># AI</a>
+              <a href="/tbblog/tags/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B4/" rel="tag"># 批判性思维</a>
+              <a href="/tbblog/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/" rel="tag"># 方法论</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/tbblog/2026/05/13/thinking-toolbox-incentive-mechanism/" rel="prev" title="思想工具箱：什么是 “激励机制”？为什么人不总是按道德行动？">
+      <i class="fa fa-chevron-left"></i> 思想工具箱：什么是 “激励机制”？为什么人不总是按道德行动？
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/tbblog/2026/05/13/self-and-era-fear-of-being-ordinary/" rel="next" title="自我与时代：为什么我们越来越害怕成为普通人？">
+      自我与时代：为什么我们越来越害怕成为普通人？ <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E8%A6%81%E8%AE%A9-AI-%E5%B8%AE%E6%88%91%E5%8F%91%E7%8E%B0%E5%81%8F%E8%A7%81%EF%BC%9F"><span class="nav-number">1.</span> <span class="nav-text">为什么我要让 AI 帮我发现偏见？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%81%8F%E8%A7%81%E4%B8%8D%E6%98%AF%E6%84%9A%E8%A0%A2%EF%BC%8C%E8%80%8C%E6%98%AF%E8%AE%A4%E7%9F%A5%E7%9A%84%E9%BB%98%E8%AE%A4%E8%AE%BE%E7%BD%AE"><span class="nav-number">2.</span> <span class="nav-text">偏见不是愚蠢，而是认知的默认设置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E6%AD%A5%EF%BC%9A%E8%AE%A9-AI-%E6%89%BE%E5%87%BA%E6%88%91%E6%96%87%E7%AB%A0%E9%87%8C%E7%9A%84%E9%9A%90%E8%97%8F%E5%89%8D%E6%8F%90"><span class="nav-number">3.</span> <span class="nav-text">第一步：让 AI 找出我文章里的隐藏前提</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%BA%8C%E6%AD%A5%EF%BC%9A%E8%AE%A9-AI-%E6%89%AE%E6%BC%94%E4%B8%80%E4%B8%AA%E8%AE%A4%E7%9C%9F%E5%8F%8D%E5%AF%B9%E6%88%91%E7%9A%84%E4%BA%BA"><span class="nav-number">4.</span> <span class="nav-text">第二步：让 AI 扮演一个认真反对我的人</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%B8%89%E6%AD%A5%EF%BC%9A%E8%AE%A9-AI-%E5%8C%BA%E5%88%86%E4%BA%8B%E5%AE%9E%E3%80%81%E8%A7%A3%E9%87%8A%E5%92%8C%E6%83%85%E7%BB%AA"><span class="nav-number">5.</span> <span class="nav-text">第三步：让 AI 区分事实、解释和情绪</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E5%9B%9B%E6%AD%A5%EF%BC%9A%E8%AE%A9-AI-%E6%8F%90%E9%86%92%E6%88%91%E5%8F%AF%E8%83%BD%E9%81%97%E6%BC%8F%E4%BA%86%E5%93%AA%E4%BA%9B%E4%BA%BA"><span class="nav-number">6.</span> <span class="nav-text">第四步：让 AI 提醒我可能遗漏了哪些人</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%BA%94%E6%AD%A5%EF%BC%9A%E8%AE%A9-AI-%E6%A3%80%E6%9F%A5%E6%88%91%E7%9A%84%E8%AF%AD%E8%A8%80%E6%98%AF%E5%90%A6%E8%BF%87%E5%BA%A6%E7%A1%AE%E5%AE%9A"><span class="nav-number">7.</span> <span class="nav-text">第五步：让 AI 检查我的语言是否过度确定</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E5%85%AD%E6%AD%A5%EF%BC%9A%E8%AE%A9-AI-%E8%BF%BD%E9%97%AE%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E7%9B%B8%E4%BF%A1%E8%BF%99%E4%B8%AA%E7%BB%93%E8%AE%BA"><span class="nav-number">8.</span> <span class="nav-text">第六步：让 AI 追问我为什么相信这个结论</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#AI-%E4%B8%8D%E8%83%BD%E6%9B%BF%E6%88%91%E6%B6%88%E9%99%A4%E5%81%8F%E8%A7%81"><span class="nav-number">9.</span> <span class="nav-text">AI 不能替我消除偏见</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%88%91%E7%9A%84%E5%88%A4%E6%96%AD"><span class="nav-number">10.</span> <span class="nav-text">我的判断</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%9B%B8%E5%85%B3%E9%98%85%E8%AF%BB"><span class="nav-number">11.</span> <span class="nav-text">相关阅读</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Mr.Wang</p>
+  <div class="site-description" itemprop="description">用 AI 辅助的信息整理、哲学解释和人文判断，帮普通人理解正在变化的世界。</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/tbblog/archives/">
+        
+          <span class="site-state-item-count">27</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/tbblog/categories/">
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tbblog/tags/">
+        <span class="site-state-item-count">47</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2026</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Mr.Wang</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+    <span title="站点总字数">83k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">1:16</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/tbblog/lib/anime.min.js"></script>
+  <script src="/tbblog/lib/velocity/velocity.min.js"></script>
+  <script src="/tbblog/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/tbblog/js/utils.js"></script>
+
+<script src="/tbblog/js/motion.js"></script>
+
+
+<script src="/tbblog/js/schemes/muse.js"></script>
+
+
+<script src="/tbblog/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/tbblog/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
