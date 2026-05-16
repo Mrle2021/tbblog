@@ -1,0 +1,68 @@
+[
+  {
+    "id": "8791220",
+    "download_url": "https://images.pexels.com/photos/8791220/pexels-photo-8791220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/8791220/",
+    "photographer": "AI25.Studio  AI GENERATIVE",
+    "provider": "pexels",
+    "alt": "'digital-image', ＃室内, 一起 的 免费素材图片",
+    "filename": "cover.webp",
+    "query": "image sound her ai intimacy quiet editorial photo",
+    "local_path": "source/images/image-sound-her-ai-intimacy/cover.webp"
+  },
+  {
+    "id": "36793622",
+    "download_url": "https://images.pexels.com/photos/36793622/pexels-photo-36793622.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/36793622/",
+    "photographer": "Peter Xie",
+    "provider": "pexels",
+    "alt": "夜幕降临，灯火辉煌的摩天大楼在城市天际线上投射出艺术投影。",
+    "filename": "fig-01.webp",
+    "query": "image sound her ai intimacy city reflection editorial photo",
+    "local_path": "source/images/image-sound-her-ai-intimacy/fig-01.webp"
+  },
+  {
+    "id": "16094044",
+    "download_url": "https://images.pexels.com/photos/16094044/pexels-photo-16094044.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/16094044/",
+    "photographer": "Matheus Bertelli",
+    "provider": "pexels",
+    "alt": "＃室内, 21世纪, AI界面 的 免费素材图片",
+    "filename": "fig-02.webp",
+    "query": "image sound her ai intimacy workspace documents editorial photo",
+    "local_path": "source/images/image-sound-her-ai-intimacy/fig-02.webp"
+  },
+  {
+    "id": "35157036",
+    "download_url": "https://images.pexels.com/photos/35157036/pexels-photo-35157036.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/35157036/",
+    "photographer": "Peter Xie",
+    "provider": "pexels",
+    "alt": "夕阳西下，海面上空一片宁静，岩石的轮廓在绚丽的天空映衬下显得格外清晰。",
+    "filename": "fig-03.webp",
+    "query": "image sound her ai intimacy person silhouette screen editorial photo",
+    "local_path": "source/images/image-sound-her-ai-intimacy/fig-03.webp"
+  },
+  {
+    "id": "8002524",
+    "download_url": "https://images.pexels.com/photos/8002524/pexels-photo-8002524.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/8002524/",
+    "photographer": "Vavaleyli",
+    "provider": "pexels",
+    "alt": "türkiye的, オアシスウルバーノ, 一杯咖啡 的 免费素材图片",
+    "filename": "fig-04.webp",
+    "query": "image sound her ai intimacy newspaper table morning light",
+    "local_path": "source/images/image-sound-her-ai-intimacy/fig-04.webp"
+  },
+  {
+    "id": "29579756",
+    "download_url": "https://images.pexels.com/photos/29579756/pexels-photo-29579756.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/29579756/",
+    "photographer": "Steve A Johnson",
+    "provider": "pexels",
+    "alt": "柔和运动的几何形状的数字艺术创造出现代抽象设计。",
+    "filename": "fig-05.webp",
+    "query": "image sound her ai intimacy abstract technology editorial photo",
+    "local_path": "source/images/image-sound-her-ai-intimacy/fig-05.webp"
+  }
+]

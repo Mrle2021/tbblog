@@ -1,0 +1,35 @@
+[
+  {
+    "id": "787858",
+    "download_url": "https://images.pexels.com/photos/787858/pexels-photo-787858.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/787858/",
+    "photographer": "Magda Ehlers",
+    "provider": "pexels",
+    "alt": "一只鹿的照片",
+    "filename": "cover.webp",
+    "query": "human machine age quiet editorial photo",
+    "local_path": "source/images/human-machine-age/cover.webp"
+  },
+  {
+    "id": "28617195",
+    "download_url": "https://images.pexels.com/photos/28617195/pexels-photo-28617195.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/28617195/",
+    "photographer": "Gerik",
+    "provider": "pexels",
+    "alt": "双重曝光城市反射艺术摄影",
+    "filename": "fig-01.webp",
+    "query": "human machine age city reflection editorial photo",
+    "local_path": "source/images/human-machine-age/fig-01.webp"
+  },
+  {
+    "id": "8877087",
+    "download_url": "https://images.pexels.com/photos/8877087/pexels-photo-8877087.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/8877087/",
+    "photographer": "cottonbro studio",
+    "provider": "pexels",
+    "alt": "专业设置, 人, 側面圖 的 免费素材图片",
+    "filename": "fig-02.webp",
+    "query": "human machine age workspace documents editorial photo",
+    "local_path": "source/images/human-machine-age/fig-02.webp"
+  }
+]

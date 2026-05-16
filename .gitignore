@@ -2,6 +2,10 @@
 Thumbs.db
 db.json
 *.log
+.env
+.venv/
+__pycache__/
+tools/image_prompts/
 node_modules/
 public/
 .deploy*/

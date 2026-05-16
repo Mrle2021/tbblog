@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /tbblog/
+
+Sitemap: https://mrle2021.github.io/tbblog/sitemap.xml
+Sitemap: https://mrle2021.github.io/tbblog/sitemap.txt

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "15320569",
+    "download_url": "https://images.pexels.com/photos/15320569/pexels-photo-15320569.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/15320569/",
+    "photographer": "Lokman Sevim",
+    "provider": "pexels",
+    "alt": "türkiye的, 光與影, 制造工具 的 免费素材图片",
+    "filename": "cover.webp",
+    "query": "thinking toolbox narrative quiet editorial photo",
+    "local_path": "source/images/thinking-toolbox-narrative/cover.webp"
+  },
+  {
+    "id": "36100820",
+    "download_url": "https://images.pexels.com/photos/36100820/pexels-photo-36100820.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/36100820/",
+    "photographer": "Martijn Stoof",
+    "provider": "pexels",
+    "alt": "欣赏海牙天际线和运河沿岸的历史建筑，感受现代与古典建筑风格的完美融合。",
+    "filename": "fig-01.webp",
+    "query": "thinking toolbox narrative city reflection editorial photo",
+    "local_path": "source/images/thinking-toolbox-narrative/fig-01.webp"
+  },
+  {
+    "id": "53874",
+    "download_url": "https://images.pexels.com/photos/53874/pexels-photo-53874.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/53874/",
+    "photographer": "Tim Gouw",
+    "provider": "pexels",
+    "alt": "笔盒上的笔和记号笔",
+    "filename": "fig-02.webp",
+    "query": "thinking toolbox narrative workspace documents editorial photo",
+    "local_path": "source/images/thinking-toolbox-narrative/fig-02.webp"
+  },
+  {
+    "id": "36615268",
+    "download_url": "https://images.pexels.com/photos/36615268/pexels-photo-36615268.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/36615268/",
+    "photographer": "Sefa Türksoy",
+    "provider": "pexels",
+    "alt": "silhouette stock, türkiye的, 亞洲 的 免费素材图片",
+    "filename": "fig-03.webp",
+    "query": "thinking toolbox narrative person silhouette screen editorial photo",
+    "local_path": "source/images/thinking-toolbox-narrative/fig-03.webp"
+  },
+  {
+    "id": "4947408",
+    "download_url": "https://images.pexels.com/photos/4947408/pexels-photo-4947408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/4947408/",
+    "photographer": "Maria Orlova",
+    "provider": "pexels",
+    "alt": "咖啡桌上玻璃旁边杂志上的眼镜",
+    "filename": "fig-04.webp",
+    "query": "thinking toolbox narrative newspaper table morning light",
+    "local_path": "source/images/thinking-toolbox-narrative/fig-04.webp"
+  },
+  {
+    "id": "17485706",
+    "download_url": "https://images.pexels.com/photos/17485706/pexels-photo-17485706.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/17485706/",
+    "photographer": "Google DeepMind",
+    "provider": "pexels",
+    "alt": "3d回报, 3d块, CGI 的 免费素材图片",
+    "filename": "fig-05.webp",
+    "query": "thinking toolbox narrative abstract technology editorial photo",
+    "local_path": "source/images/thinking-toolbox-narrative/fig-05.webp"
+  }
+]

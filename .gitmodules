@@ -1,0 +1,8 @@
+[submodule "themes/next"]
+	path = themes/next
+	url = https://github.com/Mrle2021/hexo-theme-next.git
+	branch = trailblaze-next
+[submodule "themes/next-backup"]
+	path = themes/next-backup
+	url = https://github.com/Mrle2021/hexo-theme-next.git
+	branch = master

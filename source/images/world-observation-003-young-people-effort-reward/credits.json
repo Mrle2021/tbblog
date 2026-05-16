@@ -1,0 +1,68 @@
+[
+  {
+    "id": "29264387",
+    "download_url": "https://images.pexels.com/photos/29264387/pexels-photo-29264387.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/29264387/",
+    "photographer": "2jdncpiw cskm",
+    "provider": "pexels",
+    "alt": "身着蓝色毕业礼服的孩子们与老师在室内合影。",
+    "filename": "cover.webp",
+    "query": "world observation 003 young people effort reward quiet editorial photo",
+    "local_path": "source/images/world-observation-003-young-people-effort-reward/cover.webp"
+  },
+  {
+    "id": "17680003",
+    "download_url": "https://images.pexels.com/photos/17680003/pexels-photo-17680003.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/17680003/",
+    "photographer": "Declan Sun",
+    "provider": "pexels",
+    "alt": "archicture, black, business 的 免费素材图片",
+    "filename": "fig-01.webp",
+    "query": "world observation 003 young people effort reward city reflection editorial photo",
+    "local_path": "source/images/world-observation-003-young-people-effort-reward/fig-01.webp"
+  },
+  {
+    "id": "30173301",
+    "download_url": "https://images.pexels.com/photos/30173301/pexels-photo-30173301.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/30173301/",
+    "photographer": "Helena Jankovičová Kováčová",
+    "provider": "pexels",
+    "alt": "一个小男孩在质朴的室内环境中使用老式旋转电话探索科技。",
+    "filename": "fig-02.webp",
+    "query": "world observation 003 young people effort reward workspace documents editorial photo",
+    "local_path": "source/images/world-observation-003-young-people-effort-reward/fig-02.webp"
+  },
+  {
+    "id": "29122221",
+    "download_url": "https://images.pexels.com/photos/29122221/pexels-photo-29122221.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/29122221/",
+    "photographer": "Haoxi Chen",
+    "provider": "pexels",
+    "alt": "澳大利亚昆士兰州原始海滩鸟瞰图",
+    "filename": "fig-03.webp",
+    "query": "world observation 003 young people effort reward person silhouette screen editorial photo",
+    "local_path": "source/images/world-observation-003-young-people-effort-reward/fig-03.webp"
+  },
+  {
+    "id": "33670852",
+    "download_url": "https://images.pexels.com/photos/33670852/pexels-photo-33670852.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/33670852/",
+    "photographer": "Thang Nguyen",
+    "provider": "pexels",
+    "alt": "越南河内工人的夜间肖像",
+    "filename": "fig-04.webp",
+    "query": "world observation 003 young people effort reward newspaper table morning light",
+    "local_path": "source/images/world-observation-003-young-people-effort-reward/fig-04.webp"
+  },
+  {
+    "id": "37333836",
+    "download_url": "https://images.pexels.com/photos/37333836/pexels-photo-37333836.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/37333836/",
+    "photographer": "Oli Liao",
+    "provider": "pexels",
+    "alt": "四川大学成都分校一栋传统建筑的正面图，展现了其独特的建筑特色。",
+    "filename": "fig-05.webp",
+    "query": "world observation 003 young people effort reward abstract technology editorial photo",
+    "local_path": "source/images/world-observation-003-young-people-effort-reward/fig-05.webp"
+  }
+]

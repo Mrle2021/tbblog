@@ -1,0 +1,68 @@
+[
+  {
+    "id": "10952281",
+    "download_url": "https://images.pexels.com/photos/10952281/pexels-photo-10952281.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/10952281/",
+    "photographer": "linfeng Yu",
+    "provider": "pexels",
+    "alt": "causeway to burn, quiet, small town 的 免费素材图片",
+    "filename": "cover.webp",
+    "query": "thinking toolbox incentive mechanism quiet editorial photo",
+    "local_path": "source/images/thinking-toolbox-incentive-mechanism/cover.webp"
+  },
+  {
+    "id": "35720257",
+    "download_url": "https://images.pexels.com/photos/35720257/pexels-photo-35720257.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/35720257/",
+    "photographer": "Echo Zhang",
+    "provider": "pexels",
+    "alt": "architecture, atmosphere, background 的 免费素材图片",
+    "filename": "fig-01.webp",
+    "query": "thinking toolbox incentive mechanism city reflection editorial photo",
+    "local_path": "source/images/thinking-toolbox-incentive-mechanism/fig-01.webp"
+  },
+  {
+    "id": "7889066",
+    "download_url": "https://images.pexels.com/photos/7889066/pexels-photo-7889066.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/7889066/",
+    "photographer": "RDNE Stock project",
+    "provider": "pexels",
+    "alt": "diy 用品, Flatlay, 书写工具 的 免费素材图片",
+    "filename": "fig-02.webp",
+    "query": "thinking toolbox incentive mechanism workspace documents editorial photo",
+    "local_path": "source/images/thinking-toolbox-incentive-mechanism/fig-02.webp"
+  },
+  {
+    "id": "27523299",
+    "download_url": "https://images.pexels.com/photos/27523299/pexels-photo-27523299.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/27523299/",
+    "photographer": "GlassesShop GS",
+    "provider": "pexels",
+    "alt": "＃室内, accessories, accessory 的 免费素材图片",
+    "filename": "fig-03.webp",
+    "query": "thinking toolbox incentive mechanism person silhouette screen editorial photo",
+    "local_path": "source/images/thinking-toolbox-incentive-mechanism/fig-03.webp"
+  },
+  {
+    "id": "10988700",
+    "download_url": "https://images.pexels.com/photos/10988700/pexels-photo-10988700.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/10988700/",
+    "photographer": "Nguyễn Sơn Tùng",
+    "provider": "pexels",
+    "alt": "alt键, esc 键, qwerty 的 免费素材图片",
+    "filename": "fig-04.webp",
+    "query": "thinking toolbox incentive mechanism newspaper table morning light",
+    "local_path": "source/images/thinking-toolbox-incentive-mechanism/fig-04.webp"
+  },
+  {
+    "id": "171198",
+    "download_url": "https://images.pexels.com/photos/171198/pexels-photo-171198.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/171198/",
+    "photographer": "Digital Buggu",
+    "provider": "pexels",
+    "alt": "多彩齿轮",
+    "filename": "fig-05.webp",
+    "query": "thinking toolbox incentive mechanism abstract technology editorial photo",
+    "local_path": "source/images/thinking-toolbox-incentive-mechanism/fig-05.webp"
+  }
+]

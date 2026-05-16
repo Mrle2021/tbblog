@@ -1,18 +1,64 @@
 /* 封面卡片样式 */
+.home-intro
+  border-top: 1px solid #e6edf3
+  margin-top: 24px
+  padding: 28px 0 10px
+  text-align: left
+
+.home-intro-kicker
+  color: #52616b
+  font-size: 13px
+  font-weight: 700
+  letter-spacing: 0
+  margin: 0 0 10px
+
+.home-intro h1
+  color: #1f2933
+  font-size: 26px
+  font-weight: 700
+  line-height: 1.35
+  margin: 0 0 12px
+
+.home-intro-summary
+  color: #4b5563
+  font-size: 15px
+  line-height: 1.8
+  margin: 0
+
+.home-column-links
+  display: flex
+  flex-wrap: wrap
+  gap: 10px
+  margin-top: 18px
+
+.home-column-links a
+  border: 1px solid #d8e0e7
+  border-radius: 6px
+  color: #263640
+  font-size: 14px
+  line-height: 1
+  padding: 9px 12px
+  text-decoration: none
+  transition: background 0.2s ease, border-color 0.2s ease
+
+.home-column-links a:hover
+  background: #f3f7fa
+  border-color: #b9c7d3
+
 .posts-expand .post
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06)
-  border-radius: 12px
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05)
+  border-radius: 8px
   padding: 24px
   margin-bottom: 30px
   background: #fff
   transition: box-shadow 0.3s ease
 
 .posts-expand .post:hover
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12)
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1)
 
 /* 封面图片圆角 */
 .posts-expand .post .post-cover
-  border-radius: 10px
+  border-radius: 8px
   overflow: hidden
   margin-bottom: 16px
   max-height: 240px
@@ -20,7 +66,7 @@
 
 /* 摘要居中 */
 .posts-expand .post .post-excerpt
-  text-align: center
+  text-align: left
   font-size: 16px
   line-height: 1.8
   margin: 16px auto
@@ -40,7 +86,7 @@
   width: 100%;
   max-height: 240px;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 8px;
   margin-bottom: 16px;
 }
 
@@ -50,4 +96,51 @@
   height: auto
   aspect-ratio: 3 / 2
   object-fit: cover
-  border-radius: 12px
+  border-radius: 8px
+
+.post-body
+  font-size: 16px
+  line-height: 1.9
+
+.post-body p
+  margin-bottom: 1.1em
+
+.post-body img
+  border-radius: 8px
+
+.search-popup #search-result
+  display: block !important
+  height: auto !important
+  min-height: 0 !important
+  padding-bottom: 0 !important
+
+.search-popup #no-result
+  display: none !important
+
+.search-popup #no-result .fa
+  display: none !important
+
+@media (max-width: 767px)
+  .home-intro
+    margin-top: 18px
+    padding-top: 22px
+
+  .home-intro h1
+    font-size: 22px
+
+  .home-column-links
+    gap: 8px
+
+  .home-column-links a
+    font-size: 13px
+    padding: 8px 10px
+
+  .posts-expand .post
+    padding: 18px
+    margin-bottom: 22px
+
+  .posts-expand .post-title
+    font-size: 1.35em
+
+  .posts-expand .post .post-excerpt
+    font-size: 15px

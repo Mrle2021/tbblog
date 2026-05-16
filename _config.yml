@@ -3,19 +3,19 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: "Trailblaze_blog"
-subtitle: " "
-description: "记录我的思考与成长旅程的博客"
-keywords:
+title: "Trailblaze Blog"
+subtitle: "用 AI 辅助的信息整理、哲学解释和人文判断，理解正在变化的世界"
+description: "用 AI 辅助的信息整理、哲学解释和人文判断，帮普通人理解正在变化的世界。"
+keywords: AI读世界, 世界观察, 哲学, 电影, 音乐, 自我认知, 人文思考, 公共议题
 author: Mr.Wang
 language: zh-CN
 timezone: "Asia/Shanghai"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://mrle2021.github.io/tbblog
-root: /tbblog/
-permalink: :year/:month/:day/:title/
+url: https://blog.trailblazeblog.dpdns.org
+root: /
+permalink: :year/:month/:day/:slug/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -30,6 +30,7 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+  - google5066cd806f704f11.html
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -105,6 +106,28 @@ search:
   field: post
   format: html
 
+sitemap:
+  path:
+    - sitemap.xml
+    - sitemap.txt
+  tags: true
+  categories: true
+
+feed:
+  enable: true
+  type:
+    - atom
+    - rss2
+  path:
+    - atom.xml
+    - rss2.xml
+  limit: 20
+  content: false
+  content_limit: 180
+  order_by: -date
+  icon: /images/site-cover.jpg
+  autodiscovery: true
+
 wordcount:
   enable: true
   separator: ""
@@ -129,7 +152,7 @@ wordcount:
 #     exclude:
 #   remove_comments: true
 #   simple_doctype: false
-# 👉 插件 hexo-optimize 会导致 Hexo 报错，建议卸载或升级后再启用
+# hexo-optimize 与当前 Hexo 版本不兼容，已移除依赖。
 
 pangu:
   enable: true

@@ -1,0 +1,25 @@
+menu:
+  home: / || fa fa-home
+  世界观察: /categories/世界观察/ || fa fa-globe
+  思想工具箱: /categories/思想工具箱/ || fa fa-book
+  影像与声音: /categories/影像与声音/ || fa fa-film
+  自我与时代: /categories/自我与时代/ || fa fa-user
+  AI 读世界: /categories/AI-读世界/ || fa fa-robot
+  archives: /archives/ || fa fa-archive
+  about: /about/ || fa fa-info-circle
+
+custom_file_path:
+  head: source/_data/head.swig
+  header: source/_data/header.swig
+  style: source/_data/styles.styl
+
+codeblock:
+  copy_button:
+    enable: true
+
+reading_progress:
+  enable: true
+
+local_search:
+  enable: true
+  preload: true

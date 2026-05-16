@@ -1,0 +1,35 @@
+[
+  {
+    "id": "37280871",
+    "download_url": "https://images.pexels.com/photos/37280871/pexels-photo-37280871.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/37280871/",
+    "photographer": "Ran Wan",
+    "provider": "pexels",
+    "alt": "传统的中国寺庙屋顶与现代都市天际线形成鲜明对比，展现了新旧建筑风格的融合。",
+    "filename": "cover.webp",
+    "query": "buddhism self illusion quiet editorial photo",
+    "local_path": "source/images/buddhism-self-illusion/cover.webp"
+  },
+  {
+    "id": "19090452",
+    "download_url": "https://images.pexels.com/photos/19090452/pexels-photo-19090452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/19090452/",
+    "photographer": "Acres of Film",
+    "provider": "pexels",
+    "alt": "architecture, building, China 的 免费素材图片",
+    "filename": "fig-01.webp",
+    "query": "buddhism self illusion city reflection editorial photo",
+    "local_path": "source/images/buddhism-self-illusion/fig-01.webp"
+  },
+  {
+    "id": "20316024",
+    "download_url": "https://images.pexels.com/photos/20316024/pexels-photo-20316024.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/20316024/",
+    "photographer": "Rich Sherlock",
+    "provider": "pexels",
+    "alt": "buddhism, building, changsha 的 免费素材图片",
+    "filename": "fig-02.webp",
+    "query": "buddhism self illusion workspace documents editorial photo",
+    "local_path": "source/images/buddhism-self-illusion/fig-02.webp"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "35720257",
+    "download_url": "https://images.pexels.com/photos/35720257/pexels-photo-35720257.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/35720257/",
+    "photographer": "Echo Zhang",
+    "provider": "pexels",
+    "alt": "architecture, atmosphere, background 的 免费素材图片",
+    "filename": "cover.webp",
+    "query": "world observation 001 ai understand world quiet editorial photo",
+    "local_path": "source/images/world-observation-001-ai-understand-world/cover.webp"
+  },
+  {
+    "id": "13359803",
+    "download_url": "https://images.pexels.com/photos/13359803/pexels-photo-13359803.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/13359803/",
+    "photographer": "何 颖",
+    "provider": "pexels",
+    "alt": "city dawn, cityscape, magic city 的 免费素材图片",
+    "filename": "fig-01.webp",
+    "query": "world observation 001 ai understand world city reflection editorial photo",
+    "local_path": "source/images/world-observation-001-ai-understand-world/fig-01.webp"
+  },
+  {
+    "id": "7696109",
+    "download_url": "https://images.pexels.com/photos/7696109/pexels-photo-7696109.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/7696109/",
+    "photographer": "cottonbro studio",
+    "provider": "pexels",
+    "alt": "001, 01, 101 的 免费素材图片",
+    "filename": "fig-02.webp",
+    "query": "world observation 001 ai understand world workspace documents editorial photo",
+    "local_path": "source/images/world-observation-001-ai-understand-world/fig-02.webp"
+  },
+  {
+    "id": "30108014",
+    "download_url": "https://images.pexels.com/photos/30108014/pexels-photo-30108014.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/30108014/",
+    "photographer": "孝頴 趙",
+    "provider": "pexels",
+    "alt": "婆罗浮屠寺的晨曦",
+    "filename": "fig-03.webp",
+    "query": "world observation 001 ai understand world person silhouette screen editorial photo",
+    "local_path": "source/images/world-observation-001-ai-understand-world/fig-03.webp"
+  },
+  {
+    "id": "16461434",
+    "download_url": "https://images.pexels.com/photos/16461434/pexels-photo-16461434.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/16461434/",
+    "photographer": "Sanket  Mishra",
+    "provider": "pexels",
+    "alt": "AI 参考, テラ・ヌメリック, 互聯網 的 免费素材图片",
+    "filename": "fig-04.webp",
+    "query": "world observation 001 ai understand world newspaper table morning light",
+    "local_path": "source/images/world-observation-001-ai-understand-world/fig-04.webp"
+  },
+  {
+    "id": "35268841",
+    "download_url": "https://images.pexels.com/photos/35268841/pexels-photo-35268841.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/35268841/",
+    "photographer": "Peter Xie",
+    "provider": "pexels",
+    "alt": "一座独特的现代雕塑，由两根石柱支撑着一个巨大的金属球，背景是湛蓝的天空。",
+    "filename": "fig-05.webp",
+    "query": "world observation 001 ai understand world abstract technology editorial photo",
+    "local_path": "source/images/world-observation-001-ai-understand-world/fig-05.webp"
+  }
+]
