@@ -10,16 +10,30 @@ function stripLeadingCover(markdown, cover) {
   return markdown.replace(pattern, '');
 }
 
+function normalizeCodeBlock(_match, code) {
+  const body = code.replace(/\n+$/g, '').replace(/\n/g, '<br>');
+  return `<p>${body}</p>`;
+}
+
+function sanitizeWechatHtml(html) {
+  return html
+    .replace(/<a\b[^>]*>([\s\S]*?)<\/a>/gi, '$1')
+    .replace(/<pre><code(?:\s[^>]*)?>([\s\S]*?)<\/code><\/pre>/gi, normalizeCodeBlock)
+    .replace(/\sclass="[^"]*"/gi, '');
+}
+
 function markdownToWechatHtml(markdown, options = {}) {
   const withoutCover = stripLeadingCover(markdown, options.cover);
-  return marked.parse(withoutCover, {
+  const html = marked.parse(withoutCover, {
     async: false,
     breaks: false,
     gfm: true
-  }).trim();
+  });
+  return sanitizeWechatHtml(html).trim();
 }
 
 module.exports = {
   markdownToWechatHtml,
+  sanitizeWechatHtml,
   stripLeadingCover
 };

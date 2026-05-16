@@ -19,10 +19,13 @@ code
 `);
 
   assert.match(html, /<h1[^>]*>Title<\/h1>/);
-  assert.match(html, /<p[^>]*>Paragraph with <a href="https:\/\/example.com"/);
+  assert.match(html, /<p[^>]*>Paragraph with link\.<\/p>/);
+  assert.doesNotMatch(html, /<a\b/);
   assert.match(html, /<blockquote>/);
   assert.match(html, /<ul>/);
-  assert.match(html, /<pre><code/);
+  assert.match(html, /<p>code<\/p>/);
+  assert.doesNotMatch(html, /<pre\b/);
+  assert.doesNotMatch(html, /class="language-text"/);
 });
 
 test('markdownToWechatHtml removes the leading cover image when it matches post cover', () => {
@@ -32,4 +35,20 @@ test('markdownToWechatHtml removes the leading cover image when it matches post 
 
   assert.doesNotMatch(html, /cover\.webp/);
   assert.match(html, /<h2[^>]*>Start<\/h2>/);
+});
+
+test('markdownToWechatHtml keeps link text and normalizes code blocks for drafts', () => {
+  const html = markdownToWechatHtml(`Reference: [relative](/tbblog/post/) and [external](https://example.com).
+
+\`\`\`text
+first line
+second line
+\`\`\`
+`);
+
+  assert.match(html, /Reference: relative and external\./);
+  assert.doesNotMatch(html, /href=/);
+  assert.doesNotMatch(html, /\/tbblog\/post\//);
+  assert.match(html, /<p>first line<br>second line<\/p>/);
+  assert.doesNotMatch(html, /<code/);
 });
