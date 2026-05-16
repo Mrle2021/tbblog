@@ -3,6 +3,7 @@ Thumbs.db
 db.json
 *.log
 .env
+.wechat-drafts.json
 .venv/
 __pycache__/
 tools/image_prompts/
