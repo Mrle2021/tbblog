@@ -76,3 +76,23 @@ Paragraph text.
   assert.doesNotMatch(html, /<pre\b/);
   assert.doesNotMatch(html, /<code\b/);
 });
+
+test('markdownToWechatHtml highlights prompt and related reading sections', () => {
+  const html = markdownToWechatHtml(`## 我的固定提示词
+
+你是我的新闻整理助手。
+
+请基于材料完成任务。
+
+## 相关阅读
+
+- 世界观察 002：为什么我们越来越难相信新闻？
+- 我如何用 AI 理解世界？
+`);
+
+  assert.match(html, /<section style="[^"]*background: #f8fbff[^"]*" data-wechat-block="prompt"/);
+  assert.match(html, /<section style="[^"]*background: #fbfaf7[^"]*" data-wechat-block="related"/);
+  assert.match(html, /你是我的新闻整理助手。/);
+  assert.match(html, /世界观察 002：为什么我们越来越难相信新闻？/);
+  assert.doesNotMatch(html, /<a\b/);
+});
