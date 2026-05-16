@@ -6,6 +6,7 @@ const path = require('node:path');
 
 const { extractImageSources, resolveSiteImagePath, rewriteImageSources } = require('./wechat/assets');
 const { markdownToWechatHtml } = require('./wechat/html-converter');
+const { cleanupPreparedImages, prepareWechatImage } = require('./wechat/image-prep');
 const { parsePostFile } = require('./wechat/post-parser');
 const { loadState, saveState, upsertDraftState } = require('./wechat/sync-state');
 const { WeChatClient } = require('./wechat/wechat-client');
@@ -32,60 +33,70 @@ async function main() {
   let thumbMediaId = 'DRY_RUN_THUMB_MEDIA_ID';
   let content = initialHtml;
   let draftMediaId = 'DRY_RUN_DRAFT_MEDIA_ID';
+  const preparedImages = [];
 
-  if (!dryRun) {
-    const client = new WeChatClient({
-      appId: process.env.WECHAT_APP_ID,
-      appSecret: process.env.WECHAT_APP_SECRET
-    });
+  try {
+    if (!dryRun) {
+      const client = new WeChatClient({
+        appId: process.env.WECHAT_APP_ID,
+        appSecret: process.env.WECHAT_APP_SECRET
+      });
 
-    thumbMediaId = await client.uploadThumb(coverPath);
-    const replacements = new Map();
-    for (const [src, filePath] of inlineImagePaths) {
-      replacements.set(src, await client.uploadDraftImage(filePath));
+      const preparedCover = await prepareWechatImage(coverPath, { kind: 'thumb' });
+      preparedImages.push(preparedCover);
+      thumbMediaId = await client.uploadThumb(preparedCover.path);
+
+      const replacements = new Map();
+      for (const [src, filePath] of inlineImagePaths) {
+        const preparedInline = await prepareWechatImage(filePath, { kind: 'image' });
+        preparedImages.push(preparedInline);
+        replacements.set(src, await client.uploadDraftImage(preparedInline.path));
+      }
+      content = rewriteImageSources(initialHtml, replacements);
     }
-    content = rewriteImageSources(initialHtml, replacements);
-  }
 
-  const article = {
-    title: post.title,
-    author: process.env.WECHAT_AUTHOR || '',
-    digest: post.digest.slice(0, 120),
-    content,
-    thumb_media_id: thumbMediaId,
-    need_open_comment: 0,
-    only_fans_can_comment: 0
-  };
+    const article = {
+      title: post.title,
+      author: process.env.WECHAT_AUTHOR || '',
+      digest: post.digest.slice(0, 120),
+      content,
+      thumb_media_id: thumbMediaId,
+      need_open_comment: 0,
+      only_fans_can_comment: 0
+    };
 
-  const statePath = path.join(projectRoot, '.wechat-drafts.json');
-  const state = loadState(statePath);
-  const previous = state[post.slug];
+    const statePath = path.join(projectRoot, '.wechat-drafts.json');
+    const state = loadState(statePath);
+    const previous = state[post.slug];
 
-  if (!dryRun) {
-    const client = new WeChatClient({
-      appId: process.env.WECHAT_APP_ID,
-      appSecret: process.env.WECHAT_APP_SECRET
-    });
-    draftMediaId = previous?.draftMediaId
-      ? await client.updateDraft(previous.draftMediaId, article)
-      : await client.addDraft(article);
+    if (!dryRun) {
+      const client = new WeChatClient({
+        appId: process.env.WECHAT_APP_ID,
+        appSecret: process.env.WECHAT_APP_SECRET
+      });
+      draftMediaId = previous?.draftMediaId
+        ? await client.updateDraft(previous.draftMediaId, article)
+        : await client.addDraft(article);
 
-    saveState(statePath, upsertDraftState(state, {
+      saveState(statePath, upsertDraftState(state, {
+        slug: post.slug,
+        post: postPath,
+        draftMediaId,
+        title: post.title
+      }));
+    }
+
+    console.log(JSON.stringify({
+      dryRun,
       slug: post.slug,
-      post: postPath,
-      draftMediaId,
-      title: post.title
-    }));
+      title: post.title,
+      imageCount: inlineImagePaths.length,
+      article,
+      draftMediaId
+    }, null, 2));
+  } finally {
+    cleanupPreparedImages(preparedImages);
   }
-
-  console.log(JSON.stringify({
-    dryRun,
-    slug: post.slug,
-    title: post.title,
-    imageCount: inlineImagePaths.length,
-    article,
-    draftMediaId
-  }, null, 2));
 }
 
 main().catch((error) => {
