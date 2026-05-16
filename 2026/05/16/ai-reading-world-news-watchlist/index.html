@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 7.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/tbblog/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/tbblog/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/tbblog/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/tbblog/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/tbblog/css/main.css">
+
+
+<link rel="stylesheet" href="/tbblog/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"mrle2021.github.io","root":"/tbblog/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":true},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="新闻观察清单不是热点收藏夹，而是一套长期追踪世界变化的个人系统。本文记录如何用 AI 建立议题、来源、指标、问题和复盘机制，让新闻阅读从被动刷新变成主动观察。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AI 读世界：我如何用 AI 建立自己的新闻观察清单？">
+<meta property="og:url" content="https://mrle2021.github.io/tbblog/2026/05/16/ai-reading-world-news-watchlist/index.html">
+<meta property="og:site_name" content="Trailblaze Blog">
+<meta property="og:description" content="新闻观察清单不是热点收藏夹，而是一套长期追踪世界变化的个人系统。本文记录如何用 AI 建立议题、来源、指标、问题和复盘机制，让新闻阅读从被动刷新变成主动观察。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://mrle2021.github.io/tbblog/images/ai-reading-world-news-watchlist/cover.webp">
+<meta property="og:image" content="https://mrle2021.github.io/tbblog/images/ai-reading-world-news-watchlist/fig-01.webp">
+<meta property="og:image" content="https://mrle2021.github.io/tbblog/images/ai-reading-world-news-watchlist/fig-02.webp">
+<meta property="og:image" content="https://mrle2021.github.io/tbblog/images/ai-reading-world-news-watchlist/fig-03.webp">
+<meta property="og:image" content="https://mrle2021.github.io/tbblog/images/ai-reading-world-news-watchlist/fig-04.webp">
+<meta property="og:image" content="https://mrle2021.github.io/tbblog/images/ai-reading-world-news-watchlist/fig-05.webp">
+<meta property="article:published_time" content="2026-05-16T03:10:00.000Z">
+<meta property="article:modified_time" content="2026-05-16T05:43:07.316Z">
+<meta property="article:author" content="Mr.Wang">
+<meta property="article:tag" content="AI读世界">
+<meta property="article:tag" content="方法论">
+<meta property="article:tag" content="信息整理">
+<meta property="article:tag" content="个人知识系统">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://mrle2021.github.io/tbblog/images/ai-reading-world-news-watchlist/cover.webp">
+
+<link rel="canonical" href="https://mrle2021.github.io/tbblog/2026/05/16/ai-reading-world-news-watchlist/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+
+<meta name="author" content="Mr.Wang">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:image" content="/images/ai-reading-world-news-watchlist/cover.webp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="/images/ai-reading-world-news-watchlist/cover.webp">
+<link rel="alternate" type="application/atom+xml" title="Trailblaze Blog Atom Feed" href="https://mrle2021.github.io/tbblog/atom.xml">
+<link rel="alternate" type="application/rss+xml" title="Trailblaze Blog RSS Feed" href="https://mrle2021.github.io/tbblog/rss2.xml">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "Trailblaze Blog",
+  "description": "用 AI 辅助的信息整理、哲学解释和人文判断，帮普通人理解正在变化的世界。",
+  "url": "https://mrle2021.github.io/tbblog/",
+  "inLanguage": "zh-CN",
+  "author": {
+    "@type": "Person",
+    "name": "Mr.Wang"
+  }
+}
+</script>
+
+  <title>AI 读世界：我如何用 AI 建立自己的新闻观察清单？ | Trailblaze Blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/tbblog/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Trailblaze Blog</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">用 AI 辅助的信息整理、哲学解释和人文判断，理解正在变化的世界</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/tbblog/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/tbblog/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-世界观察">
+
+    <a href="/tbblog/categories/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/" rel="section"><i class="fa fa-globe fa-fw"></i>世界观察</a>
+
+  </li>
+        <li class="menu-item menu-item-思想工具箱">
+
+    <a href="/tbblog/categories/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/" rel="section"><i class="fa fa-book fa-fw"></i>思想工具箱</a>
+
+  </li>
+        <li class="menu-item menu-item-影像与声音">
+
+    <a href="/tbblog/categories/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/" rel="section"><i class="fa fa-film fa-fw"></i>影像与声音</a>
+
+  </li>
+        <li class="menu-item menu-item-自我与时代">
+
+    <a href="/tbblog/categories/%E8%87%AA%E6%88%91%E4%B8%8E%E6%97%B6%E4%BB%A3/" rel="section"><i class="fa fa-user fa-fw"></i>自我与时代</a>
+
+  </li>
+        <li class="menu-item menu-item-ai-读世界">
+
+    <a href="/tbblog/categories/AI-%E8%AF%BB%E4%B8%96%E7%95%8C/" rel="section"><i class="fa fa-robot fa-fw"></i>AI 读世界</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/tbblog/about/" rel="section"><i class="fa fa-info-circle fa-fw"></i>关于</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+  
+  
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://mrle2021.github.io/tbblog/2026/05/16/ai-reading-world-news-watchlist/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/tbblog/images/avatar.gif">
+      <meta itemprop="name" content="Mr.Wang">
+      <meta itemprop="description" content="用 AI 辅助的信息整理、哲学解释和人文判断，帮普通人理解正在变化的世界。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Trailblaze Blog">
+    </span>
+      
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          AI 读世界：我如何用 AI 建立自己的新闻观察清单？
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2026-05-16 11:10:00 / 修改时间：13:43:07" itemprop="dateCreated datePublished" datetime="2026-05-16T11:10:00+08:00">2026-05-16</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/tbblog/categories/AI-%E8%AF%BB%E4%B8%96%E7%95%8C/" itemprop="url" rel="index"><span itemprop="name">AI 读世界</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>3.8k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>3 分钟</span>
+            </span>
+            <div class="post-description">新闻观察清单不是热点收藏夹，而是一套长期追踪世界变化的个人系统。本文记录如何用 AI 建立议题、来源、指标、问题和复盘机制，让新闻阅读从被动刷新变成主动观察。</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p><img src="/tbblog/images/ai-reading-world-news-watchlist/cover.webp" alt="AI 读世界：我如何用 AI 建立自己的新闻观察清单？ 封面图"></p>
+<h2 id="为什么需要新闻观察清单？"><a href="#为什么需要新闻观察清单？" class="headerlink" title="为什么需要新闻观察清单？"></a>为什么需要新闻观察清单？</h2><p><img src="/tbblog/images/ai-reading-world-news-watchlist/fig-01.webp" alt="为什么需要新闻观察清单？ 章节配图"><br>我以前看新闻，最大的问题不是看得少，而是看得散。</p>
+<p>今天被一个国际事件吸引，明天被一条科技新闻打断，后天又被某个社会争议带走。每条新闻都好像重要，但过几天回头看，真正留下来的理解并不多。</p>
+<p>这就是被动新闻消费的问题。</p>
+<p>我们以为自己在了解世界，其实常常是在被平台安排注意力。</p>
+<p>热点决定我看什么，标题决定我点什么，情绪决定我停留多久，算法决定下一条推给我什么。</p>
+<p>所以，我越来越觉得，理解世界不能只靠 “看到什么算什么”。</p>
+<p>我需要一张自己的新闻观察清单。</p>
+<p>它不是收藏夹，也不是待读列表，而是一套长期追踪世界变化的个人系统。</p>
+<p>它要回答的问题是：</p>
+<blockquote>
+<p>我到底想长期观察这个世界的哪些变化？</p>
+</blockquote>
+<p>AI 在这里的作用，不是替我决定什么重要，而是帮我把混乱的信息整理成稳定的观察结构。</p>
+<h2 id="新闻观察清单和热点列表有什么区别？"><a href="#新闻观察清单和热点列表有什么区别？" class="headerlink" title="新闻观察清单和热点列表有什么区别？"></a>新闻观察清单和热点列表有什么区别？</h2><p><img src="/tbblog/images/ai-reading-world-news-watchlist/fig-02.webp" alt="新闻观察清单和热点列表有什么区别？ 章节配图"><br>热点列表关注的是现在发生了什么。</p>
+<p>新闻观察清单关注的是：这些事情背后是否有长期变化。</p>
+<p>热点列表会不断更新，今天是这个事件，明天是那个事件。</p>
+<p>新闻观察清单则相对稳定。它像一组长期问题，帮助我判断哪些新闻值得追踪，哪些只是短暂噪音。</p>
+<p>比如，热点列表可能记录：</p>
+<p>某家公司裁员。</p>
+<p>某个国家选举。</p>
+<p>某个平台推出新功能。</p>
+<p>某个公共事件引发争议。</p>
+<p>但新闻观察清单会进一步追问：</p>
+<p>这是否反映就业结构正在变化？</p>
+<p>这是否说明政治分化正在加深？</p>
+<p>这是否改变普通人的信息获取方式？</p>
+<p>这是否暴露了制度、平台或文化中的长期矛盾？</p>
+<p>也就是说，热点列表记录事件。</p>
+<p>新闻观察清单追踪趋势。</p>
+<p>如果没有观察清单，我们就容易被每一条新闻牵着走。如果有了观察清单，我们就能把新闻放进自己的问题框架里。</p>
+<h2 id="第一步：先确定我想长期观察的栏目"><a href="#第一步：先确定我想长期观察的栏目" class="headerlink" title="第一步：先确定我想长期观察的栏目"></a>第一步：先确定我想长期观察的栏目</h2><p><img src="/tbblog/images/ai-reading-world-news-watchlist/fig-03.webp" alt="第一步：先确定我想长期观察的栏目 章节配图"><br>建立新闻观察清单，第一步不是找来源，而是确定栏目。</p>
+<p>栏目决定注意力方向。</p>
+<p>我会先让 AI 帮我把兴趣和博客定位转化成长期观察栏目。</p>
+<p>提示词可以这样写：</p>
+<figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">我正在写一个个人博客，核心主题是：</span><br><span class="line">用 AI 更好地理解世界，关注公共讨论、技术变化、现代焦虑、新闻信任、个人生活和时代结构。</span><br><span class="line"></span><br><span class="line">请帮我设计 6-8 个长期新闻观察栏目。</span><br><span class="line">每个栏目需要包括：</span><br><span class="line">1. 栏目名称；</span><br><span class="line">2. 适合追踪的问题；</span><br><span class="line">3. 不适合放入这个栏目的内容；</span><br><span class="line">4. 这个栏目未来可以写成哪些文章。</span><br></pre></td></tr></tbody></table></figure>
+
+<p>对我来说，比较适合的长期栏目可能包括：</p>
+<p>世界秩序变化。</p>
+<p>AI 与劳动。</p>
+<p>新闻信任与公共讨论。</p>
+<p>年轻人的生活压力。</p>
+<p>平台社会与注意力。</p>
+<p>教育、就业与阶层流动。</p>
+<p>影像、声音与时代情绪。</p>
+<p>自我、焦虑与普通生活。</p>
+<p>这些栏目不需要一开始就完美。</p>
+<p>重要的是，它们提供了一张稳定地图。</p>
+<p>有了地图之后，我看到新闻时就不再只是问 “这条新闻有趣吗”，而是问 “它属于我长期观察的哪个问题”。</p>
+<h2 id="第二步：为每个栏目建立核心问题库"><a href="#第二步：为每个栏目建立核心问题库" class="headerlink" title="第二步：为每个栏目建立核心问题库"></a>第二步：为每个栏目建立核心问题库</h2><p><img src="/tbblog/images/ai-reading-world-news-watchlist/fig-04.webp" alt="第二步：为每个栏目建立核心问题库 章节配图"><br>栏目只是入口，真正让观察变深的是问题。</p>
+<p>如果没有问题，新闻清单就会变成资料堆积。</p>
+<p>所以我会让 AI 为每个栏目生成一组长期问题。</p>
+<p>提示词可以这样写：</p>
+<figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">请围绕“AI 与劳动”这个栏目，帮我建立一个长期观察问题库。</span><br><span class="line">问题不要太泛，要能指导我判断新闻是否值得追踪。</span><br><span class="line">请分成：</span><br><span class="line">1. 结构性问题；</span><br><span class="line">2. 数据性问题；</span><br><span class="line">3. 个体经验问题；</span><br><span class="line">4. 争议性问题；</span><br><span class="line">5. 未来写作选题。</span><br></pre></td></tr></tbody></table></figure>
+
+<p>比如 “AI 与劳动” 这个栏目，可以形成这样的问题：</p>
+<p>AI 正在替代哪些任务，而不是哪些职业？</p>
+<p>哪些岗位会因为 AI 变得更有价值？</p>
+<p>普通人使用 AI 后，是真正提高议价能力，还是只是提高工作强度？</p>
+<p>企业采用 AI 的收益，最后会流向员工、用户、管理层，还是资本？</p>
+<p>AI 会扩大个人能力差距，还是降低进入门槛？</p>
+<p>当我有了这些问题，再看新闻就不一样了。</p>
+<p>一条 AI 产品发布新闻，如果无法回答任何长期问题，可能只是短期热闹。</p>
+<p>一份就业数据、一场行业裁员、一个真实工作流案例，反而可能更值得记录。</p>
+<h2 id="第三步：建立来源层级，而不是只看单一媒体"><a href="#第三步：建立来源层级，而不是只看单一媒体" class="headerlink" title="第三步：建立来源层级，而不是只看单一媒体"></a>第三步：建立来源层级，而不是只看单一媒体</h2><p><img src="/tbblog/images/ai-reading-world-news-watchlist/fig-05.webp" alt="第三步：建立来源层级，而不是只看单一媒体 章节配图"><br>新闻观察清单不能只依赖一个来源。</p>
+<p>单一来源会让我的观察被它的视角限制。</p>
+<p>我会把来源分成四层。</p>
+<p>第一层，是原始来源。</p>
+<p>包括政府数据、公司财报、研究报告、法律文件、机构公告、学术论文、会议记录。</p>
+<p>这类来源不一定好读，但它们接近事实起点。</p>
+<p>第二层，是专业解释。</p>
+<p>包括严肃媒体、行业分析、研究机构、专家访谈、长篇报道。</p>
+<p>它们帮助我理解背景、因果和争议。</p>
+<p>第三层，是公共讨论。</p>
+<p>包括社交平台、评论区、播客、论坛、创作者文章。</p>
+<p>它们不一定代表事实，但能显示社会情绪和群体感受。</p>
+<p>第四层，是个人经验。</p>
+<p>包括身边人的故事、自己的体验、读者反馈、真实个案。</p>
+<p>它们不能替代整体数据，但能提醒我：宏观变化如何进入具体生活。</p>
+<p>AI 可以帮我做一件事：提醒我某个判断是否来源太单一。</p>
+<p>提示词可以这样写：</p>
+<figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">下面是我围绕一个新闻议题收集的材料。</span><br><span class="line">请帮我判断这些材料主要来自哪一类来源：</span><br><span class="line">原始来源、专业解释、公共讨论、个人经验。</span><br><span class="line">请指出来源结构是否单一，还缺少哪一类材料。</span><br></pre></td></tr></tbody></table></figure>
+
+<p>这个步骤能避免我只看自己习惯看的内容。</p>
+<h2 id="第四步：为每条新闻设置观察字段"><a href="#第四步：为每条新闻设置观察字段" class="headerlink" title="第四步：为每条新闻设置观察字段"></a>第四步：为每条新闻设置观察字段</h2><p>如果只是把链接存起来，过几天我通常就不会再看。</p>
+<p>所以，我会给每条值得记录的新闻设置固定字段。</p>
+<p>格式可以很简单：</p>
+<figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">标题：</span><br><span class="line">日期：</span><br><span class="line">来源：</span><br><span class="line">所属栏目：</span><br><span class="line">事件简述：</span><br><span class="line">它回答了哪个长期问题：</span><br><span class="line">关键事实：</span><br><span class="line">争议点：</span><br><span class="line">我暂时的判断：</span><br><span class="line">后续需要追踪什么：</span><br><span class="line">可延伸成的文章选题：</span><br></pre></td></tr></tbody></table></figure>
+
+<p>这个模板的价值在于，它把新闻从 “读过” 变成 “可分析”。</p>
+<p>尤其是 “它回答了哪个长期问题” 这一项。</p>
+<p>如果一条新闻无法放进任何长期问题里，我就要小心：它可能只是刺激了我的情绪，而不是真的值得持续关注。</p>
+<p>“后续需要追踪什么” 也很重要。</p>
+<p>很多新闻刚发生时，信息是不完整的。真正的理解往往出现在几天、几周甚至几个月之后。</p>
+<p>新闻观察清单不是让我更快下结论，而是提醒我延迟判断。</p>
+<h2 id="第五步：让-AI-帮我识别趋势，而不是制造结论"><a href="#第五步：让-AI-帮我识别趋势，而不是制造结论" class="headerlink" title="第五步：让 AI 帮我识别趋势，而不是制造结论"></a>第五步：让 AI 帮我识别趋势，而不是制造结论</h2><p>当观察清单积累一段时间后，AI 可以帮助我做趋势识别。</p>
+<p>但这里有一个原则：不要让 AI 直接告诉我 “世界正在怎样”。</p>
+<p>更好的方式是让它比较、归类和提出假设。</p>
+<p>提示词可以这样写：</p>
+<figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">下面是我过去一个月记录的新闻观察清单。</span><br><span class="line">请不要直接给结论。</span><br><span class="line">请帮我做三件事：</span><br><span class="line">1. 找出反复出现的主题；</span><br><span class="line">2. 区分哪些是短期热点，哪些可能是长期趋势；</span><br><span class="line">3. 提出 5 个值得继续验证的观察假设。</span><br><span class="line">每个假设都要说明还需要什么证据。</span><br></pre></td></tr></tbody></table></figure>
+
+<p>这样使用 AI，比直接问 “你怎么看” 更可靠。</p>
+<p>因为它把 AI 放在整理者和提问者的位置，而不是最终判断者的位置。</p>
+<p>比如，AI 可能会发现过去一个月的材料里反复出现：</p>
+<p>年轻人对未来预期下降。</p>
+<p>AI 工具进入日常工作，但收益分配不清楚。</p>
+<p>公共讨论越来越依赖情绪标签。</p>
+<p>平台内容越来越短，但人们又在寻找长内容替代品。</p>
+<p>这些都还不是结论。</p>
+<p>它们只是观察假设。</p>
+<p>真正的结论，需要继续找证据、看反方、等时间验证。</p>
+<h2 id="第六步：建立“噪音过滤”规则"><a href="#第六步：建立“噪音过滤”规则" class="headerlink" title="第六步：建立“噪音过滤”规则"></a>第六步：建立 “噪音过滤” 规则</h2><p>新闻观察清单最重要的功能之一，是过滤噪音。</p>
+<p>因为信息时代的问题，不是没有新闻，而是任何东西都可以伪装成重要。</p>
+<p>我会给自己设置几条过滤规则。</p>
+<p>第一，只带来情绪、不带来理解的内容，先不收。</p>
+<p>如果一条内容只是让我愤怒、焦虑、兴奋或优越，但不能帮助我理解问题，就不值得进入观察清单。</p>
+<p>第二，只是孤立事件、看不出趋势的内容，先观察。</p>
+<p>不是每个事件都要立刻解释成时代症状。有些事情只是偶然发生。</p>
+<p>第三，没有可靠来源支撑的惊人说法，先搁置。</p>
+<p>越是符合我原有立场、越是让我想立刻转发的内容，越要慢一点。</p>
+<p>第四，重复表达同一种情绪的内容，只保留代表样本。</p>
+<p>公共讨论里有大量相似表达。它们能说明情绪存在，但不需要全部收藏。</p>
+<p>第五，和长期栏目完全无关的热点，不强行追。</p>
+<p>一个人不可能理解所有事情。建立观察清单，也意味着承认自己的注意力边界。</p>
+<p>AI 可以帮我执行这些规则。</p>
+<p>我可以把候选新闻发给它，让它判断：</p>
+<p>这条内容是趋势信号，还是短期噪音？</p>
+<p>它和我的长期栏目有什么关系？</p>
+<p>如果要收录，应该放在哪个问题下面？</p>
+<p>如果不收录，理由是什么？</p>
+<h2 id="第七步：每周做一次观察复盘"><a href="#第七步：每周做一次观察复盘" class="headerlink" title="第七步：每周做一次观察复盘"></a>第七步：每周做一次观察复盘</h2><p>新闻观察清单如果不复盘，很快就会变成新的信息垃圾堆。</p>
+<p>所以，我会固定每周做一次轻量复盘。</p>
+<p>复盘不需要很复杂，只回答几个问题：</p>
+<p>本周我记录了哪些事件？</p>
+<p>它们分别落在哪些栏目？</p>
+<p>哪个栏目出现频率最高？</p>
+<p>有没有某个议题连续几周出现？</p>
+<p>有没有一条新闻改变了我原来的判断？</p>
+<p>有没有我一直忽略的角度？</p>
+<p>有没有可以写成博客文章的选题？</p>
+<p>这时 AI 可以帮我把观察清单转化成写作入口。</p>
+<p>提示词可以这样写：</p>
+<figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">下面是我本周的新闻观察清单。</span><br><span class="line">请帮我整理成一份复盘：</span><br><span class="line">1. 本周最值得继续追踪的 3 个议题；</span><br><span class="line">2. 每个议题背后的长期问题；</span><br><span class="line">3. 我目前还缺少哪些证据；</span><br><span class="line">4. 可以写成博客文章的 5 个选题；</span><br><span class="line">5. 哪些内容只是热点噪音，可以放弃。</span><br></pre></td></tr></tbody></table></figure>
+
+<p>这样，新闻阅读就不再是消耗注意力，而是积累写作材料。</p>
+<h2 id="我的判断"><a href="#我的判断" class="headerlink" title="我的判断"></a>我的判断</h2><p>用 AI 建立新闻观察清单，真正改变的不是工具，而是信息关系。</p>
+<p>以前，我是被新闻推着走。</p>
+<p>现在，我希望用自己的问题去接住新闻。</p>
+<p>这两者差别很大。</p>
+<p>被新闻推着走时，我每天都在反应：惊讶、愤怒、担心、赞同、反对、转发、遗忘。</p>
+<p>用观察清单接住新闻时，我会更慢一点：</p>
+<p>这件事属于哪个长期问题？</p>
+<p>它是趋势，还是噪音？</p>
+<p>它需要什么证据？</p>
+<p>它和我之前的判断是否冲突？</p>
+<p>它能不能帮助我更好地理解这个世界？</p>
+<p>AI 的价值，不是让我看更多新闻。</p>
+<p>它的价值是帮我建立一套过滤、整理、追问和复盘的结构。</p>
+<p>在信息过载的时代，真正重要的不是掌握更多消息，而是拥有一套自己的观察秩序。</p>
+<h2 id="相关阅读"><a href="#相关阅读" class="headerlink" title="相关阅读"></a>相关阅读</h2><ul>
+<li><a href="/tbblog/2026/05/11/ai-reading-world-weekly-news-workflow/">AI 读世界：我如何让 AI 帮我整理一周新闻？</a></li>
+<li><a href="/tbblog/2026/05/12/ai-reading-world-research-workflow-for-essay/">AI 读世界：我如何用 AI 做一篇深度文章的资料整理？</a></li>
+<li><a href="/tbblog/2026/05/13/ai-reading-world-ai-detect-my-bias/">AI 读世界：我如何让 AI 帮我发现自己的偏见？</a></li>
+<li><a href="/tbblog/2026/05/16/world-observation-008-deep-reading-is-hard/">世界观察 008：为什么我们越来越难进行深度阅读？</a></li>
+</ul>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tbblog/tags/AI%E8%AF%BB%E4%B8%96%E7%95%8C/" rel="tag"># AI读世界</a>
+              <a href="/tbblog/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/" rel="tag"># 方法论</a>
+              <a href="/tbblog/tags/%E4%BF%A1%E6%81%AF%E6%95%B4%E7%90%86/" rel="tag"># 信息整理</a>
+              <a href="/tbblog/tags/%E4%B8%AA%E4%BA%BA%E7%9F%A5%E8%AF%86%E7%B3%BB%E7%BB%9F/" rel="tag"># 个人知识系统</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/tbblog/2026/05/16/thinking-toolbox-narrative/" rel="prev" title="思想工具箱：什么是 “叙事”？为什么同一件事会被讲成不同故事？">
+      <i class="fa fa-chevron-left"></i> 思想工具箱：什么是 “叙事”？为什么同一件事会被讲成不同故事？
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/tbblog/2026/05/16/image-sound-the-social-network-success-anxiety/" rel="next" title="影像与声音：《社交网络》为什么适合解释平台时代的成功焦虑？">
+      影像与声音：《社交网络》为什么适合解释平台时代的成功焦虑？ <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E9%9C%80%E8%A6%81%E6%96%B0%E9%97%BB%E8%A7%82%E5%AF%9F%E6%B8%85%E5%8D%95%EF%BC%9F"><span class="nav-number">1.</span> <span class="nav-text">为什么需要新闻观察清单？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%96%B0%E9%97%BB%E8%A7%82%E5%AF%9F%E6%B8%85%E5%8D%95%E5%92%8C%E7%83%AD%E7%82%B9%E5%88%97%E8%A1%A8%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB%EF%BC%9F"><span class="nav-number">2.</span> <span class="nav-text">新闻观察清单和热点列表有什么区别？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E6%AD%A5%EF%BC%9A%E5%85%88%E7%A1%AE%E5%AE%9A%E6%88%91%E6%83%B3%E9%95%BF%E6%9C%9F%E8%A7%82%E5%AF%9F%E7%9A%84%E6%A0%8F%E7%9B%AE"><span class="nav-number">3.</span> <span class="nav-text">第一步：先确定我想长期观察的栏目</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%BA%8C%E6%AD%A5%EF%BC%9A%E4%B8%BA%E6%AF%8F%E4%B8%AA%E6%A0%8F%E7%9B%AE%E5%BB%BA%E7%AB%8B%E6%A0%B8%E5%BF%83%E9%97%AE%E9%A2%98%E5%BA%93"><span class="nav-number">4.</span> <span class="nav-text">第二步：为每个栏目建立核心问题库</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%B8%89%E6%AD%A5%EF%BC%9A%E5%BB%BA%E7%AB%8B%E6%9D%A5%E6%BA%90%E5%B1%82%E7%BA%A7%EF%BC%8C%E8%80%8C%E4%B8%8D%E6%98%AF%E5%8F%AA%E7%9C%8B%E5%8D%95%E4%B8%80%E5%AA%92%E4%BD%93"><span class="nav-number">5.</span> <span class="nav-text">第三步：建立来源层级，而不是只看单一媒体</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E5%9B%9B%E6%AD%A5%EF%BC%9A%E4%B8%BA%E6%AF%8F%E6%9D%A1%E6%96%B0%E9%97%BB%E8%AE%BE%E7%BD%AE%E8%A7%82%E5%AF%9F%E5%AD%97%E6%AE%B5"><span class="nav-number">6.</span> <span class="nav-text">第四步：为每条新闻设置观察字段</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%BA%94%E6%AD%A5%EF%BC%9A%E8%AE%A9-AI-%E5%B8%AE%E6%88%91%E8%AF%86%E5%88%AB%E8%B6%8B%E5%8A%BF%EF%BC%8C%E8%80%8C%E4%B8%8D%E6%98%AF%E5%88%B6%E9%80%A0%E7%BB%93%E8%AE%BA"><span class="nav-number">7.</span> <span class="nav-text">第五步：让 AI 帮我识别趋势，而不是制造结论</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E5%85%AD%E6%AD%A5%EF%BC%9A%E5%BB%BA%E7%AB%8B%E2%80%9C%E5%99%AA%E9%9F%B3%E8%BF%87%E6%BB%A4%E2%80%9D%E8%A7%84%E5%88%99"><span class="nav-number">8.</span> <span class="nav-text">第六步：建立 “噪音过滤” 规则</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%B8%83%E6%AD%A5%EF%BC%9A%E6%AF%8F%E5%91%A8%E5%81%9A%E4%B8%80%E6%AC%A1%E8%A7%82%E5%AF%9F%E5%A4%8D%E7%9B%98"><span class="nav-number">9.</span> <span class="nav-text">第七步：每周做一次观察复盘</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%88%91%E7%9A%84%E5%88%A4%E6%96%AD"><span class="nav-number">10.</span> <span class="nav-text">我的判断</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%9B%B8%E5%85%B3%E9%98%85%E8%AF%BB"><span class="nav-number">11.</span> <span class="nav-text">相关阅读</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Mr.Wang</p>
+  <div class="site-description" itemprop="description">用 AI 辅助的信息整理、哲学解释和人文判断，帮普通人理解正在变化的世界。</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/tbblog/archives/">
+        
+          <span class="site-state-item-count">31</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/tbblog/categories/">
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tbblog/tags/">
+        <span class="site-state-item-count">50</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2026</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Mr.Wang</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+    <span title="站点总字数">97k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">1:28</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/tbblog/lib/anime.min.js"></script>
+  <script src="/tbblog/lib/velocity/velocity.min.js"></script>
+  <script src="/tbblog/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/tbblog/js/utils.js"></script>
+
+<script src="/tbblog/js/motion.js"></script>
+
+
+<script src="/tbblog/js/schemes/muse.js"></script>
+
+
+<script src="/tbblog/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/tbblog/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
