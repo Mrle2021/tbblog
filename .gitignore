@@ -9,3 +9,4 @@ _multiconfig.ymlœ
 # 忽略上层无关目录
 ../crawl-chieseword/
 ../tbsott_blog/themes/next-backup/
+.worktrees/
