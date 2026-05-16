@@ -101,6 +101,10 @@ Expected final line:
 Deploy finished: http://blog.trailblazeblog.dpdns.org
 ```
 
+## WeChat Draft Sync
+
+The blog can create WeChat Official Account drafts from Markdown posts after deployment. See `docs/wechat-draft-sync.md` for the full workflow, required `.env` variables, VPS command, typography rules, and common API errors.
+
 ## Verification
 
 Local verification:
