@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 7.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"blog.trailblazeblog.dpdns.org","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":true},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="我最近用 Obsidian、Finder、ChatGPT、Desktop Commander、Hexo 和 Git 搭了一套半自动内容生产系统。真正想解决的不是“如何让 AI 自动写博客”，而是怎样把日常灵感、阅读和素材逐步沉淀成自己的思想资产。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="我正在搭建一套怎样的个人内容生产系统：从灵感到长期知识资产">
+<meta property="og:url" content="https://blog.trailblazeblog.dpdns.org/2026/10/07/personal-content-production-system/index.html">
+<meta property="og:site_name" content="Trailblaze Blog">
+<meta property="og:description" content="我最近用 Obsidian、Finder、ChatGPT、Desktop Commander、Hexo 和 Git 搭了一套半自动内容生产系统。真正想解决的不是“如何让 AI 自动写博客”，而是怎样把日常灵感、阅读和素材逐步沉淀成自己的思想资产。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://blog.trailblazeblog.dpdns.org/images/personal-content-production-system/cover.webp">
+<meta property="og:image" content="https://blog.trailblazeblog.dpdns.org/images/personal-content-production-system/fig-01.webp">
+<meta property="og:image" content="https://blog.trailblazeblog.dpdns.org/images/personal-content-production-system/fig-02.webp">
+<meta property="article:published_time" content="2026-10-07T13:55:39.000Z">
+<meta property="article:modified_time" content="2026-10-07T13:55:39.415Z">
+<meta property="article:author" content="Mr.Wang">
+<meta property="article:tag" content="AI读世界, 世界观察, 哲学, 电影, 音乐, 自我认知, 人文思考, 公共议题">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://blog.trailblazeblog.dpdns.org/images/personal-content-production-system/cover.webp">
+
+<link rel="canonical" href="https://blog.trailblazeblog.dpdns.org/2026/10/07/personal-content-production-system/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+
+<meta name="author" content="Mr.Wang">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:image" content="/images/personal-content-production-system/cover.webp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="/images/personal-content-production-system/cover.webp">
+<link rel="alternate" type="application/atom+xml" title="Trailblaze Blog Atom Feed" href="https://blog.trailblazeblog.dpdns.org/atom.xml">
+<link rel="alternate" type="application/rss+xml" title="Trailblaze Blog RSS Feed" href="https://blog.trailblazeblog.dpdns.org/rss2.xml">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "Trailblaze Blog",
+  "description": "用 AI 辅助的信息整理、哲学解释和人文判断，帮普通人理解正在变化的世界。",
+  "url": "https://blog.trailblazeblog.dpdns.org/",
+  "inLanguage": "zh-CN",
+  "author": {
+    "@type": "Person",
+    "name": "Mr.Wang"
+  }
+}
+</script>
+
+  <title>我正在搭建一套怎样的个人内容生产系统：从灵感到长期知识资产 | Trailblaze Blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Trailblaze Blog</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">用 AI 辅助的信息整理、哲学解释和人文判断，理解正在变化的世界</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-世界观察">
+
+    <a href="/categories/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/" rel="section"><i class="fa fa-globe fa-fw"></i>世界观察</a>
+
+  </li>
+        <li class="menu-item menu-item-思想工具箱">
+
+    <a href="/categories/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/" rel="section"><i class="fa fa-book fa-fw"></i>思想工具箱</a>
+
+  </li>
+        <li class="menu-item menu-item-影像与声音">
+
+    <a href="/categories/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/" rel="section"><i class="fa fa-film fa-fw"></i>影像与声音</a>
+
+  </li>
+        <li class="menu-item menu-item-自我与时代">
+
+    <a href="/categories/%E8%87%AA%E6%88%91%E4%B8%8E%E6%97%B6%E4%BB%A3/" rel="section"><i class="fa fa-user fa-fw"></i>自我与时代</a>
+
+  </li>
+        <li class="menu-item menu-item-ai-读世界">
+
+    <a href="/categories/AI-%E8%AF%BB%E4%B8%96%E7%95%8C/" rel="section"><i class="fa fa-robot fa-fw"></i>AI 读世界</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-info-circle fa-fw"></i>关于</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+  
+  
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://blog.trailblazeblog.dpdns.org/2026/10/07/personal-content-production-system/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Mr.Wang">
+      <meta itemprop="description" content="用 AI 辅助的信息整理、哲学解释和人文判断，帮普通人理解正在变化的世界。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Trailblaze Blog">
+    </span>
+      
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          我正在搭建一套怎样的个人内容生产系统：从灵感到长期知识资产
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2026-10-07 21:55:39" itemprop="dateCreated datePublished" datetime="2026-10-07T21:55:39+08:00">2026-10-07</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%97%A5%E6%8B%B1%E4%B8%80%E5%8D%92/" itemprop="url" rel="index"><span itemprop="name">日拱一卒</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>3.5k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>3 分钟</span>
+            </span>
+            <div class="post-description">我最近用 Obsidian、Finder、ChatGPT、Desktop Commander、Hexo 和 Git 搭了一套半自动内容生产系统。真正想解决的不是“如何让 AI 自动写博客”，而是怎样把日常灵感、阅读和素材逐步沉淀成自己的思想资产。</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p><img src="/images/personal-content-production-system/cover.webp" alt="个人内容生产系统：从灵感到长期知识资产"></p>
+<p>这几天，我做了一件看上去有点 “折腾工具” 的事。</p>
+<p>我把 Obsidian、Finder、ChatGPT、Desktop Commander、Hexo 和 Git 串了起来，搭了一套自己的半自动内容生产系统。</p>
+<p>如果只看工具名单，这很容易变成另一篇 “效率软件组合推荐”。但真正促使我做这件事的，并不是缺少工具。恰恰相反，我们现在已经拥有太多工具了。</p>
+<p>真正的问题是：<strong>每天看到的文章、视频、PDF、突然冒出来的想法，最后到底去了哪里？</strong></p>
+<p>有些进了收藏夹，有些躺在 Downloads，有些留在聊天记录里，有些只存在脑子里几分钟。偶尔我会觉得其中某个东西 “以后可以写”，但过几天再回头，常常只剩下一个链接，已经想不起当时为什么觉得它重要。</p>
+<p>所以我这次想解决的，不是 “怎样让 AI 更快写一篇文章”，而是另一个更基础的问题：</p>
+<blockquote>
+<p>怎样让日常输入经过一层层加工，最后真正变成我自己的理解、判断和长期可以复用的内容资产？</p>
+</blockquote>
+<h2 id="我发现，收藏不是积累"><a href="#我发现，收藏不是积累" class="headerlink" title="我发现，收藏不是积累"></a>我发现，收藏不是积累</h2><p>以前我很容易把 “保存下来” 理解成 “我拥有了它”。</p>
+<p>看到一篇好文章，收藏；看到一个视频，保存；拿到一份 PDF，放进硬盘。时间久了，资料确实越来越多，但这些东西和我的关系并没有因此变得更深。</p>
+<p>一个链接放在收藏夹里，和它从未出现过，有时没有太大区别。</p>
+<p>这也是我现在越来越认同的一点：<strong>知识管理的核心不是保存信息，而是加工信息。</strong></p>
+<p>这次我放进系统里测试的一份材料，是 Dan Koe 关于如何把多重兴趣组织成内容与个人业务的一篇长文。他提出一个我觉得很有启发的概念：不要把每一篇内容看成孤立地扔向靶心的飞镖，而要把它们看成一张更大内容地图里的拼图。</p>
+<p>这句话让我重新看待自己的博客。</p>
+<p>我感兴趣的东西其实很多：AI、哲学、电影、音乐、阅读、知识管理、个人成长。以前很容易产生一种焦虑 —— 是不是应该更 “垂直”？是不是只能挑一个领域持续写？</p>
+<p>但真正需要统一的，可能不是题材，而是这些题材最终服务于什么问题。</p>
+<p>如果这些内容都在帮助我回答类似的问题：<strong>在信息越来越多、AI 越来越强的时代，一个普通人怎样保持自己的理解、判断和行动能力？</strong></p>
+<p>那么哲学、AI、电影和知识管理，并不是彼此无关的几个栏目，而可能只是同一张地图上的不同区域。</p>
+<h2 id="所以，我把“存东西”和“想事情”分开了"><a href="#所以，我把“存东西”和“想事情”分开了" class="headerlink" title="所以，我把“存东西”和“想事情”分开了"></a>所以，我把 “存东西” 和 “想事情” 分开了</h2><p><img src="/images/personal-content-production-system/fig-01.webp" alt="被整理成结构的笔记与资料"></p>
+<p>这套系统里，我做的第一个决定，是不让所有东西都塞进 Obsidian。</p>
+<p>PDF、视频、高清图片这些原始大文件，继续交给 Finder。它们更像证据原件和素材仓库。</p>
+<p>Obsidian 则只保存另一类东西：<strong>这份材料为什么值得留下，它说了什么，我怎么看，它和哪些已有想法有关，以及它未来可能变成什么。</strong></p>
+<p>比如一份 PDF 进入系统以后，并不是简单地得到一个 “PDF 已保存” 的结果，而是进一步形成一张 Material Card：</p>
+<ul>
+<li>来源是什么；</li>
+<li>一句话总结是什么；</li>
+<li>有哪些关键观点；</li>
+<li>我自己的理解是什么；</li>
+<li>哪些地方值得怀疑；</li>
+<li>它可能发展成哪些选题。</li>
+</ul>
+<p>我越来越觉得，“我的理解” 这一栏才是整个系统真正的分界线。</p>
+<p>在这之前，它只是外部信息。</p>
+<p>写完这一栏之后，它才开始和我发生关系。</p>
+<h2 id="AI-应该做很多事，但不应该替我做最后两个决定"><a href="#AI-应该做很多事，但不应该替我做最后两个决定" class="headerlink" title="AI 应该做很多事，但不应该替我做最后两个决定"></a>AI 应该做很多事，但不应该替我做最后两个决定</h2><p><img src="/images/personal-content-production-system/fig-02.webp" alt="人与屏幕之间保留思考空间"></p>
+<p>既然搭的是 AI 辅助系统，一个很自然的问题就是：为什么不干脆让 AI 自动选题、自动写完、自动发出去？</p>
+<p>技术上，这并不是最困难的部分。</p>
+<p>真正让我谨慎的是：<strong>如果连 “什么值得写” 和 “这到底是不是我的判断” 都自动化了，这个博客最后还剩下什么？</strong></p>
+<p>所以我最后给整个流程保留了两个明确的人工闸门。</p>
+<p>第一个是选题。</p>
+<p>系统可以读取本周新增素材，可以帮我整理历史候选，可以补充外部研究，可以一次生成十五个选题，再根据个人关联度、读者价值、独特性和可写性筛出 Top 5。</p>
+<p>但最终选哪个，只能由我决定。</p>
+<p>第二个是成稿。</p>
+<p>AI 可以帮我补资料、搭结构、检查事实、寻找反方、发现逻辑跳跃，甚至生成一版相当完整的初稿。但文章最后能不能进入发布状态，必须由我确认。</p>
+<p>所以整个状态链不是 “AI 生成 → 发布”，而是：</p>
+<p>素材 → Material → Topic → selected → researching → drafting → review → approved → published。</p>
+<p>其中 selected 和 approved 都需要明确的人做决定。</p>
+<p>对我来说，这不只是一个工作流设计，而是一条边界：<strong>把机械劳动尽量交给机器，把价值判断尽量留给自己。</strong></p>
+<h2 id="为什么还要把-Obsidian-和-Hexo-分开"><a href="#为什么还要把-Obsidian-和-Hexo-分开" class="headerlink" title="为什么还要把 Obsidian 和 Hexo 分开"></a>为什么还要把 Obsidian 和 Hexo 分开</h2><p>还有一个我以前没有认真想过的问题：文章到底 “属于” 哪里？</p>
+<p>博客的文章最终需要进入 Hexo。Hexo 官方的写作机制很清楚，正式文章进入 source/_posts，再通过 Markdown 渲染成静态页面。</p>
+<p>但我最后没有把 Hexo 当成主要写作空间。</p>
+<p>我希望文章真正的源头始终留在 Obsidian。</p>
+<p>也就是说，Obsidian 是 Single Source of Truth，Hexo 只是出版端。</p>
+<p>这样做的好处是，写作和发布终于分开了。</p>
+<p>在 Obsidian 中，我可以保留观点卡、来源、状态、尚未解决的问题，以及文章和其他笔记之间的关系。等一篇文章真正确认以后，再由脚本把它转换成 Hexo 所需要的 Front Matter、图片路径和文章文件。</p>
+<p>这让我觉得，Hexo 更像一台印刷机。</p>
+<p>它很重要，但它不应该成为思想发生的地方。</p>
+<h2 id="Git-也从“备份工具”变成了发布边界"><a href="#Git-也从“备份工具”变成了发布边界" class="headerlink" title="Git 也从“备份工具”变成了发布边界"></a>Git 也从 “备份工具” 变成了发布边界</h2><p>在搭这套系统的时候，我还遇到了一个非常具体的问题。</p>
+<p>原来的博客发布脚本会执行 git add -A。</p>
+<p>手动使用时，这很方便。但一旦进入自动化，它就变得危险：因为博客仓库里可能同时还有别的文档和脚本修改。如果自动发布一篇文章时执行 git add -A，完全可能把那些无关改动一起提交。</p>
+<p>Git 官方文档对暂存区的解释其实非常准确：下一次 commit 包含什么，取决于你放进 staging area 的是什么。</p>
+<p>所以我把这一层改成了白名单。</p>
+<p>每次发布，只允许暂存：</p>
+<ul>
+<li>当前这篇文章；</li>
+<li>当前文章自己的图片目录。</li>
+</ul>
+<p>其他工作区改动可以存在，但不能进入这次 commit。</p>
+<p>这种设计看起来很小，却让我意识到：<strong>自动化真正需要的不是 “更少确认”，而是 “更明确的边界”。</strong></p>
+<p>如果一个流程只是在人不盯着的时候自动执行原来的命令，它不一定叫自动化，也可能只是把风险隐藏起来。</p>
+<h2 id="我真正想要的，是一个“精炼厂”"><a href="#我真正想要的，是一个“精炼厂”" class="headerlink" title="我真正想要的，是一个“精炼厂”"></a>我真正想要的，是一个 “精炼厂”</h2><p>现在回头看，这套系统最核心的结构其实很简单。</p>
+<p>所有东西先进入 Inbox。</p>
+<p>然后不是全部保存，而是开始筛选。</p>
+<p>有价值的外部材料变成 Material；值得发展的想法进入 Topic；确认后的 Topic 才进入 Writing；真正发布以后再进入 Published。</p>
+<p>有些东西会在中间被丢掉。</p>
+<p>这反而是我现在觉得最重要的一点。</p>
+<p>因为一个好的知识系统，可能不应该像仓库一样什么都舍不得扔，而更像一个精炼厂：大量原始输入进去，真正留下来的只有少量能够支持长期思考的东西。</p>
+<p>AI 在这里特别适合做筛选、摘要、关联、去重、事实核查和格式转换。</p>
+<p>但如果最后没有形成自己的理解，它处理得再漂亮，也只是更整齐的收藏。</p>
+<h2 id="这套系统最大的风险，可能恰恰是系统本身"><a href="#这套系统最大的风险，可能恰恰是系统本身" class="headerlink" title="这套系统最大的风险，可能恰恰是系统本身"></a>这套系统最大的风险，可能恰恰是系统本身</h2><p>我当然知道，这里面还有一个很典型的陷阱。</p>
+<p>知识管理、自动化和效率工具都很容易让人产生一种 “我正在进步” 的感觉。</p>
+<p>搭文件夹、写脚本、调 Prompt、设计状态机，这些事情都有即时反馈，而且比真正坐下来写一篇文章轻松得多。</p>
+<p>于是一个本来为了促进输出的系统，最后可能变成逃避输出的新方式。</p>
+<p>所以我给自己定的目标其实很克制：每周一篇。</p>
+<p>周五晚上选题，周六上午成稿。</p>
+<p>不追求每天更新，不追求全自动，也暂时不追求把所有资料都整理进去。</p>
+<p>如果这个系统最终不能让我更稳定地写出真正属于自己的文章，那它设计得再漂亮也没有意义。</p>
+<h2 id="我还没想清楚的问题"><a href="#我还没想清楚的问题" class="headerlink" title="我还没想清楚的问题"></a>我还没想清楚的问题</h2><p>现在这套系统刚刚开始运行，我还没有想清楚一个更重要的问题：</p>
+<p><strong>当 AI 深度参与研究、组织结构和初稿生成以后，一篇文章的 “个人性” 究竟来自哪里？</strong></p>
+<p>也许不是来自每一个字都必须亲手敲出来。</p>
+<p>它更可能来自：我选择关注什么，我留下什么材料，我拒绝什么观点，我在哪些地方感到犹豫，以及最后哪些判断愿意由自己负责。</p>
+<p>如果是这样，那么未来真正稀缺的，也许不是写字的速度，而是选择和判断的能力。</p>
+<p>这也是我想让 Trailblaze 继续验证的事情。</p>
+<hr>
+<h2 id="Sources"><a href="#Sources" class="headerlink" title="Sources"></a>Sources</h2><ul>
+<li>Dan Koe, Full Course: How To Turn Your Interests Into Profitable a Lifestyle Business, 2026-10-05.</li>
+<li>Obsidian Help, Obsidian URI：Obsidian 支持以 Vault 和 Markdown 文件为中心的自动化入口。</li>
+<li>Hexo Documentation, Writing：正式文章默认位于 source/_posts，并支持 Markdown。</li>
+<li>Git Book, Basic Snapshotting：Git 暂存区决定下一次 commit 所包含的内容。</li>
+</ul>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2026/05/16/image-sound-the-social-network-success-anxiety/" rel="prev" title="影像与声音：《社交网络》为什么适合解释平台时代的成功焦虑？">
+      <i class="fa fa-chevron-left"></i> 影像与声音：《社交网络》为什么适合解释平台时代的成功焦虑？
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%88%91%E5%8F%91%E7%8E%B0%EF%BC%8C%E6%94%B6%E8%97%8F%E4%B8%8D%E6%98%AF%E7%A7%AF%E7%B4%AF"><span class="nav-number">1.</span> <span class="nav-text">我发现，收藏不是积累</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%89%80%E4%BB%A5%EF%BC%8C%E6%88%91%E6%8A%8A%E2%80%9C%E5%AD%98%E4%B8%9C%E8%A5%BF%E2%80%9D%E5%92%8C%E2%80%9C%E6%83%B3%E4%BA%8B%E6%83%85%E2%80%9D%E5%88%86%E5%BC%80%E4%BA%86"><span class="nav-number">2.</span> <span class="nav-text">所以，我把 “存东西” 和 “想事情” 分开了</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#AI-%E5%BA%94%E8%AF%A5%E5%81%9A%E5%BE%88%E5%A4%9A%E4%BA%8B%EF%BC%8C%E4%BD%86%E4%B8%8D%E5%BA%94%E8%AF%A5%E6%9B%BF%E6%88%91%E5%81%9A%E6%9C%80%E5%90%8E%E4%B8%A4%E4%B8%AA%E5%86%B3%E5%AE%9A"><span class="nav-number">3.</span> <span class="nav-text">AI 应该做很多事，但不应该替我做最后两个决定</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%98%E8%A6%81%E6%8A%8A-Obsidian-%E5%92%8C-Hexo-%E5%88%86%E5%BC%80"><span class="nav-number">4.</span> <span class="nav-text">为什么还要把 Obsidian 和 Hexo 分开</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Git-%E4%B9%9F%E4%BB%8E%E2%80%9C%E5%A4%87%E4%BB%BD%E5%B7%A5%E5%85%B7%E2%80%9D%E5%8F%98%E6%88%90%E4%BA%86%E5%8F%91%E5%B8%83%E8%BE%B9%E7%95%8C"><span class="nav-number">5.</span> <span class="nav-text">Git 也从 “备份工具” 变成了发布边界</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%88%91%E7%9C%9F%E6%AD%A3%E6%83%B3%E8%A6%81%E7%9A%84%EF%BC%8C%E6%98%AF%E4%B8%80%E4%B8%AA%E2%80%9C%E7%B2%BE%E7%82%BC%E5%8E%82%E2%80%9D"><span class="nav-number">6.</span> <span class="nav-text">我真正想要的，是一个 “精炼厂”</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%BF%99%E5%A5%97%E7%B3%BB%E7%BB%9F%E6%9C%80%E5%A4%A7%E7%9A%84%E9%A3%8E%E9%99%A9%EF%BC%8C%E5%8F%AF%E8%83%BD%E6%81%B0%E6%81%B0%E6%98%AF%E7%B3%BB%E7%BB%9F%E6%9C%AC%E8%BA%AB"><span class="nav-number">7.</span> <span class="nav-text">这套系统最大的风险，可能恰恰是系统本身</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%88%91%E8%BF%98%E6%B2%A1%E6%83%B3%E6%B8%85%E6%A5%9A%E7%9A%84%E9%97%AE%E9%A2%98"><span class="nav-number">8.</span> <span class="nav-text">我还没想清楚的问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Sources"><span class="nav-number">9.</span> <span class="nav-text">Sources</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Mr.Wang</p>
+  <div class="site-description" itemprop="description">用 AI 辅助的信息整理、哲学解释和人文判断，帮普通人理解正在变化的世界。</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">32</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+        <span class="site-state-item-count">50</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2026</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Mr.Wang</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+    <span title="站点总字数">100k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">1:31</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>

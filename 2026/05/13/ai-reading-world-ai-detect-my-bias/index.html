@@ -5,45 +5,45 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
 <meta name="generator" content="Hexo 7.3.0">
-  <link rel="apple-touch-icon" sizes="180x180" href="/tbblog/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/tbblog/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/tbblog/images/favicon-16x16-next.png">
-  <link rel="mask-icon" href="/tbblog/images/logo.svg" color="#222">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
-<link rel="stylesheet" href="/tbblog/css/main.css">
+<link rel="stylesheet" href="/css/main.css">
 
 
-<link rel="stylesheet" href="/tbblog/lib/font-awesome/css/all.min.css">
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"mrle2021.github.io","root":"/tbblog/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":true},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"blog.trailblazeblog.dpdns.org","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":true},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="AI 不能替我决定什么是真理，但它可以帮助我看见自己忽略了什么、预设了什么、过早相信了什么。本文记录一套用 AI 发现自身偏见的思考方法。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="AI 读世界：我如何让 AI 帮我发现自己的偏见？">
-<meta property="og:url" content="https://mrle2021.github.io/tbblog/2026/05/13/ai-reading-world-ai-detect-my-bias/index.html">
+<meta property="og:url" content="https://blog.trailblazeblog.dpdns.org/2026/05/13/ai-reading-world-ai-detect-my-bias/index.html">
 <meta property="og:site_name" content="Trailblaze Blog">
 <meta property="og:description" content="AI 不能替我决定什么是真理，但它可以帮助我看见自己忽略了什么、预设了什么、过早相信了什么。本文记录一套用 AI 发现自身偏见的思考方法。">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://mrle2021.github.io/tbblog/images/ai-reading-world-ai-detect-my-bias/cover.webp">
-<meta property="og:image" content="https://mrle2021.github.io/tbblog/images/ai-reading-world-ai-detect-my-bias/fig-01.webp">
-<meta property="og:image" content="https://mrle2021.github.io/tbblog/images/ai-reading-world-ai-detect-my-bias/fig-02.webp">
-<meta property="og:image" content="https://mrle2021.github.io/tbblog/images/ai-reading-world-ai-detect-my-bias/fig-03.webp">
-<meta property="og:image" content="https://mrle2021.github.io/tbblog/images/ai-reading-world-ai-detect-my-bias/fig-04.webp">
-<meta property="og:image" content="https://mrle2021.github.io/tbblog/images/ai-reading-world-ai-detect-my-bias/fig-05.webp">
+<meta property="og:image" content="https://blog.trailblazeblog.dpdns.org/images/ai-reading-world-ai-detect-my-bias/cover.webp">
+<meta property="og:image" content="https://blog.trailblazeblog.dpdns.org/images/ai-reading-world-ai-detect-my-bias/fig-01.webp">
+<meta property="og:image" content="https://blog.trailblazeblog.dpdns.org/images/ai-reading-world-ai-detect-my-bias/fig-02.webp">
+<meta property="og:image" content="https://blog.trailblazeblog.dpdns.org/images/ai-reading-world-ai-detect-my-bias/fig-03.webp">
+<meta property="og:image" content="https://blog.trailblazeblog.dpdns.org/images/ai-reading-world-ai-detect-my-bias/fig-04.webp">
+<meta property="og:image" content="https://blog.trailblazeblog.dpdns.org/images/ai-reading-world-ai-detect-my-bias/fig-05.webp">
 <meta property="article:published_time" content="2026-05-12T16:55:00.000Z">
 <meta property="article:modified_time" content="2026-05-13T15:51:36.112Z">
 <meta property="article:author" content="Mr.Wang">
 <meta property="article:tag" content="AI读世界">
 <meta property="article:tag" content="AI">
-<meta property="article:tag" content="批判性思维">
 <meta property="article:tag" content="方法论">
+<meta property="article:tag" content="批判性思维">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://mrle2021.github.io/tbblog/images/ai-reading-world-ai-detect-my-bias/cover.webp">
+<meta name="twitter:image" content="https://blog.trailblazeblog.dpdns.org/images/ai-reading-world-ai-detect-my-bias/cover.webp">
 
-<link rel="canonical" href="https://mrle2021.github.io/tbblog/2026/05/13/ai-reading-world-ai-detect-my-bias/">
+<link rel="canonical" href="https://blog.trailblazeblog.dpdns.org/2026/05/13/ai-reading-world-ai-detect-my-bias/">
 
 
 <script id="page-configurations">
@@ -62,15 +62,15 @@
 <meta property="og:image" content="/images/ai-reading-world-ai-detect-my-bias/cover.webp">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="/images/ai-reading-world-ai-detect-my-bias/cover.webp">
-<link rel="alternate" type="application/atom+xml" title="Trailblaze Blog Atom Feed" href="https://mrle2021.github.io/tbblog/atom.xml">
-<link rel="alternate" type="application/rss+xml" title="Trailblaze Blog RSS Feed" href="https://mrle2021.github.io/tbblog/rss2.xml">
+<link rel="alternate" type="application/atom+xml" title="Trailblaze Blog Atom Feed" href="https://blog.trailblazeblog.dpdns.org/atom.xml">
+<link rel="alternate" type="application/rss+xml" title="Trailblaze Blog RSS Feed" href="https://blog.trailblazeblog.dpdns.org/rss2.xml">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Blog",
   "name": "Trailblaze Blog",
   "description": "用 AI 辅助的信息整理、哲学解释和人文判断，帮普通人理解正在变化的世界。",
-  "url": "https://mrle2021.github.io/tbblog/",
+  "url": "https://blog.trailblazeblog.dpdns.org/",
   "inLanguage": "zh-CN",
   "author": {
     "@type": "Person",
@@ -128,7 +128,7 @@
 
   <div class="site-meta">
 
-    <a href="/tbblog/" class="brand" rel="start">
+    <a href="/" class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
       <h1 class="site-title">Trailblaze Blog</h1>
       <span class="logo-line-after"><i></i></span>
@@ -150,42 +150,42 @@
   <ul id="menu" class="main-menu menu">
         <li class="menu-item menu-item-home">
 
-    <a href="/tbblog/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/tbblog/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
 
   </li>
         <li class="menu-item menu-item-世界观察">
 
-    <a href="/tbblog/categories/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/" rel="section"><i class="fa fa-globe fa-fw"></i>世界观察</a>
+    <a href="/categories/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/" rel="section"><i class="fa fa-globe fa-fw"></i>世界观察</a>
 
   </li>
         <li class="menu-item menu-item-思想工具箱">
 
-    <a href="/tbblog/categories/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/" rel="section"><i class="fa fa-book fa-fw"></i>思想工具箱</a>
+    <a href="/categories/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/" rel="section"><i class="fa fa-book fa-fw"></i>思想工具箱</a>
 
   </li>
         <li class="menu-item menu-item-影像与声音">
 
-    <a href="/tbblog/categories/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/" rel="section"><i class="fa fa-film fa-fw"></i>影像与声音</a>
+    <a href="/categories/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/" rel="section"><i class="fa fa-film fa-fw"></i>影像与声音</a>
 
   </li>
         <li class="menu-item menu-item-自我与时代">
 
-    <a href="/tbblog/categories/%E8%87%AA%E6%88%91%E4%B8%8E%E6%97%B6%E4%BB%A3/" rel="section"><i class="fa fa-user fa-fw"></i>自我与时代</a>
+    <a href="/categories/%E8%87%AA%E6%88%91%E4%B8%8E%E6%97%B6%E4%BB%A3/" rel="section"><i class="fa fa-user fa-fw"></i>自我与时代</a>
 
   </li>
         <li class="menu-item menu-item-ai-读世界">
 
-    <a href="/tbblog/categories/AI-%E8%AF%BB%E4%B8%96%E7%95%8C/" rel="section"><i class="fa fa-robot fa-fw"></i>AI 读世界</a>
+    <a href="/categories/AI-%E8%AF%BB%E4%B8%96%E7%95%8C/" rel="section"><i class="fa fa-robot fa-fw"></i>AI 读世界</a>
 
   </li>
         <li class="menu-item menu-item-about">
 
-    <a href="/tbblog/about/" rel="section"><i class="fa fa-info-circle fa-fw"></i>关于</a>
+    <a href="/about/" rel="section"><i class="fa fa-info-circle fa-fw"></i>关于</a>
 
   </li>
       <li class="menu-item menu-item-search">
@@ -246,10 +246,10 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://mrle2021.github.io/tbblog/2026/05/13/ai-reading-world-ai-detect-my-bias/">
+    <link itemprop="mainEntityOfPage" href="https://blog.trailblazeblog.dpdns.org/2026/05/13/ai-reading-world-ai-detect-my-bias/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/tbblog/images/avatar.gif">
+      <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="Mr.Wang">
       <meta itemprop="description" content="用 AI 辅助的信息整理、哲学解释和人文判断，帮普通人理解正在变化的世界。">
     </span>
@@ -279,7 +279,7 @@
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/tbblog/categories/AI-%E8%AF%BB%E4%B8%96%E7%95%8C/" itemprop="url" rel="index"><span itemprop="name">AI 读世界</span></a>
+                  <a href="/categories/AI-%E8%AF%BB%E4%B8%96%E7%95%8C/" itemprop="url" rel="index"><span itemprop="name">AI 读世界</span></a>
                 </span>
             </span>
 
@@ -309,8 +309,8 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p><img src="/tbblog/images/ai-reading-world-ai-detect-my-bias/cover.webp" alt="AI 读世界：我如何让 AI 帮我发现自己的偏见？ 封面图"></p>
-<h2 id="为什么我要让-AI-帮我发现偏见？"><a href="#为什么我要让-AI-帮我发现偏见？" class="headerlink" title="为什么我要让 AI 帮我发现偏见？"></a>为什么我要让 AI 帮我发现偏见？</h2><p><img src="/tbblog/images/ai-reading-world-ai-detect-my-bias/fig-01.webp" alt="为什么我要让 AI 帮我发现偏见？ 章节配图"><br>我们通常以为，偏见是别人身上的问题。</p>
+        <p><img src="/images/ai-reading-world-ai-detect-my-bias/cover.webp" alt="AI 读世界：我如何让 AI 帮我发现自己的偏见？ 封面图"></p>
+<h2 id="为什么我要让-AI-帮我发现偏见？"><a href="#为什么我要让-AI-帮我发现偏见？" class="headerlink" title="为什么我要让 AI 帮我发现偏见？"></a>为什么我要让 AI 帮我发现偏见？</h2><p><img src="/images/ai-reading-world-ai-detect-my-bias/fig-01.webp" alt="为什么我要让 AI 帮我发现偏见？ 章节配图"><br>我们通常以为，偏见是别人身上的问题。</p>
 <p>别人被立场绑架，别人被情绪影响，别人只看自己愿意看的信息，别人总是误解复杂现实。</p>
 <p>但真正困难的地方在于：偏见最强的时候，往往不会以 “偏见” 的样子出现。</p>
 <p>它会以常识、经验、直觉、正义感、判断力的样子出现。</p>
@@ -321,7 +321,7 @@
 <blockquote>
 <p>我是不是太快相信了某个解释？</p>
 </blockquote>
-<h2 id="偏见不是愚蠢，而是认知的默认设置"><a href="#偏见不是愚蠢，而是认知的默认设置" class="headerlink" title="偏见不是愚蠢，而是认知的默认设置"></a>偏见不是愚蠢，而是认知的默认设置</h2><p><img src="/tbblog/images/ai-reading-world-ai-detect-my-bias/fig-02.webp" alt="偏见不是愚蠢，而是认知的默认设置 章节配图"><br>谈到偏见，我们很容易把它理解成一种道德缺陷。</p>
+<h2 id="偏见不是愚蠢，而是认知的默认设置"><a href="#偏见不是愚蠢，而是认知的默认设置" class="headerlink" title="偏见不是愚蠢，而是认知的默认设置"></a>偏见不是愚蠢，而是认知的默认设置</h2><p><img src="/images/ai-reading-world-ai-detect-my-bias/fig-02.webp" alt="偏见不是愚蠢，而是认知的默认设置 章节配图"><br>谈到偏见，我们很容易把它理解成一种道德缺陷。</p>
 <p>好像一个人有偏见，就说明他不理性、不开放、不诚实。</p>
 <p>但更现实的理解是：偏见是人类认知的默认设置。</p>
 <p>我们不可能从零开始理解世界。每个人都会依赖已有经验、情绪记忆、身份位置、信息来源和语言框架来判断现实。</p>
@@ -330,7 +330,7 @@
 <p>所以，我不把 “发现自己的偏见” 理解成羞辱自己。</p>
 <p>它更像是一种认知清理：</p>
 <p>我需要知道自己站在哪里，带着什么前提，看见了什么，也没看见什么。</p>
-<h2 id="第一步：让-AI-找出我文章里的隐藏前提"><a href="#第一步：让-AI-找出我文章里的隐藏前提" class="headerlink" title="第一步：让 AI 找出我文章里的隐藏前提"></a>第一步：让 AI 找出我文章里的隐藏前提</h2><p><img src="/tbblog/images/ai-reading-world-ai-detect-my-bias/fig-03.webp" alt="第一步：让 AI 找出我文章里的隐藏前提 章节配图"><br>当我写完一段判断，最常用的做法，是让 AI 不评价文采，而是专门找前提。</p>
+<h2 id="第一步：让-AI-找出我文章里的隐藏前提"><a href="#第一步：让-AI-找出我文章里的隐藏前提" class="headerlink" title="第一步：让 AI 找出我文章里的隐藏前提"></a>第一步：让 AI 找出我文章里的隐藏前提</h2><p><img src="/images/ai-reading-world-ai-detect-my-bias/fig-03.webp" alt="第一步：让 AI 找出我文章里的隐藏前提 章节配图"><br>当我写完一段判断，最常用的做法，是让 AI 不评价文采，而是专门找前提。</p>
 <p>提示词可以这样写：</p>
 <figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">请不要润色这段文字。</span><br><span class="line">请只帮我分析：这段话里有哪些没有明说的前提？</span><br><span class="line">哪些前提是可以争议的？</span><br><span class="line">哪些前提如果不成立，整段判断就会变弱？</span><br><span class="line">请用清单列出。</span><br></pre></td></tr></tbody></table></figure>
 
@@ -344,7 +344,7 @@
 <p>确定性变少，是主观感受，还是可以被数据支持的社会变化？</p>
 <p>有没有一些年轻人不是不相信长期，而是换了一种长期目标？</p>
 <p>AI 的作用不是告诉我哪一个前提一定正确，而是提醒我：我正在把哪些东西当成理所当然。</p>
-<h2 id="第二步：让-AI-扮演一个认真反对我的人"><a href="#第二步：让-AI-扮演一个认真反对我的人" class="headerlink" title="第二步：让 AI 扮演一个认真反对我的人"></a>第二步：让 AI 扮演一个认真反对我的人</h2><p><img src="/tbblog/images/ai-reading-world-ai-detect-my-bias/fig-04.webp" alt="第二步：让 AI 扮演一个认真反对我的人 章节配图"><br>很多时候，我不是没有反方观点，而是没有认真对待反方观点。</p>
+<h2 id="第二步：让-AI-扮演一个认真反对我的人"><a href="#第二步：让-AI-扮演一个认真反对我的人" class="headerlink" title="第二步：让 AI 扮演一个认真反对我的人"></a>第二步：让 AI 扮演一个认真反对我的人</h2><p><img src="/images/ai-reading-world-ai-detect-my-bias/fig-04.webp" alt="第二步：让 AI 扮演一个认真反对我的人 章节配图"><br>很多时候，我不是没有反方观点，而是没有认真对待反方观点。</p>
 <p>我会本能地选择比较弱的反方，然后轻松反驳它。这样文章看起来完整，实际上只是强化了我原来的判断。</p>
 <p>所以我会让 AI 扮演一个 “强反方”。</p>
 <p>提示词可以这样写：</p>
@@ -354,7 +354,7 @@
 <p>我不是要 AI 随便唱反调，而是要它帮我建立更好的压力测试。</p>
 <p>如果一个观点只能战胜最弱的反对意见，它还不够可靠。</p>
 <p>真正有价值的判断，应该经得起强反方的挑战。</p>
-<h2 id="第三步：让-AI-区分事实、解释和情绪"><a href="#第三步：让-AI-区分事实、解释和情绪" class="headerlink" title="第三步：让 AI 区分事实、解释和情绪"></a>第三步：让 AI 区分事实、解释和情绪</h2><p><img src="/tbblog/images/ai-reading-world-ai-detect-my-bias/fig-05.webp" alt="第三步：让 AI 区分事实、解释和情绪 章节配图"><br>偏见经常不是直接出现在结论里，而是混在事实、解释和情绪之间。</p>
+<h2 id="第三步：让-AI-区分事实、解释和情绪"><a href="#第三步：让-AI-区分事实、解释和情绪" class="headerlink" title="第三步：让 AI 区分事实、解释和情绪"></a>第三步：让 AI 区分事实、解释和情绪</h2><p><img src="/images/ai-reading-world-ai-detect-my-bias/fig-05.webp" alt="第三步：让 AI 区分事实、解释和情绪 章节配图"><br>偏见经常不是直接出现在结论里，而是混在事实、解释和情绪之间。</p>
 <p>例如：</p>
 <p>“现在的公共讨论已经完全没法讲道理了。”</p>
 <p>这句话里有事实，也有解释，还有情绪。</p>
@@ -442,10 +442,10 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tbblog/tags/AI%E8%AF%BB%E4%B8%96%E7%95%8C/" rel="tag"># AI读世界</a>
-              <a href="/tbblog/tags/AI/" rel="tag"># AI</a>
-              <a href="/tbblog/tags/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B4/" rel="tag"># 批判性思维</a>
-              <a href="/tbblog/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/" rel="tag"># 方法论</a>
+              <a href="/tags/AI%E8%AF%BB%E4%B8%96%E7%95%8C/" rel="tag"># AI读世界</a>
+              <a href="/tags/AI/" rel="tag"># AI</a>
+              <a href="/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/" rel="tag"># 方法论</a>
+              <a href="/tags/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B4/" rel="tag"># 批判性思维</a>
           </div>
 
         
@@ -454,11 +454,11 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/tbblog/2026/05/13/thinking-toolbox-incentive-mechanism/" rel="prev" title="思想工具箱：什么是 “激励机制”？为什么人不总是按道德行动？">
+    <a href="/2026/05/13/thinking-toolbox-incentive-mechanism/" rel="prev" title="思想工具箱：什么是 “激励机制”？为什么人不总是按道德行动？">
       <i class="fa fa-chevron-left"></i> 思想工具箱：什么是 “激励机制”？为什么人不总是按道德行动？
     </a></div>
       <div class="post-nav-item">
-    <a href="/tbblog/2026/05/13/self-and-era-fear-of-being-ordinary/" rel="next" title="自我与时代：为什么我们越来越害怕成为普通人？">
+    <a href="/2026/05/13/self-and-era-fear-of-being-ordinary/" rel="next" title="自我与时代：为什么我们越来越害怕成为普通人？">
       自我与时代：为什么我们越来越害怕成为普通人？ <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
@@ -531,19 +531,19 @@
 <div class="site-state-wrap motion-element">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
-          <a href="/tbblog/archives/">
+          <a href="/archives/">
         
-          <span class="site-state-item-count">31</span>
+          <span class="site-state-item-count">32</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
-            <a href="/tbblog/categories/">
-        <span class="site-state-item-count">5</span>
+            <a href="/categories/">
+        <span class="site-state-item-count">6</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
-            <a href="/tbblog/tags/">
+            <a href="/tags/">
         <span class="site-state-item-count">50</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
@@ -580,12 +580,12 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="站点总字数">97k</span>
+    <span title="站点总字数">100k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">1:28</span>
+    <span title="站点阅读时长">1:31</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
   </div>
@@ -604,30 +604,30 @@
   </div>
 
   
-  <script src="/tbblog/lib/anime.min.js"></script>
-  <script src="/tbblog/lib/velocity/velocity.min.js"></script>
-  <script src="/tbblog/lib/velocity/velocity.ui.min.js"></script>
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
 
-<script src="/tbblog/js/utils.js"></script>
+<script src="/js/utils.js"></script>
 
-<script src="/tbblog/js/motion.js"></script>
-
-
-<script src="/tbblog/js/schemes/muse.js"></script>
+<script src="/js/motion.js"></script>
 
 
-<script src="/tbblog/js/next-boot.js"></script>
+<script src="/js/schemes/muse.js"></script>
 
 
-
-
-  
+<script src="/js/next-boot.js"></script>
 
 
 
 
   
-<script src="/tbblog/js/local-search.js"></script>
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
 
 
 

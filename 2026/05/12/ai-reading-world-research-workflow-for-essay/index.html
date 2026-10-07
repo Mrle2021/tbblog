@@ -5,34 +5,34 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
 <meta name="generator" content="Hexo 7.3.0">
-  <link rel="apple-touch-icon" sizes="180x180" href="/tbblog/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/tbblog/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/tbblog/images/favicon-16x16-next.png">
-  <link rel="mask-icon" href="/tbblog/images/logo.svg" color="#222">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
-<link rel="stylesheet" href="/tbblog/css/main.css">
+<link rel="stylesheet" href="/css/main.css">
 
 
-<link rel="stylesheet" href="/tbblog/lib/font-awesome/css/all.min.css">
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"mrle2021.github.io","root":"/tbblog/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":true},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"blog.trailblazeblog.dpdns.org","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":true},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="深度文章不是把资料堆起来，而是围绕一个问题建立证据、背景、分歧和判断。本文记录一套用 AI 做资料整理的工作流，帮助把信息转化为可写作的结构。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="AI 读世界：我如何用 AI 做一篇深度文章的资料整理？">
-<meta property="og:url" content="https://mrle2021.github.io/tbblog/2026/05/12/ai-reading-world-research-workflow-for-essay/index.html">
+<meta property="og:url" content="https://blog.trailblazeblog.dpdns.org/2026/05/12/ai-reading-world-research-workflow-for-essay/index.html">
 <meta property="og:site_name" content="Trailblaze Blog">
 <meta property="og:description" content="深度文章不是把资料堆起来，而是围绕一个问题建立证据、背景、分歧和判断。本文记录一套用 AI 做资料整理的工作流，帮助把信息转化为可写作的结构。">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://mrle2021.github.io/tbblog/images/ai-reading-world-research-workflow-for-essay/cover.webp">
-<meta property="og:image" content="https://mrle2021.github.io/tbblog/images/ai-reading-world-research-workflow-for-essay/fig-01.webp">
-<meta property="og:image" content="https://mrle2021.github.io/tbblog/images/ai-reading-world-research-workflow-for-essay/fig-02.webp">
-<meta property="og:image" content="https://mrle2021.github.io/tbblog/images/ai-reading-world-research-workflow-for-essay/fig-03.webp">
-<meta property="og:image" content="https://mrle2021.github.io/tbblog/images/ai-reading-world-research-workflow-for-essay/fig-04.webp">
-<meta property="og:image" content="https://mrle2021.github.io/tbblog/images/ai-reading-world-research-workflow-for-essay/fig-05.webp">
+<meta property="og:image" content="https://blog.trailblazeblog.dpdns.org/images/ai-reading-world-research-workflow-for-essay/cover.webp">
+<meta property="og:image" content="https://blog.trailblazeblog.dpdns.org/images/ai-reading-world-research-workflow-for-essay/fig-01.webp">
+<meta property="og:image" content="https://blog.trailblazeblog.dpdns.org/images/ai-reading-world-research-workflow-for-essay/fig-02.webp">
+<meta property="og:image" content="https://blog.trailblazeblog.dpdns.org/images/ai-reading-world-research-workflow-for-essay/fig-03.webp">
+<meta property="og:image" content="https://blog.trailblazeblog.dpdns.org/images/ai-reading-world-research-workflow-for-essay/fig-04.webp">
+<meta property="og:image" content="https://blog.trailblazeblog.dpdns.org/images/ai-reading-world-research-workflow-for-essay/fig-05.webp">
 <meta property="article:published_time" content="2026-05-12T03:15:00.000Z">
 <meta property="article:modified_time" content="2026-05-13T14:59:41.602Z">
 <meta property="article:author" content="Mr.Wang">
@@ -41,9 +41,9 @@
 <meta property="article:tag" content="信息整理">
 <meta property="article:tag" content="AI写作">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://mrle2021.github.io/tbblog/images/ai-reading-world-research-workflow-for-essay/cover.webp">
+<meta name="twitter:image" content="https://blog.trailblazeblog.dpdns.org/images/ai-reading-world-research-workflow-for-essay/cover.webp">
 
-<link rel="canonical" href="https://mrle2021.github.io/tbblog/2026/05/12/ai-reading-world-research-workflow-for-essay/">
+<link rel="canonical" href="https://blog.trailblazeblog.dpdns.org/2026/05/12/ai-reading-world-research-workflow-for-essay/">
 
 
 <script id="page-configurations">
@@ -62,15 +62,15 @@
 <meta property="og:image" content="/images/ai-reading-world-research-workflow-for-essay/cover.webp">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="/images/ai-reading-world-research-workflow-for-essay/cover.webp">
-<link rel="alternate" type="application/atom+xml" title="Trailblaze Blog Atom Feed" href="https://mrle2021.github.io/tbblog/atom.xml">
-<link rel="alternate" type="application/rss+xml" title="Trailblaze Blog RSS Feed" href="https://mrle2021.github.io/tbblog/rss2.xml">
+<link rel="alternate" type="application/atom+xml" title="Trailblaze Blog Atom Feed" href="https://blog.trailblazeblog.dpdns.org/atom.xml">
+<link rel="alternate" type="application/rss+xml" title="Trailblaze Blog RSS Feed" href="https://blog.trailblazeblog.dpdns.org/rss2.xml">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Blog",
   "name": "Trailblaze Blog",
   "description": "用 AI 辅助的信息整理、哲学解释和人文判断，帮普通人理解正在变化的世界。",
-  "url": "https://mrle2021.github.io/tbblog/",
+  "url": "https://blog.trailblazeblog.dpdns.org/",
   "inLanguage": "zh-CN",
   "author": {
     "@type": "Person",
@@ -128,7 +128,7 @@
 
   <div class="site-meta">
 
-    <a href="/tbblog/" class="brand" rel="start">
+    <a href="/" class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
       <h1 class="site-title">Trailblaze Blog</h1>
       <span class="logo-line-after"><i></i></span>
@@ -150,42 +150,42 @@
   <ul id="menu" class="main-menu menu">
         <li class="menu-item menu-item-home">
 
-    <a href="/tbblog/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/tbblog/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
 
   </li>
         <li class="menu-item menu-item-世界观察">
 
-    <a href="/tbblog/categories/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/" rel="section"><i class="fa fa-globe fa-fw"></i>世界观察</a>
+    <a href="/categories/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/" rel="section"><i class="fa fa-globe fa-fw"></i>世界观察</a>
 
   </li>
         <li class="menu-item menu-item-思想工具箱">
 
-    <a href="/tbblog/categories/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/" rel="section"><i class="fa fa-book fa-fw"></i>思想工具箱</a>
+    <a href="/categories/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/" rel="section"><i class="fa fa-book fa-fw"></i>思想工具箱</a>
 
   </li>
         <li class="menu-item menu-item-影像与声音">
 
-    <a href="/tbblog/categories/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/" rel="section"><i class="fa fa-film fa-fw"></i>影像与声音</a>
+    <a href="/categories/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/" rel="section"><i class="fa fa-film fa-fw"></i>影像与声音</a>
 
   </li>
         <li class="menu-item menu-item-自我与时代">
 
-    <a href="/tbblog/categories/%E8%87%AA%E6%88%91%E4%B8%8E%E6%97%B6%E4%BB%A3/" rel="section"><i class="fa fa-user fa-fw"></i>自我与时代</a>
+    <a href="/categories/%E8%87%AA%E6%88%91%E4%B8%8E%E6%97%B6%E4%BB%A3/" rel="section"><i class="fa fa-user fa-fw"></i>自我与时代</a>
 
   </li>
         <li class="menu-item menu-item-ai-读世界">
 
-    <a href="/tbblog/categories/AI-%E8%AF%BB%E4%B8%96%E7%95%8C/" rel="section"><i class="fa fa-robot fa-fw"></i>AI 读世界</a>
+    <a href="/categories/AI-%E8%AF%BB%E4%B8%96%E7%95%8C/" rel="section"><i class="fa fa-robot fa-fw"></i>AI 读世界</a>
 
   </li>
         <li class="menu-item menu-item-about">
 
-    <a href="/tbblog/about/" rel="section"><i class="fa fa-info-circle fa-fw"></i>关于</a>
+    <a href="/about/" rel="section"><i class="fa fa-info-circle fa-fw"></i>关于</a>
 
   </li>
       <li class="menu-item menu-item-search">
@@ -246,10 +246,10 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://mrle2021.github.io/tbblog/2026/05/12/ai-reading-world-research-workflow-for-essay/">
+    <link itemprop="mainEntityOfPage" href="https://blog.trailblazeblog.dpdns.org/2026/05/12/ai-reading-world-research-workflow-for-essay/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/tbblog/images/avatar.gif">
+      <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="Mr.Wang">
       <meta itemprop="description" content="用 AI 辅助的信息整理、哲学解释和人文判断，帮普通人理解正在变化的世界。">
     </span>
@@ -285,7 +285,7 @@
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/tbblog/categories/AI-%E8%AF%BB%E4%B8%96%E7%95%8C/" itemprop="url" rel="index"><span itemprop="name">AI 读世界</span></a>
+                  <a href="/categories/AI-%E8%AF%BB%E4%B8%96%E7%95%8C/" itemprop="url" rel="index"><span itemprop="name">AI 读世界</span></a>
                 </span>
             </span>
 
@@ -315,8 +315,8 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p><img src="/tbblog/images/ai-reading-world-research-workflow-for-essay/cover.webp" alt="AI 读世界：我如何用 AI 做一篇深度文章的资料整理？ 封面图"></p>
-<h2 id="为什么资料整理比写作本身更重要？"><a href="#为什么资料整理比写作本身更重要？" class="headerlink" title="为什么资料整理比写作本身更重要？"></a>为什么资料整理比写作本身更重要？</h2><p><img src="/tbblog/images/ai-reading-world-research-workflow-for-essay/fig-01.webp" alt="为什么资料整理比写作本身更重要？ 章节配图"><br>很多人以为写一篇深度文章，最难的是下笔。</p>
+        <p><img src="/images/ai-reading-world-research-workflow-for-essay/cover.webp" alt="AI 读世界：我如何用 AI 做一篇深度文章的资料整理？ 封面图"></p>
+<h2 id="为什么资料整理比写作本身更重要？"><a href="#为什么资料整理比写作本身更重要？" class="headerlink" title="为什么资料整理比写作本身更重要？"></a>为什么资料整理比写作本身更重要？</h2><p><img src="/images/ai-reading-world-research-workflow-for-essay/fig-01.webp" alt="为什么资料整理比写作本身更重要？ 章节配图"><br>很多人以为写一篇深度文章，最难的是下笔。</p>
 <p>但我越来越觉得，真正困难的不是写，而是整理。</p>
 <p>如果资料是散的，文章就会变成资料堆积；如果问题是模糊的，文章就会变成观点漂浮；如果证据没有分层，文章就会把事实、解释和情绪混在一起；如果没有反方观点，文章就会变成自我确认。</p>
 <p>所以，深度文章不是从 “我要写点什么” 开始，而是从一个更清楚的问题开始：</p>
@@ -324,7 +324,7 @@
 <p>我到底想解释什么？</p>
 </blockquote>
 <p>AI 对写作最有价值的地方，不是替我生成正文，而是帮助我把混乱的信息变成可以写作的结构。</p>
-<h2 id="第一步：先把题目改写成问题"><a href="#第一步：先把题目改写成问题" class="headerlink" title="第一步：先把题目改写成问题"></a>第一步：先把题目改写成问题</h2><p><img src="/tbblog/images/ai-reading-world-research-workflow-for-essay/fig-02.webp" alt="第一步：先把题目改写成问题 章节配图"><br>很多选题表面上是标题，实际上还不是问题。</p>
+<h2 id="第一步：先把题目改写成问题"><a href="#第一步：先把题目改写成问题" class="headerlink" title="第一步：先把题目改写成问题"></a>第一步：先把题目改写成问题</h2><p><img src="/images/ai-reading-world-research-workflow-for-essay/fig-02.webp" alt="第一步：先把题目改写成问题 章节配图"><br>很多选题表面上是标题，实际上还不是问题。</p>
 <p>比如：</p>
 <figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">AI 与新闻信任</span><br><span class="line">年轻人和长期主义</span><br><span class="line">现代焦虑</span><br><span class="line">系统性问题</span><br></pre></td></tr></tbody></table></figure>
 
@@ -342,7 +342,7 @@
 <li>长期主义是不是需要被重新定义？</li>
 </ul>
 <p>当问题变清楚，资料整理才有方向。</p>
-<h2 id="第二步：建立资料篮，而不是立刻筛选"><a href="#第二步：建立资料篮，而不是立刻筛选" class="headerlink" title="第二步：建立资料篮，而不是立刻筛选"></a>第二步：建立资料篮，而不是立刻筛选</h2><p><img src="/tbblog/images/ai-reading-world-research-workflow-for-essay/fig-03.webp" alt="第二步：建立资料篮，而不是立刻筛选 章节配图"><br>在最开始，我不会急着判断哪些资料有用。</p>
+<h2 id="第二步：建立资料篮，而不是立刻筛选"><a href="#第二步：建立资料篮，而不是立刻筛选" class="headerlink" title="第二步：建立资料篮，而不是立刻筛选"></a>第二步：建立资料篮，而不是立刻筛选</h2><p><img src="/images/ai-reading-world-research-workflow-for-essay/fig-03.webp" alt="第二步：建立资料篮，而不是立刻筛选 章节配图"><br>在最开始，我不会急着判断哪些资料有用。</p>
 <p>我会先建立一个 “资料篮”，把可能相关的材料都放进去。它可以包括：</p>
 <ul>
 <li>新闻报道</li>
@@ -362,7 +362,7 @@
 
 <p>这一步会让我知道自己缺什么。</p>
 <p>很多文章写得空，不是因为作者没有观点，而是因为资料类型太单一。只有评论，没有数据；只有数据，没有故事；只有个人感受，没有结构背景；只有宏大概念，没有具体案例。</p>
-<h2 id="第三步：让-AI-帮我做资料分类"><a href="#第三步：让-AI-帮我做资料分类" class="headerlink" title="第三步：让 AI 帮我做资料分类"></a>第三步：让 AI 帮我做资料分类</h2><p><img src="/tbblog/images/ai-reading-world-research-workflow-for-essay/fig-04.webp" alt="第三步：让 AI 帮我做资料分类 章节配图"><br>当资料变多之后，我会让 AI 帮我分类，而不是让它直接总结。</p>
+<h2 id="第三步：让-AI-帮我做资料分类"><a href="#第三步：让-AI-帮我做资料分类" class="headerlink" title="第三步：让 AI 帮我做资料分类"></a>第三步：让 AI 帮我做资料分类</h2><p><img src="/images/ai-reading-world-research-workflow-for-essay/fig-04.webp" alt="第三步：让 AI 帮我做资料分类 章节配图"><br>当资料变多之后，我会让 AI 帮我分类，而不是让它直接总结。</p>
 <p>我常用的提示词是：</p>
 <figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">下面是我收集的资料清单。</span><br><span class="line">请你不要写文章，也不要下结论。</span><br><span class="line">请先把资料分成几组：</span><br><span class="line"></span><br><span class="line">1. 事实和数据；</span><br><span class="line">2. 背景和历史；</span><br><span class="line">3. 支持我初步观点的材料；</span><br><span class="line">4. 反对或修正我观点的材料；</span><br><span class="line">5. 只能作为例子、不能作为证据的材料；</span><br><span class="line">6. 需要进一步核查的材料。</span><br></pre></td></tr></tbody></table></figure>
 
@@ -370,7 +370,7 @@
 <p>因为不是所有材料都具有同样价值。</p>
 <p>有些材料可以作为证据，有些只能作为案例；有些可以支撑论点，有些只能提供背景；有些看起来很有冲击力，但来源不稳定，只能暂时放着。</p>
 <p>资料分类的目的，是防止我把 “有感觉的材料” 误当成 “有证明力的材料”。</p>
-<h2 id="第四步：区分事实、解释和判断"><a href="#第四步：区分事实、解释和判断" class="headerlink" title="第四步：区分事实、解释和判断"></a>第四步：区分事实、解释和判断</h2><p><img src="/tbblog/images/ai-reading-world-research-workflow-for-essay/fig-05.webp" alt="第四步：区分事实、解释和判断 章节配图"><br>深度文章最容易混乱的地方，是把事实、解释和判断写在一起。</p>
+<h2 id="第四步：区分事实、解释和判断"><a href="#第四步：区分事实、解释和判断" class="headerlink" title="第四步：区分事实、解释和判断"></a>第四步：区分事实、解释和判断</h2><p><img src="/images/ai-reading-world-research-workflow-for-essay/fig-05.webp" alt="第四步：区分事实、解释和判断 章节配图"><br>深度文章最容易混乱的地方，是把事实、解释和判断写在一起。</p>
 <p>比如：</p>
 <figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">年轻人越来越不相信努力会有回报，因为社会流动变差了。</span><br></pre></td></tr></tbody></table></figure>
 
@@ -449,10 +449,10 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tbblog/tags/AI%E8%AF%BB%E4%B8%96%E7%95%8C/" rel="tag"># AI读世界</a>
-              <a href="/tbblog/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/" rel="tag"># 方法论</a>
-              <a href="/tbblog/tags/%E4%BF%A1%E6%81%AF%E6%95%B4%E7%90%86/" rel="tag"># 信息整理</a>
-              <a href="/tbblog/tags/AI%E5%86%99%E4%BD%9C/" rel="tag"># AI写作</a>
+              <a href="/tags/AI%E8%AF%BB%E4%B8%96%E7%95%8C/" rel="tag"># AI读世界</a>
+              <a href="/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/" rel="tag"># 方法论</a>
+              <a href="/tags/%E4%BF%A1%E6%81%AF%E6%95%B4%E7%90%86/" rel="tag"># 信息整理</a>
+              <a href="/tags/AI%E5%86%99%E4%BD%9C/" rel="tag"># AI写作</a>
           </div>
 
         
@@ -461,11 +461,11 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/tbblog/2026/05/12/thinking-toolbox-systemic-problem/" rel="prev" title="思想工具箱：什么是 “系统性问题”？">
+    <a href="/2026/05/12/thinking-toolbox-systemic-problem/" rel="prev" title="思想工具箱：什么是 “系统性问题”？">
       <i class="fa fa-chevron-left"></i> 思想工具箱：什么是 “系统性问题”？
     </a></div>
       <div class="post-nav-item">
-    <a href="/tbblog/2026/05/12/image-sound-her-ai-intimacy/" rel="next" title="影像与声音：《她》为什么适合解释 AI 时代的亲密关系？">
+    <a href="/2026/05/12/image-sound-her-ai-intimacy/" rel="next" title="影像与声音：《她》为什么适合解释 AI 时代的亲密关系？">
       影像与声音：《她》为什么适合解释 AI 时代的亲密关系？ <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
@@ -538,19 +538,19 @@
 <div class="site-state-wrap motion-element">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
-          <a href="/tbblog/archives/">
+          <a href="/archives/">
         
-          <span class="site-state-item-count">31</span>
+          <span class="site-state-item-count">32</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
-            <a href="/tbblog/categories/">
-        <span class="site-state-item-count">5</span>
+            <a href="/categories/">
+        <span class="site-state-item-count">6</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
-            <a href="/tbblog/tags/">
+            <a href="/tags/">
         <span class="site-state-item-count">50</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
@@ -587,12 +587,12 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="站点总字数">97k</span>
+    <span title="站点总字数">100k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">1:28</span>
+    <span title="站点阅读时长">1:31</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
   </div>
@@ -611,30 +611,30 @@
   </div>
 
   
-  <script src="/tbblog/lib/anime.min.js"></script>
-  <script src="/tbblog/lib/velocity/velocity.min.js"></script>
-  <script src="/tbblog/lib/velocity/velocity.ui.min.js"></script>
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
 
-<script src="/tbblog/js/utils.js"></script>
+<script src="/js/utils.js"></script>
 
-<script src="/tbblog/js/motion.js"></script>
-
-
-<script src="/tbblog/js/schemes/muse.js"></script>
+<script src="/js/motion.js"></script>
 
 
-<script src="/tbblog/js/next-boot.js"></script>
+<script src="/js/schemes/muse.js"></script>
 
 
-
-
-  
+<script src="/js/next-boot.js"></script>
 
 
 
 
   
-<script src="/tbblog/js/local-search.js"></script>
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
 
 
 

@@ -4,25 +4,37 @@
     <name>Mr.Wang</name>
   </author>
   <generator uri="https://hexo.io/">Hexo</generator>
-  <icon>https://mrle2021.github.io/tbblog/images/site-cover.jpg</icon>
-  <id>https://mrle2021.github.io/tbblog/</id>
-  <link href="https://mrle2021.github.io/tbblog/" rel="alternate"/>
-  <link href="https://mrle2021.github.io/tbblog/atom.xml" rel="self"/>
+  <icon>https://blog.trailblazeblog.dpdns.org/images/site-cover.jpg</icon>
+  <id>https://blog.trailblazeblog.dpdns.org/</id>
+  <link href="https://blog.trailblazeblog.dpdns.org/" rel="alternate"/>
+  <link href="https://blog.trailblazeblog.dpdns.org/atom.xml" rel="self"/>
   <rights>All rights reserved 2026, Mr.Wang</rights>
   <subtitle>用 AI 辅助的信息整理、哲学解释和人文判断，理解正在变化的世界</subtitle>
   <title>Trailblaze Blog</title>
-  <updated>2026-05-16T05:41:31.566Z</updated>
+  <updated>2026-10-07T13:55:39.415Z</updated>
   <entry>
     <author>
       <name>Mr.Wang</name>
     </author>
-    <category term="影像与声音" scheme="https://mrle2021.github.io/tbblog/categories/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/"/>
-    <category term="电影推荐" scheme="https://mrle2021.github.io/tbblog/tags/%E7%94%B5%E5%BD%B1%E6%8E%A8%E8%8D%90/"/>
-    <category term="影像与声音" scheme="https://mrle2021.github.io/tbblog/tags/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/"/>
-    <category term="社交媒体" scheme="https://mrle2021.github.io/tbblog/tags/%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93/"/>
-    <category term="现代焦虑" scheme="https://mrle2021.github.io/tbblog/tags/%E7%8E%B0%E4%BB%A3%E7%84%A6%E8%99%91/"/>
-    <id>https://mrle2021.github.io/tbblog/2026/05/16/image-sound-the-social-network-success-anxiety/</id>
-    <link href="https://mrle2021.github.io/tbblog/2026/05/16/image-sound-the-social-network-success-anxiety/"/>
+    <category term="日拱一卒" scheme="https://blog.trailblazeblog.dpdns.org/categories/%E6%97%A5%E6%8B%B1%E4%B8%80%E5%8D%92/"/>
+    <id>https://blog.trailblazeblog.dpdns.org/2026/10/07/personal-content-production-system/</id>
+    <link href="https://blog.trailblazeblog.dpdns.org/2026/10/07/personal-content-production-system/"/>
+    <published>2026-10-07T13:55:39.000Z</published>
+    <summary>我最近用 Obsidian、Finder、ChatGPT、Desktop Commander、Hexo 和 Git 搭了一套半自动内容生产系统。真正想解决的不是“如何让 AI 自动写博客”，而是怎样把日常灵感、阅读和素材逐步沉淀成自己的思想资产。</summary>
+    <title>我正在搭建一套怎样的个人内容生产系统：从灵感到长期知识资产</title>
+    <updated>2026-10-07T13:55:39.415Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Mr.Wang</name>
+    </author>
+    <category term="影像与声音" scheme="https://blog.trailblazeblog.dpdns.org/categories/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/"/>
+    <category term="电影推荐" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E7%94%B5%E5%BD%B1%E6%8E%A8%E8%8D%90/"/>
+    <category term="影像与声音" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/"/>
+    <category term="社交媒体" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93/"/>
+    <category term="现代焦虑" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E7%8E%B0%E4%BB%A3%E7%84%A6%E8%99%91/"/>
+    <id>https://blog.trailblazeblog.dpdns.org/2026/05/16/image-sound-the-social-network-success-anxiety/</id>
+    <link href="https://blog.trailblazeblog.dpdns.org/2026/05/16/image-sound-the-social-network-success-anxiety/"/>
     <published>2026-05-16T03:35:00.000Z</published>
     <summary>《社交网络》不只是 Facebook 的创业故事，它更像一部关于平台时代成功焦虑的电影：被看见、被比较、被认可，以及把关系转化为数据和地位的现代困境。</summary>
     <title>影像与声音：《社交网络》为什么适合解释平台时代的成功焦虑？</title>
@@ -32,13 +44,13 @@
     <author>
       <name>Mr.Wang</name>
     </author>
-    <category term="AI 读世界" scheme="https://mrle2021.github.io/tbblog/categories/AI-%E8%AF%BB%E4%B8%96%E7%95%8C/"/>
-    <category term="AI读世界" scheme="https://mrle2021.github.io/tbblog/tags/AI%E8%AF%BB%E4%B8%96%E7%95%8C/"/>
-    <category term="方法论" scheme="https://mrle2021.github.io/tbblog/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/"/>
-    <category term="信息整理" scheme="https://mrle2021.github.io/tbblog/tags/%E4%BF%A1%E6%81%AF%E6%95%B4%E7%90%86/"/>
-    <category term="个人知识系统" scheme="https://mrle2021.github.io/tbblog/tags/%E4%B8%AA%E4%BA%BA%E7%9F%A5%E8%AF%86%E7%B3%BB%E7%BB%9F/"/>
-    <id>https://mrle2021.github.io/tbblog/2026/05/16/ai-reading-world-news-watchlist/</id>
-    <link href="https://mrle2021.github.io/tbblog/2026/05/16/ai-reading-world-news-watchlist/"/>
+    <category term="AI 读世界" scheme="https://blog.trailblazeblog.dpdns.org/categories/AI-%E8%AF%BB%E4%B8%96%E7%95%8C/"/>
+    <category term="AI读世界" scheme="https://blog.trailblazeblog.dpdns.org/tags/AI%E8%AF%BB%E4%B8%96%E7%95%8C/"/>
+    <category term="方法论" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/"/>
+    <category term="信息整理" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E4%BF%A1%E6%81%AF%E6%95%B4%E7%90%86/"/>
+    <category term="个人知识系统" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E4%B8%AA%E4%BA%BA%E7%9F%A5%E8%AF%86%E7%B3%BB%E7%BB%9F/"/>
+    <id>https://blog.trailblazeblog.dpdns.org/2026/05/16/ai-reading-world-news-watchlist/</id>
+    <link href="https://blog.trailblazeblog.dpdns.org/2026/05/16/ai-reading-world-news-watchlist/"/>
     <published>2026-05-16T03:10:00.000Z</published>
     <summary>新闻观察清单不是热点收藏夹，而是一套长期追踪世界变化的个人系统。本文记录如何用 AI 建立议题、来源、指标、问题和复盘机制，让新闻阅读从被动刷新变成主动观察。</summary>
     <title>AI 读世界：我如何用 AI 建立自己的新闻观察清单？</title>
@@ -48,13 +60,13 @@
     <author>
       <name>Mr.Wang</name>
     </author>
-    <category term="思想工具箱" scheme="https://mrle2021.github.io/tbblog/categories/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
-    <category term="批判性思维" scheme="https://mrle2021.github.io/tbblog/tags/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B4/"/>
-    <category term="思想工具箱" scheme="https://mrle2021.github.io/tbblog/tags/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
-    <category term="媒体素养" scheme="https://mrle2021.github.io/tbblog/tags/%E5%AA%92%E4%BD%93%E7%B4%A0%E5%85%BB/"/>
-    <category term="叙事" scheme="https://mrle2021.github.io/tbblog/tags/%E5%8F%99%E4%BA%8B/"/>
-    <id>https://mrle2021.github.io/tbblog/2026/05/16/thinking-toolbox-narrative/</id>
-    <link href="https://mrle2021.github.io/tbblog/2026/05/16/thinking-toolbox-narrative/"/>
+    <category term="思想工具箱" scheme="https://blog.trailblazeblog.dpdns.org/categories/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
+    <category term="批判性思维" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B4/"/>
+    <category term="思想工具箱" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
+    <category term="媒体素养" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E5%AA%92%E4%BD%93%E7%B4%A0%E5%85%BB/"/>
+    <category term="叙事" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E5%8F%99%E4%BA%8B/"/>
+    <id>https://blog.trailblazeblog.dpdns.org/2026/05/16/thinking-toolbox-narrative/</id>
+    <link href="https://blog.trailblazeblog.dpdns.org/2026/05/16/thinking-toolbox-narrative/"/>
     <published>2026-05-16T02:45:00.000Z</published>
     <summary>叙事不是简单讲故事，而是选择事实、安排顺序、解释因果、分配责任和制造意义的方式。理解叙事，能帮助我们看清为什么同一件事会被讲成完全不同的故事。</summary>
     <title>思想工具箱：什么是 “叙事”？为什么同一件事会被讲成不同故事？</title>
@@ -64,13 +76,13 @@
     <author>
       <name>Mr.Wang</name>
     </author>
-    <category term="世界观察" scheme="https://mrle2021.github.io/tbblog/categories/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
-    <category term="世界观察" scheme="https://mrle2021.github.io/tbblog/tags/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
-    <category term="信息过载" scheme="https://mrle2021.github.io/tbblog/tags/%E4%BF%A1%E6%81%AF%E8%BF%87%E8%BD%BD/"/>
-    <category term="深度阅读" scheme="https://mrle2021.github.io/tbblog/tags/%E6%B7%B1%E5%BA%A6%E9%98%85%E8%AF%BB/"/>
-    <category term="注意力" scheme="https://mrle2021.github.io/tbblog/tags/%E6%B3%A8%E6%84%8F%E5%8A%9B/"/>
-    <id>https://mrle2021.github.io/tbblog/2026/05/16/world-observation-008-deep-reading-is-hard/</id>
-    <link href="https://mrle2021.github.io/tbblog/2026/05/16/world-observation-008-deep-reading-is-hard/"/>
+    <category term="世界观察" scheme="https://blog.trailblazeblog.dpdns.org/categories/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
+    <category term="世界观察" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
+    <category term="信息过载" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E4%BF%A1%E6%81%AF%E8%BF%87%E8%BD%BD/"/>
+    <category term="深度阅读" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E6%B7%B1%E5%BA%A6%E9%98%85%E8%AF%BB/"/>
+    <category term="注意力" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E6%B3%A8%E6%84%8F%E5%8A%9B/"/>
+    <id>https://blog.trailblazeblog.dpdns.org/2026/05/16/world-observation-008-deep-reading-is-hard/</id>
+    <link href="https://blog.trailblazeblog.dpdns.org/2026/05/16/world-observation-008-deep-reading-is-hard/"/>
     <published>2026-05-16T02:20:00.000Z</published>
     <summary>深度阅读变难，并不只是因为我们变懒了，而是注意力环境、平台机制、生活压力和信息消费方式共同改变了我们的阅读能力。本文分析为什么我们越来越难真正读进去。</summary>
     <title>世界观察 008：为什么我们越来越难进行深度阅读？</title>
@@ -80,13 +92,13 @@
     <author>
       <name>Mr.Wang</name>
     </author>
-    <category term="自我与时代" scheme="https://mrle2021.github.io/tbblog/categories/%E8%87%AA%E6%88%91%E4%B8%8E%E6%97%B6%E4%BB%A3/"/>
-    <category term="自我认知" scheme="https://mrle2021.github.io/tbblog/tags/%E8%87%AA%E6%88%91%E8%AE%A4%E7%9F%A5/"/>
-    <category term="现代焦虑" scheme="https://mrle2021.github.io/tbblog/tags/%E7%8E%B0%E4%BB%A3%E7%84%A6%E8%99%91/"/>
-    <category term="自我与时代" scheme="https://mrle2021.github.io/tbblog/tags/%E8%87%AA%E6%88%91%E4%B8%8E%E6%97%B6%E4%BB%A3/"/>
-    <category term="社会比较" scheme="https://mrle2021.github.io/tbblog/tags/%E7%A4%BE%E4%BC%9A%E6%AF%94%E8%BE%83/"/>
-    <id>https://mrle2021.github.io/tbblog/2026/05/13/self-and-era-fear-of-being-ordinary/</id>
-    <link href="https://mrle2021.github.io/tbblog/2026/05/13/self-and-era-fear-of-being-ordinary/"/>
+    <category term="自我与时代" scheme="https://blog.trailblazeblog.dpdns.org/categories/%E8%87%AA%E6%88%91%E4%B8%8E%E6%97%B6%E4%BB%A3/"/>
+    <category term="自我认知" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E8%87%AA%E6%88%91%E8%AE%A4%E7%9F%A5/"/>
+    <category term="现代焦虑" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E7%8E%B0%E4%BB%A3%E7%84%A6%E8%99%91/"/>
+    <category term="自我与时代" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E8%87%AA%E6%88%91%E4%B8%8E%E6%97%B6%E4%BB%A3/"/>
+    <category term="社会比较" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E7%A4%BE%E4%BC%9A%E6%AF%94%E8%BE%83/"/>
+    <id>https://blog.trailblazeblog.dpdns.org/2026/05/13/self-and-era-fear-of-being-ordinary/</id>
+    <link href="https://blog.trailblazeblog.dpdns.org/2026/05/13/self-and-era-fear-of-being-ordinary/"/>
     <published>2026-05-12T17:10:00.000Z</published>
     <summary>我们越来越害怕成为普通人，并不只是因为虚荣，而是因为现代社会把普通和失败、不可见、低价值绑定在一起。本文讨论普通焦虑背后的评价体系和生活想象。</summary>
     <title>自我与时代：为什么我们越来越害怕成为普通人？</title>
@@ -96,13 +108,13 @@
     <author>
       <name>Mr.Wang</name>
     </author>
-    <category term="AI 读世界" scheme="https://mrle2021.github.io/tbblog/categories/AI-%E8%AF%BB%E4%B8%96%E7%95%8C/"/>
-    <category term="AI读世界" scheme="https://mrle2021.github.io/tbblog/tags/AI%E8%AF%BB%E4%B8%96%E7%95%8C/"/>
-    <category term="AI" scheme="https://mrle2021.github.io/tbblog/tags/AI/"/>
-    <category term="批判性思维" scheme="https://mrle2021.github.io/tbblog/tags/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B4/"/>
-    <category term="方法论" scheme="https://mrle2021.github.io/tbblog/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/"/>
-    <id>https://mrle2021.github.io/tbblog/2026/05/13/ai-reading-world-ai-detect-my-bias/</id>
-    <link href="https://mrle2021.github.io/tbblog/2026/05/13/ai-reading-world-ai-detect-my-bias/"/>
+    <category term="AI 读世界" scheme="https://blog.trailblazeblog.dpdns.org/categories/AI-%E8%AF%BB%E4%B8%96%E7%95%8C/"/>
+    <category term="AI读世界" scheme="https://blog.trailblazeblog.dpdns.org/tags/AI%E8%AF%BB%E4%B8%96%E7%95%8C/"/>
+    <category term="AI" scheme="https://blog.trailblazeblog.dpdns.org/tags/AI/"/>
+    <category term="方法论" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/"/>
+    <category term="批判性思维" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B4/"/>
+    <id>https://blog.trailblazeblog.dpdns.org/2026/05/13/ai-reading-world-ai-detect-my-bias/</id>
+    <link href="https://blog.trailblazeblog.dpdns.org/2026/05/13/ai-reading-world-ai-detect-my-bias/"/>
     <published>2026-05-12T16:55:00.000Z</published>
     <summary>AI 不能替我决定什么是真理，但它可以帮助我看见自己忽略了什么、预设了什么、过早相信了什么。本文记录一套用 AI 发现自身偏见的思考方法。</summary>
     <title>AI 读世界：我如何让 AI 帮我发现自己的偏见？</title>
@@ -112,13 +124,13 @@
     <author>
       <name>Mr.Wang</name>
     </author>
-    <category term="思想工具箱" scheme="https://mrle2021.github.io/tbblog/categories/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
-    <category term="批判性思维" scheme="https://mrle2021.github.io/tbblog/tags/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B4/"/>
-    <category term="思想工具箱" scheme="https://mrle2021.github.io/tbblog/tags/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
-    <category term="激励机制" scheme="https://mrle2021.github.io/tbblog/tags/%E6%BF%80%E5%8A%B1%E6%9C%BA%E5%88%B6/"/>
-    <category term="制度设计" scheme="https://mrle2021.github.io/tbblog/tags/%E5%88%B6%E5%BA%A6%E8%AE%BE%E8%AE%A1/"/>
-    <id>https://mrle2021.github.io/tbblog/2026/05/13/thinking-toolbox-incentive-mechanism/</id>
-    <link href="https://mrle2021.github.io/tbblog/2026/05/13/thinking-toolbox-incentive-mechanism/"/>
+    <category term="思想工具箱" scheme="https://blog.trailblazeblog.dpdns.org/categories/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
+    <category term="批判性思维" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B4/"/>
+    <category term="思想工具箱" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
+    <category term="激励机制" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E6%BF%80%E5%8A%B1%E6%9C%BA%E5%88%B6/"/>
+    <category term="制度设计" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E5%88%B6%E5%BA%A6%E8%AE%BE%E8%AE%A1/"/>
+    <id>https://blog.trailblazeblog.dpdns.org/2026/05/13/thinking-toolbox-incentive-mechanism/</id>
+    <link href="https://blog.trailblazeblog.dpdns.org/2026/05/13/thinking-toolbox-incentive-mechanism/"/>
     <published>2026-05-12T16:40:00.000Z</published>
     <summary>激励机制不是一句冷冰冰的管理术语，而是理解现实世界的重要工具。它解释了为什么很多人明知道什么是对的，却仍然会选择对自己更有利、更安全或更省力的行动。</summary>
     <title>思想工具箱：什么是 “激励机制”？为什么人不总是按道德行动？</title>
@@ -128,13 +140,13 @@
     <author>
       <name>Mr.Wang</name>
     </author>
-    <category term="世界观察" scheme="https://mrle2021.github.io/tbblog/categories/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
-    <category term="社交媒体" scheme="https://mrle2021.github.io/tbblog/tags/%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93/"/>
-    <category term="媒体素养" scheme="https://mrle2021.github.io/tbblog/tags/%E5%AA%92%E4%BD%93%E7%B4%A0%E5%85%BB/"/>
-    <category term="世界观察" scheme="https://mrle2021.github.io/tbblog/tags/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
-    <category term="公共讨论" scheme="https://mrle2021.github.io/tbblog/tags/%E5%85%AC%E5%85%B1%E8%AE%A8%E8%AE%BA/"/>
-    <id>https://mrle2021.github.io/tbblog/2026/05/13/world-observation-007-public-discourse-emotional-war/</id>
-    <link href="https://mrle2021.github.io/tbblog/2026/05/13/world-observation-007-public-discourse-emotional-war/"/>
+    <category term="世界观察" scheme="https://blog.trailblazeblog.dpdns.org/categories/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
+    <category term="社交媒体" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93/"/>
+    <category term="媒体素养" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E5%AA%92%E4%BD%93%E7%B4%A0%E5%85%BB/"/>
+    <category term="世界观察" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
+    <category term="公共讨论" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E5%85%AC%E5%85%B1%E8%AE%A8%E8%AE%BA/"/>
+    <id>https://blog.trailblazeblog.dpdns.org/2026/05/13/world-observation-007-public-discourse-emotional-war/</id>
+    <link href="https://blog.trailblazeblog.dpdns.org/2026/05/13/world-observation-007-public-discourse-emotional-war/"/>
     <published>2026-05-12T16:25:00.000Z</published>
     <summary>公共讨论越来越像情绪战争，并不是因为人突然变得不理性，而是平台激励、身份焦虑、信任下降和信息过载共同改变了讨论结构。本文分析公共讨论为什么越来越难好好说话。</summary>
     <title>世界观察 007：为什么公共讨论越来越像情绪战争？</title>
@@ -144,13 +156,13 @@
     <author>
       <name>Mr.Wang</name>
     </author>
-    <category term="影像与声音" scheme="https://mrle2021.github.io/tbblog/categories/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/"/>
-    <category term="AI" scheme="https://mrle2021.github.io/tbblog/tags/AI/"/>
-    <category term="电影推荐" scheme="https://mrle2021.github.io/tbblog/tags/%E7%94%B5%E5%BD%B1%E6%8E%A8%E8%8D%90/"/>
-    <category term="影像与声音" scheme="https://mrle2021.github.io/tbblog/tags/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/"/>
-    <category term="亲密关系" scheme="https://mrle2021.github.io/tbblog/tags/%E4%BA%B2%E5%AF%86%E5%85%B3%E7%B3%BB/"/>
-    <id>https://mrle2021.github.io/tbblog/2026/05/12/image-sound-her-ai-intimacy/</id>
-    <link href="https://mrle2021.github.io/tbblog/2026/05/12/image-sound-her-ai-intimacy/"/>
+    <category term="影像与声音" scheme="https://blog.trailblazeblog.dpdns.org/categories/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/"/>
+    <category term="AI" scheme="https://blog.trailblazeblog.dpdns.org/tags/AI/"/>
+    <category term="电影推荐" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E7%94%B5%E5%BD%B1%E6%8E%A8%E8%8D%90/"/>
+    <category term="影像与声音" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/"/>
+    <category term="亲密关系" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E4%BA%B2%E5%AF%86%E5%85%B3%E7%B3%BB/"/>
+    <id>https://blog.trailblazeblog.dpdns.org/2026/05/12/image-sound-her-ai-intimacy/</id>
+    <link href="https://blog.trailblazeblog.dpdns.org/2026/05/12/image-sound-her-ai-intimacy/"/>
     <published>2026-05-12T03:35:00.000Z</published>
     <summary>电影《她》不只是一个人爱上 AI 的故事，它更适合解释 AI 时代的亲密关系：被理解的幻觉、情感外包、孤独、陪伴和人的不可替代性。</summary>
     <title>影像与声音：《她》为什么适合解释 AI 时代的亲密关系？</title>
@@ -160,13 +172,13 @@
     <author>
       <name>Mr.Wang</name>
     </author>
-    <category term="AI 读世界" scheme="https://mrle2021.github.io/tbblog/categories/AI-%E8%AF%BB%E4%B8%96%E7%95%8C/"/>
-    <category term="AI读世界" scheme="https://mrle2021.github.io/tbblog/tags/AI%E8%AF%BB%E4%B8%96%E7%95%8C/"/>
-    <category term="方法论" scheme="https://mrle2021.github.io/tbblog/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/"/>
-    <category term="信息整理" scheme="https://mrle2021.github.io/tbblog/tags/%E4%BF%A1%E6%81%AF%E6%95%B4%E7%90%86/"/>
-    <category term="AI写作" scheme="https://mrle2021.github.io/tbblog/tags/AI%E5%86%99%E4%BD%9C/"/>
-    <id>https://mrle2021.github.io/tbblog/2026/05/12/ai-reading-world-research-workflow-for-essay/</id>
-    <link href="https://mrle2021.github.io/tbblog/2026/05/12/ai-reading-world-research-workflow-for-essay/"/>
+    <category term="AI 读世界" scheme="https://blog.trailblazeblog.dpdns.org/categories/AI-%E8%AF%BB%E4%B8%96%E7%95%8C/"/>
+    <category term="AI读世界" scheme="https://blog.trailblazeblog.dpdns.org/tags/AI%E8%AF%BB%E4%B8%96%E7%95%8C/"/>
+    <category term="方法论" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/"/>
+    <category term="信息整理" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E4%BF%A1%E6%81%AF%E6%95%B4%E7%90%86/"/>
+    <category term="AI写作" scheme="https://blog.trailblazeblog.dpdns.org/tags/AI%E5%86%99%E4%BD%9C/"/>
+    <id>https://blog.trailblazeblog.dpdns.org/2026/05/12/ai-reading-world-research-workflow-for-essay/</id>
+    <link href="https://blog.trailblazeblog.dpdns.org/2026/05/12/ai-reading-world-research-workflow-for-essay/"/>
     <published>2026-05-12T03:15:00.000Z</published>
     <summary>深度文章不是把资料堆起来，而是围绕一个问题建立证据、背景、分歧和判断。本文记录一套用 AI 做资料整理的工作流，帮助把信息转化为可写作的结构。</summary>
     <title>AI 读世界：我如何用 AI 做一篇深度文章的资料整理？</title>
@@ -176,13 +188,13 @@
     <author>
       <name>Mr.Wang</name>
     </author>
-    <category term="思想工具箱" scheme="https://mrle2021.github.io/tbblog/categories/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
-    <category term="批判性思维" scheme="https://mrle2021.github.io/tbblog/tags/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B4/"/>
-    <category term="方法论" scheme="https://mrle2021.github.io/tbblog/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/"/>
-    <category term="思想工具箱" scheme="https://mrle2021.github.io/tbblog/tags/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
-    <category term="系统性问题" scheme="https://mrle2021.github.io/tbblog/tags/%E7%B3%BB%E7%BB%9F%E6%80%A7%E9%97%AE%E9%A2%98/"/>
-    <id>https://mrle2021.github.io/tbblog/2026/05/12/thinking-toolbox-systemic-problem/</id>
-    <link href="https://mrle2021.github.io/tbblog/2026/05/12/thinking-toolbox-systemic-problem/"/>
+    <category term="思想工具箱" scheme="https://blog.trailblazeblog.dpdns.org/categories/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
+    <category term="方法论" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/"/>
+    <category term="批判性思维" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B4/"/>
+    <category term="思想工具箱" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
+    <category term="系统性问题" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E7%B3%BB%E7%BB%9F%E6%80%A7%E9%97%AE%E9%A2%98/"/>
+    <id>https://blog.trailblazeblog.dpdns.org/2026/05/12/thinking-toolbox-systemic-problem/</id>
+    <link href="https://blog.trailblazeblog.dpdns.org/2026/05/12/thinking-toolbox-systemic-problem/"/>
     <published>2026-05-12T02:55:00.000Z</published>
     <summary>系统性问题不是一句逃避责任的话，而是提醒我们：很多现实困境不是单个坏人、单次失误或个人选择造成的。本文解释什么是系统性问题，以及如何避免把复杂问题简单化。</summary>
     <title>思想工具箱：什么是 “系统性问题”？</title>
@@ -192,13 +204,13 @@
     <author>
       <name>Mr.Wang</name>
     </author>
-    <category term="世界观察" scheme="https://mrle2021.github.io/tbblog/categories/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
-    <category term="社会议题" scheme="https://mrle2021.github.io/tbblog/tags/%E7%A4%BE%E4%BC%9A%E8%AE%AE%E9%A2%98/"/>
-    <category term="现代焦虑" scheme="https://mrle2021.github.io/tbblog/tags/%E7%8E%B0%E4%BB%A3%E7%84%A6%E8%99%91/"/>
-    <category term="世界观察" scheme="https://mrle2021.github.io/tbblog/tags/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
-    <category term="长期主义" scheme="https://mrle2021.github.io/tbblog/tags/%E9%95%BF%E6%9C%9F%E4%B8%BB%E4%B9%89/"/>
-    <id>https://mrle2021.github.io/tbblog/2026/05/12/world-observation-006-why-long-termism-is-hard/</id>
-    <link href="https://mrle2021.github.io/tbblog/2026/05/12/world-observation-006-why-long-termism-is-hard/"/>
+    <category term="世界观察" scheme="https://blog.trailblazeblog.dpdns.org/categories/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
+    <category term="社会议题" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E7%A4%BE%E4%BC%9A%E8%AE%AE%E9%A2%98/"/>
+    <category term="现代焦虑" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E7%8E%B0%E4%BB%A3%E7%84%A6%E8%99%91/"/>
+    <category term="世界观察" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
+    <category term="长期主义" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E9%95%BF%E6%9C%9F%E4%B8%BB%E4%B9%89/"/>
+    <id>https://blog.trailblazeblog.dpdns.org/2026/05/12/world-observation-006-why-long-termism-is-hard/</id>
+    <link href="https://blog.trailblazeblog.dpdns.org/2026/05/12/world-observation-006-why-long-termism-is-hard/"/>
     <published>2026-05-12T02:30:00.000Z</published>
     <summary>长期主义不是一句励志口号，而是一种需要稳定预期、现实回报和心理安全感支撑的能力。本文从就业不确定、生活成本、算法即时反馈和未来焦虑解释长期主义为什么变难。</summary>
     <title>世界观察 006：为什么我们越来越难拥有长期主义？</title>
@@ -208,13 +220,13 @@
     <author>
       <name>Mr.Wang</name>
     </author>
-    <category term="AI 读世界" scheme="https://mrle2021.github.io/tbblog/categories/AI-%E8%AF%BB%E4%B8%96%E7%95%8C/"/>
-    <category term="AI读世界" scheme="https://mrle2021.github.io/tbblog/tags/AI%E8%AF%BB%E4%B8%96%E7%95%8C/"/>
-    <category term="AI" scheme="https://mrle2021.github.io/tbblog/tags/AI/"/>
-    <category term="方法论" scheme="https://mrle2021.github.io/tbblog/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/"/>
-    <category term="事实核查" scheme="https://mrle2021.github.io/tbblog/tags/%E4%BA%8B%E5%AE%9E%E6%A0%B8%E6%9F%A5/"/>
-    <id>https://mrle2021.github.io/tbblog/2026/05/12/ai-reading-world-how-much-trust-ai-answers/</id>
-    <link href="https://mrle2021.github.io/tbblog/2026/05/12/ai-reading-world-how-much-trust-ai-answers/"/>
+    <category term="AI 读世界" scheme="https://blog.trailblazeblog.dpdns.org/categories/AI-%E8%AF%BB%E4%B8%96%E7%95%8C/"/>
+    <category term="AI读世界" scheme="https://blog.trailblazeblog.dpdns.org/tags/AI%E8%AF%BB%E4%B8%96%E7%95%8C/"/>
+    <category term="AI" scheme="https://blog.trailblazeblog.dpdns.org/tags/AI/"/>
+    <category term="事实核查" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E4%BA%8B%E5%AE%9E%E6%A0%B8%E6%9F%A5/"/>
+    <category term="方法论" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/"/>
+    <id>https://blog.trailblazeblog.dpdns.org/2026/05/12/ai-reading-world-how-much-trust-ai-answers/</id>
+    <link href="https://blog.trailblazeblog.dpdns.org/2026/05/12/ai-reading-world-how-much-trust-ai-answers/"/>
     <published>2026-05-11T16:40:00.000Z</published>
     <summary>AI 的答案常常完整、流畅、像真的，但这不等于它一定可靠。本文从事实核查、来源追踪、幻觉、解释框架和个人判断出发，讨论我们应该如何信任 AI。</summary>
     <title>AI 读世界：AI 给我的答案，我应该相信多少？</title>
@@ -224,13 +236,13 @@
     <author>
       <name>Mr.Wang</name>
     </author>
-    <category term="世界观察" scheme="https://mrle2021.github.io/tbblog/categories/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
-    <category term="社会议题" scheme="https://mrle2021.github.io/tbblog/tags/%E7%A4%BE%E4%BC%9A%E8%AE%AE%E9%A2%98/"/>
-    <category term="现代焦虑" scheme="https://mrle2021.github.io/tbblog/tags/%E7%8E%B0%E4%BB%A3%E7%84%A6%E8%99%91/"/>
-    <category term="世界观察" scheme="https://mrle2021.github.io/tbblog/tags/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
-    <category term="心理健康" scheme="https://mrle2021.github.io/tbblog/tags/%E5%BF%83%E7%90%86%E5%81%A5%E5%BA%B7/"/>
-    <id>https://mrle2021.github.io/tbblog/2026/05/12/world-observation-005-developed-society-anxiety/</id>
-    <link href="https://mrle2021.github.io/tbblog/2026/05/12/world-observation-005-developed-society-anxiety/"/>
+    <category term="世界观察" scheme="https://blog.trailblazeblog.dpdns.org/categories/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
+    <category term="社会议题" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E7%A4%BE%E4%BC%9A%E8%AE%AE%E9%A2%98/"/>
+    <category term="现代焦虑" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E7%8E%B0%E4%BB%A3%E7%84%A6%E8%99%91/"/>
+    <category term="世界观察" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
+    <category term="心理健康" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E5%BF%83%E7%90%86%E5%81%A5%E5%BA%B7/"/>
+    <id>https://blog.trailblazeblog.dpdns.org/2026/05/12/world-observation-005-developed-society-anxiety/</id>
+    <link href="https://blog.trailblazeblog.dpdns.org/2026/05/12/world-observation-005-developed-society-anxiety/"/>
     <published>2026-05-11T16:25:00.000Z</published>
     <summary>现代社会提供了更多选择、技术和便利，却没有自动带来更稳定的内心。本文从选择过载、比较机制、身份压力、孤独感和未来不确定性解释现代焦虑。</summary>
     <title>世界观察 005：为什么社会越发达，人反而越焦虑？</title>
@@ -240,13 +252,13 @@
     <author>
       <name>Mr.Wang</name>
     </author>
-    <category term="影像与声音" scheme="https://mrle2021.github.io/tbblog/categories/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/"/>
-    <category term="电影推荐" scheme="https://mrle2021.github.io/tbblog/tags/%E7%94%B5%E5%BD%B1%E6%8E%A8%E8%8D%90/"/>
-    <category term="影像与声音" scheme="https://mrle2021.github.io/tbblog/tags/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/"/>
-    <category term="黑客帝国" scheme="https://mrle2021.github.io/tbblog/tags/%E9%BB%91%E5%AE%A2%E5%B8%9D%E5%9B%BD/"/>
-    <category term="真实" scheme="https://mrle2021.github.io/tbblog/tags/%E7%9C%9F%E5%AE%9E/"/>
-    <id>https://mrle2021.github.io/tbblog/2026/05/12/image-sound-matrix-explains-today/</id>
-    <link href="https://mrle2021.github.io/tbblog/2026/05/12/image-sound-matrix-explains-today/"/>
+    <category term="影像与声音" scheme="https://blog.trailblazeblog.dpdns.org/categories/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/"/>
+    <category term="电影推荐" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E7%94%B5%E5%BD%B1%E6%8E%A8%E8%8D%90/"/>
+    <category term="影像与声音" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/"/>
+    <category term="黑客帝国" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E9%BB%91%E5%AE%A2%E5%B8%9D%E5%9B%BD/"/>
+    <category term="真实" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E7%9C%9F%E5%AE%9E/"/>
+    <id>https://blog.trailblazeblog.dpdns.org/2026/05/12/image-sound-matrix-explains-today/</id>
+    <link href="https://blog.trailblazeblog.dpdns.org/2026/05/12/image-sound-matrix-explains-today/"/>
     <published>2026-05-11T16:10:00.000Z</published>
     <summary>《黑客帝国》不只是科幻电影，它仍然适合解释今天的算法现实、信息茧房、虚拟身份和系统依赖。本文从影像、声音和哲学框架重新理解这部电影。</summary>
     <title>影像与声音：《黑客帝国》为什么仍然适合解释今天？</title>
@@ -256,13 +268,13 @@
     <author>
       <name>Mr.Wang</name>
     </author>
-    <category term="世界观察" scheme="https://mrle2021.github.io/tbblog/categories/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
-    <category term="AI读世界" scheme="https://mrle2021.github.io/tbblog/tags/AI%E8%AF%BB%E4%B8%96%E7%95%8C/"/>
-    <category term="个人知识系统" scheme="https://mrle2021.github.io/tbblog/tags/%E4%B8%AA%E4%BA%BA%E7%9F%A5%E8%AF%86%E7%B3%BB%E7%BB%9F/"/>
-    <category term="世界观察" scheme="https://mrle2021.github.io/tbblog/tags/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
-    <category term="人工智能" scheme="https://mrle2021.github.io/tbblog/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
-    <id>https://mrle2021.github.io/tbblog/2026/05/11/world-observation-004-ai-freedom-or-dependence/</id>
-    <link href="https://mrle2021.github.io/tbblog/2026/05/11/world-observation-004-ai-freedom-or-dependence/"/>
+    <category term="世界观察" scheme="https://blog.trailblazeblog.dpdns.org/categories/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
+    <category term="AI读世界" scheme="https://blog.trailblazeblog.dpdns.org/tags/AI%E8%AF%BB%E4%B8%96%E7%95%8C/"/>
+    <category term="个人知识系统" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E4%B8%AA%E4%BA%BA%E7%9F%A5%E8%AF%86%E7%B3%BB%E7%BB%9F/"/>
+    <category term="世界观察" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
+    <category term="人工智能" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+    <id>https://blog.trailblazeblog.dpdns.org/2026/05/11/world-observation-004-ai-freedom-or-dependence/</id>
+    <link href="https://blog.trailblazeblog.dpdns.org/2026/05/11/world-observation-004-ai-freedom-or-dependence/"/>
     <published>2026-05-11T15:58:00.000Z</published>
     <summary>AI 正在降低知识工作的门槛，也在制造新的认知外包。本文从效率、判断力、工作结构、信息依赖和个人知识系统出发，分析 AI 会让普通人更自由还是更依赖系统。</summary>
     <title>世界观察 004：AI 会让普通人更自由，还是更依赖系统？</title>
@@ -272,13 +284,13 @@
     <author>
       <name>Mr.Wang</name>
     </author>
-    <category term="思想工具箱" scheme="https://mrle2021.github.io/tbblog/categories/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
-    <category term="批判性思维" scheme="https://mrle2021.github.io/tbblog/tags/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B4/"/>
-    <category term="方法论" scheme="https://mrle2021.github.io/tbblog/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/"/>
-    <category term="思想工具箱" scheme="https://mrle2021.github.io/tbblog/tags/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
-    <category term="媒体素养" scheme="https://mrle2021.github.io/tbblog/tags/%E5%AA%92%E4%BD%93%E7%B4%A0%E5%85%BB/"/>
-    <id>https://mrle2021.github.io/tbblog/2026/05/11/thinking-toolbox-explanatory-framework/</id>
-    <link href="https://mrle2021.github.io/tbblog/2026/05/11/thinking-toolbox-explanatory-framework/"/>
+    <category term="思想工具箱" scheme="https://blog.trailblazeblog.dpdns.org/categories/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
+    <category term="方法论" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/"/>
+    <category term="批判性思维" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B4/"/>
+    <category term="思想工具箱" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/"/>
+    <category term="媒体素养" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E5%AA%92%E4%BD%93%E7%B4%A0%E5%85%BB/"/>
+    <id>https://blog.trailblazeblog.dpdns.org/2026/05/11/thinking-toolbox-explanatory-framework/</id>
+    <link href="https://blog.trailblazeblog.dpdns.org/2026/05/11/thinking-toolbox-explanatory-framework/"/>
     <published>2026-05-11T15:55:00.000Z</published>
     <summary>解释框架决定我们如何理解同一件事。本文用新闻、经济、历史和个人生活案例，说明为什么比起急着表达观点，更重要的是看清观点背后的解释框架。</summary>
     <title>思想工具箱：什么是 “解释框架”？为什么它比观点更重要？</title>
@@ -288,13 +300,13 @@
     <author>
       <name>Mr.Wang</name>
     </author>
-    <category term="世界观察" scheme="https://mrle2021.github.io/tbblog/categories/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
-    <category term="社会议题" scheme="https://mrle2021.github.io/tbblog/tags/%E7%A4%BE%E4%BC%9A%E8%AE%AE%E9%A2%98/"/>
-    <category term="世界观察" scheme="https://mrle2021.github.io/tbblog/tags/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
-    <category term="年轻人" scheme="https://mrle2021.github.io/tbblog/tags/%E5%B9%B4%E8%BD%BB%E4%BA%BA/"/>
-    <category term="就业焦虑" scheme="https://mrle2021.github.io/tbblog/tags/%E5%B0%B1%E4%B8%9A%E7%84%A6%E8%99%91/"/>
-    <id>https://mrle2021.github.io/tbblog/2026/05/11/world-observation-003-young-people-effort-reward/</id>
-    <link href="https://mrle2021.github.io/tbblog/2026/05/11/world-observation-003-young-people-effort-reward/"/>
+    <category term="世界观察" scheme="https://blog.trailblazeblog.dpdns.org/categories/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
+    <category term="社会议题" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E7%A4%BE%E4%BC%9A%E8%AE%AE%E9%A2%98/"/>
+    <category term="世界观察" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
+    <category term="年轻人" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E5%B9%B4%E8%BD%BB%E4%BA%BA/"/>
+    <category term="就业焦虑" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E5%B0%B1%E4%B8%9A%E7%84%A6%E8%99%91/"/>
+    <id>https://blog.trailblazeblog.dpdns.org/2026/05/11/world-observation-003-young-people-effort-reward/</id>
+    <link href="https://blog.trailblazeblog.dpdns.org/2026/05/11/world-observation-003-young-people-effort-reward/"/>
     <published>2026-05-11T15:40:00.000Z</published>
     <summary>年轻人并不是不愿努力，而是越来越怀疑努力和回报之间的连接是否还稳定。本文从就业、教育回报、住房成本、算法竞争和阶层流动分析努力叙事为何失效。</summary>
     <title>世界观察 003：年轻人为什么越来越不相信 “努力会有回报”？</title>
@@ -304,32 +316,16 @@
     <author>
       <name>Mr.Wang</name>
     </author>
-    <category term="AI 读世界" scheme="https://mrle2021.github.io/tbblog/categories/AI-%E8%AF%BB%E4%B8%96%E7%95%8C/"/>
-    <category term="AI读世界" scheme="https://mrle2021.github.io/tbblog/tags/AI%E8%AF%BB%E4%B8%96%E7%95%8C/"/>
-    <category term="方法论" scheme="https://mrle2021.github.io/tbblog/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/"/>
-    <category term="信息整理" scheme="https://mrle2021.github.io/tbblog/tags/%E4%BF%A1%E6%81%AF%E6%95%B4%E7%90%86/"/>
-    <category term="个人知识系统" scheme="https://mrle2021.github.io/tbblog/tags/%E4%B8%AA%E4%BA%BA%E7%9F%A5%E8%AF%86%E7%B3%BB%E7%BB%9F/"/>
-    <id>https://mrle2021.github.io/tbblog/2026/05/11/ai-reading-world-weekly-news-workflow/</id>
-    <link href="https://mrle2021.github.io/tbblog/2026/05/11/ai-reading-world-weekly-news-workflow/"/>
+    <category term="AI 读世界" scheme="https://blog.trailblazeblog.dpdns.org/categories/AI-%E8%AF%BB%E4%B8%96%E7%95%8C/"/>
+    <category term="AI读世界" scheme="https://blog.trailblazeblog.dpdns.org/tags/AI%E8%AF%BB%E4%B8%96%E7%95%8C/"/>
+    <category term="方法论" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/"/>
+    <category term="信息整理" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E4%BF%A1%E6%81%AF%E6%95%B4%E7%90%86/"/>
+    <category term="个人知识系统" scheme="https://blog.trailblazeblog.dpdns.org/tags/%E4%B8%AA%E4%BA%BA%E7%9F%A5%E8%AF%86%E7%B3%BB%E7%BB%9F/"/>
+    <id>https://blog.trailblazeblog.dpdns.org/2026/05/11/ai-reading-world-weekly-news-workflow/</id>
+    <link href="https://blog.trailblazeblog.dpdns.org/2026/05/11/ai-reading-world-weekly-news-workflow/"/>
     <published>2026-05-11T15:20:00.000Z</published>
     <summary>本文记录一套用 AI 整理一周新闻的方法：从信息收集、主题分类、事实核查、反方观点到个人判断，建立一个普通人可执行的新闻理解流程。</summary>
     <title>AI 读世界：我如何让 AI 帮我整理一周新闻？</title>
     <updated>2026-05-12T15:40:37.325Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Mr.Wang</name>
-    </author>
-    <category term="世界观察" scheme="https://mrle2021.github.io/tbblog/categories/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
-    <category term="AI读世界" scheme="https://mrle2021.github.io/tbblog/tags/AI%E8%AF%BB%E4%B8%96%E7%95%8C/"/>
-    <category term="媒体素养" scheme="https://mrle2021.github.io/tbblog/tags/%E5%AA%92%E4%BD%93%E7%B4%A0%E5%85%BB/"/>
-    <category term="世界观察" scheme="https://mrle2021.github.io/tbblog/tags/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/"/>
-    <category term="信息过载" scheme="https://mrle2021.github.io/tbblog/tags/%E4%BF%A1%E6%81%AF%E8%BF%87%E8%BD%BD/"/>
-    <id>https://mrle2021.github.io/tbblog/2026/05/11/world-observation-002-why-news-trust-declines/</id>
-    <link href="https://mrle2021.github.io/tbblog/2026/05/11/world-observation-002-why-news-trust-declines/"/>
-    <published>2026-05-11T14:50:00.000Z</published>
-    <summary>新闻越来越多，但信任没有增加。本文从媒体碎片化、算法推荐、立场先行、AI 内容和事实核查成本出发，分析为什么我们越来越难相信新闻。</summary>
-    <title>世界观察 002：为什么我们越来越难相信新闻？</title>
-    <updated>2026-05-12T15:41:04.939Z</updated>
   </entry>
 </feed>
