@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 7.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"blog.trailblazeblog.dpdns.org","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":true},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="一张图显示，印度的可再生能源占最终能源消费比重明显高于中国和美国。这个数字没有错，但如果把它直接理解成“印度新能源转型更领先”，就可能掉进指标定义的陷阱。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="为什么印度的 “可再生能源占比” 比中国还高？先别急着下结论">
+<meta property="og:url" content="https://blog.trailblazeblog.dpdns.org/2026/10/11/why-india-renewable-share-looks-higher/index.html">
+<meta property="og:site_name" content="Trailblaze Blog">
+<meta property="og:description" content="一张图显示，印度的可再生能源占最终能源消费比重明显高于中国和美国。这个数字没有错，但如果把它直接理解成“印度新能源转型更领先”，就可能掉进指标定义的陷阱。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://blog.trailblazeblog.dpdns.org/images/why-india-renewable-share-looks-higher/cover.webp">
+<meta property="og:image" content="https://blog.trailblazeblog.dpdns.org/images/why-india-renewable-share-looks-higher/fig-01.webp">
+<meta property="og:image" content="https://blog.trailblazeblog.dpdns.org/images/why-india-renewable-share-looks-higher/fig-02.webp">
+<meta property="article:published_time" content="2026-10-11T15:39:50.000Z">
+<meta property="article:modified_time" content="2026-10-11T15:39:50.255Z">
+<meta property="article:author" content="Mr.Wang">
+<meta property="article:tag" content="AI读世界, 世界观察, 哲学, 电影, 音乐, 自我认知, 人文思考, 公共议题">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://blog.trailblazeblog.dpdns.org/images/why-india-renewable-share-looks-higher/cover.webp">
+
+<link rel="canonical" href="https://blog.trailblazeblog.dpdns.org/2026/10/11/why-india-renewable-share-looks-higher/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+
+<meta name="author" content="Mr.Wang">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:image" content="/images/why-india-renewable-share-looks-higher/cover.webp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="/images/why-india-renewable-share-looks-higher/cover.webp">
+<link rel="alternate" type="application/atom+xml" title="Trailblaze Blog Atom Feed" href="https://blog.trailblazeblog.dpdns.org/atom.xml">
+<link rel="alternate" type="application/rss+xml" title="Trailblaze Blog RSS Feed" href="https://blog.trailblazeblog.dpdns.org/rss2.xml">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "Trailblaze Blog",
+  "description": "用 AI 辅助的信息整理、哲学解释和人文判断，帮普通人理解正在变化的世界。",
+  "url": "https://blog.trailblazeblog.dpdns.org/",
+  "inLanguage": "zh-CN",
+  "author": {
+    "@type": "Person",
+    "name": "Mr.Wang"
+  }
+}
+</script>
+
+  <title>为什么印度的 “可再生能源占比” 比中国还高？先别急着下结论 | Trailblaze Blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Trailblaze Blog</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">用 AI 辅助的信息整理、哲学解释和人文判断，理解正在变化的世界</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-世界观察">
+
+    <a href="/categories/%E4%B8%96%E7%95%8C%E8%A7%82%E5%AF%9F/" rel="section"><i class="fa fa-globe fa-fw"></i>世界观察</a>
+
+  </li>
+        <li class="menu-item menu-item-思想工具箱">
+
+    <a href="/categories/%E6%80%9D%E6%83%B3%E5%B7%A5%E5%85%B7%E7%AE%B1/" rel="section"><i class="fa fa-book fa-fw"></i>思想工具箱</a>
+
+  </li>
+        <li class="menu-item menu-item-影像与声音">
+
+    <a href="/categories/%E5%BD%B1%E5%83%8F%E4%B8%8E%E5%A3%B0%E9%9F%B3/" rel="section"><i class="fa fa-film fa-fw"></i>影像与声音</a>
+
+  </li>
+        <li class="menu-item menu-item-自我与时代">
+
+    <a href="/categories/%E8%87%AA%E6%88%91%E4%B8%8E%E6%97%B6%E4%BB%A3/" rel="section"><i class="fa fa-user fa-fw"></i>自我与时代</a>
+
+  </li>
+        <li class="menu-item menu-item-ai-读世界">
+
+    <a href="/categories/AI-%E8%AF%BB%E4%B8%96%E7%95%8C/" rel="section"><i class="fa fa-robot fa-fw"></i>AI 读世界</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-info-circle fa-fw"></i>关于</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+  
+  
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://blog.trailblazeblog.dpdns.org/2026/10/11/why-india-renewable-share-looks-higher/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Mr.Wang">
+      <meta itemprop="description" content="用 AI 辅助的信息整理、哲学解释和人文判断，帮普通人理解正在变化的世界。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Trailblaze Blog">
+    </span>
+      
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          为什么印度的 “可再生能源占比” 比中国还高？先别急着下结论
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2026-10-11 23:39:50" itemprop="dateCreated datePublished" datetime="2026-10-11T23:39:50+08:00">2026-10-11</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E7%9F%A5%E9%81%93%E7%82%B9%E6%9C%89%E7%94%A8%E7%9A%84/" itemprop="url" rel="index"><span itemprop="name">知道点有用的</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>3.8k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>3 分钟</span>
+            </span>
+            <div class="post-description">一张图显示，印度的可再生能源占最终能源消费比重明显高于中国和美国。这个数字没有错，但如果把它直接理解成“印度新能源转型更领先”，就可能掉进指标定义的陷阱。</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p><img src="/images/why-india-renewable-share-looks-higher/cover.webp" alt="风电与光伏组成的现代可再生能源场景"></p>
+<p>如果只看一张图，你可能会得到一个很意外的结论。</p>
+<p>Our World in Data 的 “可再生能源占最终能源消费比重” 数据显示，2023 年：</p>
+<ul>
+<li>印度：约 <strong>32.84%</strong></li>
+<li> 中国：约 <strong>14.21%</strong></li>
+<li> 美国：约 <strong>12.25%</strong></li>
+<li> 全球：约 <strong>18%</strong></li>
+</ul>
+<p>第一眼看过去，很容易冒出一个问题：</p>
+<blockquote>
+<p>印度的可再生能源占比为什么会比中国高这么多？难道印度的新能源转型已经明显领先中国？</p>
+</blockquote>
+<p>这个问题很有吸引力，因为它正好撞上了我们的直觉。</p>
+<p>过去这些年，我们看到大量关于中国光伏、风电、新能源汽车和电网建设的新闻。如果只凭日常印象，多数人可能不会猜到 “印度 32.84%，中国 14.21%”。</p>
+<p>但这张图真正有意思的地方，恰恰不是这个排名。</p>
+<p>而是它提醒我们：</p>
+<p><strong>数据最容易误导人的时候，往往不是数据错了，而是我们看懂得太快。</strong></p>
+<h2 id="第一个问题：这里的“可再生能源”到底包括什么？"><a href="#第一个问题：这里的“可再生能源”到底包括什么？" class="headerlink" title="第一个问题：这里的“可再生能源”到底包括什么？"></a>第一个问题：这里的 “可再生能源” 到底包括什么？</h2><p><img src="/images/why-india-renewable-share-looks-higher/fig-01.webp" alt="用于能源生产的生物质燃料"></p>
+<p>看到 “可再生能源”，很多人的第一反应是：</p>
+<p>太阳能、风电、水电。</p>
+<p>但 SDG 7.2.1 所使用的统计口径要宽得多。</p>
+<p>除了太阳能、风能、水电、地热之外，它还包括各种形式的生物能源，例如液体生物燃料、沼气和固体生物质。</p>
+<p>这就很关键了。</p>
+<p>因为 “固体生物质” 可以是现代工业中高效利用的生物质燃料，也可能涉及更传统的木柴、木炭、农作物残余等能源使用。</p>
+<p>联合国关于 SDG 7 的方法学甚至专门区分了两个概念：</p>
+<ul>
+<li><strong>traditional use of biomass</strong></li>
+<li><strong>modern uses of renewable energy</strong></li>
+</ul>
+<p>也就是说，在 “可再生能源” 这个大口径内部，本身就存在技术水平、使用效率和环境影响完全不同的能源形态。</p>
+<p>所以，当我们看到一个国家 “可再生能源占比很高” 时，第一件事不应该是评价它的新能源技术有多先进，而应该问：</p>
+<blockquote>
+<p>这个百分比到底是由什么构成的？</p>
+</blockquote>
+<h2 id="第二个问题：“最终能源消费”不是“发电量”"><a href="#第二个问题：“最终能源消费”不是“发电量”" class="headerlink" title="第二个问题：“最终能源消费”不是“发电量”"></a>第二个问题：“最终能源消费” 不是 “发电量”</h2><p><img src="/images/why-india-renewable-share-looks-higher/fig-02.webp" alt="连接发电与终端消费的能源系统"></p>
+<p>这也是非常容易混淆的一点。</p>
+<p>这张图的分母不是 “发电量”，而是 <strong>total final energy consumption—— 最终能源消费</strong>。</p>
+<p>简单说，它看的是能源最终被工业、交通、建筑和居民等终端使用的整体结构，而不是只看电力系统。</p>
+<p>这意味着一个国家即使拥有非常庞大的风电、光伏装机，只要交通、供热、工业燃料和居民终端仍大量使用化石能源，那么 “可再生能源占最终能源消费” 的比例仍然可能没有想象中那么高。</p>
+<p>反过来，如果一个经济体在居民生活或工业中大量使用生物质，那么即便现代风电光伏并不突出，这个指标也可能比较高。</p>
+<p>所以：</p>
+<p><strong>“可再生能源占最终能源消费比重” 与 “可再生能源发电占比” 根本不是同一个问题。</strong></p>
+<p>这也是为什么能源数据里，同一个国家会同时出现很多看似矛盾的百分比。</p>
+<p>它们往往都没有错，只是在回答不同的问题。</p>
+<h2 id="那印度的高比例是不是主要来自传统生物质？"><a href="#那印度的高比例是不是主要来自传统生物质？" class="headerlink" title="那印度的高比例是不是主要来自传统生物质？"></a>那印度的高比例是不是主要来自传统生物质？</h2><p>这里又要小心一个新的过度简化。</p>
+<p>既然传统生物质被统计进可再生能源，很容易从一个误解跳到另一个误解：</p>
+<blockquote>
+<p>那印度 32.84% 肯定主要就是烧木柴。</p>
+</blockquote>
+<p>这个结论同样不能直接从这张图推出。</p>
+<p>IEA 在关于印度生物能源的研究中明确区分了 “modern solid bioenergy” 和传统生物质。印度不仅存在传统生物质消费，也拥有大量现代生物能源应用。</p>
+<p>例如，印度糖业中的甘蔗渣可以用于工业供热和发电，乙醇、沼气以及其他现代生物能源近年来也在发展。</p>
+<p>IEA 对印度到 2030 年的展望中甚至认为，现代固体生物能源仍可能是印度新增生物能源消费的重要来源。</p>
+<p>所以更准确的说法应该是：</p>
+<blockquote>
+<p><strong>印度较高的可再生能源占比，与生物能源在其终端能源结构中的重要地位有关；而这个口径同时包含现代生物能源和传统生物质，因此不能把这个数字简单等同于现代风光电转型程度。</strong></p>
+</blockquote>
+<p>这句话虽然没有 “印度其实是因为烧柴所以才高” 那么抓眼球，但它更接近事实。</p>
+<h2 id="World-Bank-的数据也给出了相同方向"><a href="#World-Bank-的数据也给出了相同方向" class="headerlink" title="World Bank 的数据也给出了相同方向"></a>World Bank 的数据也给出了相同方向</h2><p>为了避免只相信一张 OWID 图，我又看了 World Bank 的同类指标：</p>
+<p><strong>Renewable energy consumption (% of total final energy consumption)</strong>。</p>
+<p>它的底层来源包括 IEA Energy Statistics Data Browser。</p>
+<p>2021 年的数据同样显示：</p>
+<ul>
+<li>印度：约 <strong>34.9%</strong></li>
+<li> 中国：约 <strong>15.2%</strong></li>
+<li> 美国：约 <strong>10.9%</strong></li>
+</ul>
+<p>虽然年份不同，但排序和量级基本一致。</p>
+<p>这说明 “印度明显高于中国和美国” 并不是 OWID 可视化产生的偶然结果，而是来自同一类国际能源统计口径。</p>
+<p>问题依然不是数据真假，而是我们是否理解这个口径。</p>
+<h2 id="如果真正想比较“谁的能源转型更快”，应该看什么？"><a href="#如果真正想比较“谁的能源转型更快”，应该看什么？" class="headerlink" title="如果真正想比较“谁的能源转型更快”，应该看什么？"></a>如果真正想比较 “谁的能源转型更快”，应该看什么？</h2><p>答案是：一个指标不够。</p>
+<p>至少可以把几个问题拆开来看。</p>
+<p>如果想看电力系统，可以看：</p>
+<ul>
+<li>风电、光伏装机容量；</li>
+<li>可再生能源发电量；</li>
+<li>可再生能源占发电量比例；</li>
+<li>电网消纳能力和储能建设。</li>
+</ul>
+<p>如果想看终端能源转型，可以看：</p>
+<ul>
+<li>可再生能源占最终能源消费；</li>
+<li>终端电气化率；</li>
+<li>清洁供热；</li>
+<li>新能源汽车和交通燃料结构；</li>
+<li>现代生物能源的应用。</li>
+</ul>
+<p>如果想看居民能源现代化程度，还需要看：</p>
+<ul>
+<li>清洁烹饪覆盖率；</li>
+<li>传统生物质使用比例；</li>
+<li>居民用电可及性；</li>
+<li>能源使用效率。</li>
+</ul>
+<p>这时候就会发现：</p>
+<p><strong>“能源转型” 并不是一个单变量排名。</strong></p>
+<p>一个国家可能在光伏制造上领先，在电力可再生占比上处于另一位置，在居民清洁烹饪上又面临完全不同的问题。</p>
+<p>把所有这些压缩成一个百分比，然后给国家排队，本身就是一种非常强的抽象。</p>
+<h2 id="一张图越直观，越要问它删掉了什么"><a href="#一张图越直观，越要问它删掉了什么" class="headerlink" title="一张图越直观，越要问它删掉了什么"></a>一张图越直观，越要问它删掉了什么</h2><p>这次最触动我的，其实不是印度和中国谁高谁低。</p>
+<p>而是我发现，数据可视化有一种非常强的力量：</p>
+<p>它能把一个复杂系统压缩成一个我们几秒钟就能理解的画面。</p>
+<p>这当然是它的价值。</p>
+<p>但也正因为如此，它很容易让我们产生一种错觉：</p>
+<blockquote>
+<p>我已经看懂了。</p>
+</blockquote>
+<p>实际上，一张图为了让你看懂，必然省略了大量东西。</p>
+<p>它不会把指标定义写在柱子上，也不会自动提醒你 “最终能源消费” 和 “发电量” 的区别，更不会主动告诉你生物质内部还分现代使用和传统使用。</p>
+<p>这些被省略的部分，往往恰恰决定了你应该怎样理解这张图。</p>
+<p>所以我越来越觉得，看到一张反直觉的数据图时，最值得养成的习惯不是立刻转发，而是先问四个问题：</p>
+<ol>
+<li><strong>分子是什么？</strong></li>
+<li><strong>分母是什么？</strong></li>
+<li><strong>统计口径里包含了哪些我没想到的东西？</strong></li>
+<li><strong>这个指标能回答什么，又不能回答什么？</strong></li>
+</ol>
+<p>这四个问题可能比记住具体排名更重要。</p>
+<h2 id="Finder-真正应该帮我发现的，不是“结论”"><a href="#Finder-真正应该帮我发现的，不是“结论”" class="headerlink" title="Finder 真正应该帮我发现的，不是“结论”"></a>Finder 真正应该帮我发现的，不是 “结论”</h2><p>这也是我最近搭 Trailblaze Finder 时越来越明确的一件事。</p>
+<p>Finder 不应该只是每天抓很多图，然后告诉我：</p>
+<p>“今天印度排第一，中国排第二。”</p>
+<p>那和普通的信息聚合没有本质区别。</p>
+<p>我真正希望它做的是：</p>
+<blockquote>
+<p><strong>发现一个看起来奇怪的数据，然后逼着我继续问为什么。</strong></p>
+</blockquote>
+<p>这张可再生能源图就是一个很好的例子。</p>
+<p>最开始吸引我的，是那个反直觉的排名。</p>
+<p>但真正值得留下来的，却变成了另外一个问题：</p>
+<p><strong>为什么同一个词 ——“可再生能源”—— 在不同人的脑子里，可能对应完全不同的东西？</strong></p>
+<p>如果一张图最终能把我们带到这个问题上，它才真正从 “信息” 变成了一个值得思考的素材。</p>
+<h2 id="我还没想清楚的问题"><a href="#我还没想清楚的问题" class="headerlink" title="我还没想清楚的问题"></a>我还没想清楚的问题</h2><p>还有一个问题，我现在也没有完全想清楚：</p>
+<p>我们是不是越来越习惯用 “排名” 理解复杂世界？</p>
+<p>GDP 排名、教育排名、幸福指数、碳排放、能源转型、创新能力……</p>
+<p>排名非常适合传播，因为它给我们一个清晰的高低顺序。</p>
+<p>但现实世界真正重要的问题，往往不在排序本身，而在：</p>
+<p><strong>这个排名究竟是用什么尺度量出来的？</strong></p>
+<p>以后 Trailblaze Finder 如果继续做数据故事，我希望它首先帮我做的，不是找 “第一名”，而是先找出：</p>
+<blockquote>
+<p><strong>这个指标最容易被误解的地方在哪里？</strong></p>
+</blockquote>
+<p>这可能比排名本身更值得写。</p>
+<hr>
+<h2 id="Sources"><a href="#Sources" class="headerlink" title="Sources"></a>Sources</h2><ul>
+<li>Our World in Data, <em>Share of final energy use that comes from renewable sources</em>: <a target="_blank" rel="noopener" href="https://ourworldindata.org/grapher/share-of-final-energy-consumption-from-renewable-sources">https://ourworldindata.org/grapher/share-of-final-energy-consumption-from-renewable-sources</a></li>
+<li>United Nations Statistics Division, <em>SDG 7.2 methodology / Tracking SDG 7</em>: <a target="_blank" rel="noopener" href="https://unstats.un.org/unsd/energystats/pubs/documents/sdg_7_2025.pdf">https://unstats.un.org/unsd/energystats/pubs/documents/sdg_7_2025.pdf</a></li>
+<li>World Bank, <em>Renewable energy consumption (% of total final energy consumption)</em>: <a target="_blank" rel="noopener" href="https://data.worldbank.org/indicator/EG.FEC.RNEW.ZS">https://data.worldbank.org/indicator/EG.FEC.RNEW.ZS</a></li>
+<li>IEA, <em>Modern renewables – SDG7: Data and Projections</em>: <a target="_blank" rel="noopener" href="https://www.iea.org/reports/sdg7-data-and-projections/modern-renewables">https://www.iea.org/reports/sdg7-data-and-projections/modern-renewables</a></li>
+<li>IEA, <em>Unlocking India’s bioenergy potential</em>: <a target="_blank" rel="noopener" href="https://www.iea.org/commentaries/unlocking-indias-bioenergy-potential">https://www.iea.org/commentaries/unlocking-indias-bioenergy-potential</a></li>
+<li>IEA, <em>India’s solid bioenergy demand in total final energy consumption, 2023 to 2030</em>: <a target="_blank" rel="noopener" href="https://www.iea.org/data-and-statistics/charts/indias-solid-bioenergy-demand-in-total-final-energy-consumption-2023-to-2030">https://www.iea.org/data-and-statistics/charts/indias-solid-bioenergy-demand-in-total-final-energy-consumption-2023-to-2030</a></li>
+</ul>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2026/10/07/personal-content-production-system/" rel="prev" title="我正在搭建一套怎样的个人内容生产系统：从灵感到长期知识资产">
+      <i class="fa fa-chevron-left"></i> 我正在搭建一套怎样的个人内容生产系统：从灵感到长期知识资产
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E4%B8%AA%E9%97%AE%E9%A2%98%EF%BC%9A%E8%BF%99%E9%87%8C%E7%9A%84%E2%80%9C%E5%8F%AF%E5%86%8D%E7%94%9F%E8%83%BD%E6%BA%90%E2%80%9D%E5%88%B0%E5%BA%95%E5%8C%85%E6%8B%AC%E4%BB%80%E4%B9%88%EF%BC%9F"><span class="nav-number">1.</span> <span class="nav-text">第一个问题：这里的 “可再生能源” 到底包括什么？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%BA%8C%E4%B8%AA%E9%97%AE%E9%A2%98%EF%BC%9A%E2%80%9C%E6%9C%80%E7%BB%88%E8%83%BD%E6%BA%90%E6%B6%88%E8%B4%B9%E2%80%9D%E4%B8%8D%E6%98%AF%E2%80%9C%E5%8F%91%E7%94%B5%E9%87%8F%E2%80%9D"><span class="nav-number">2.</span> <span class="nav-text">第二个问题：“最终能源消费” 不是 “发电量”</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%82%A3%E5%8D%B0%E5%BA%A6%E7%9A%84%E9%AB%98%E6%AF%94%E4%BE%8B%E6%98%AF%E4%B8%8D%E6%98%AF%E4%B8%BB%E8%A6%81%E6%9D%A5%E8%87%AA%E4%BC%A0%E7%BB%9F%E7%94%9F%E7%89%A9%E8%B4%A8%EF%BC%9F"><span class="nav-number">3.</span> <span class="nav-text">那印度的高比例是不是主要来自传统生物质？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#World-Bank-%E7%9A%84%E6%95%B0%E6%8D%AE%E4%B9%9F%E7%BB%99%E5%87%BA%E4%BA%86%E7%9B%B8%E5%90%8C%E6%96%B9%E5%90%91"><span class="nav-number">4.</span> <span class="nav-text">World Bank 的数据也给出了相同方向</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A6%82%E6%9E%9C%E7%9C%9F%E6%AD%A3%E6%83%B3%E6%AF%94%E8%BE%83%E2%80%9C%E8%B0%81%E7%9A%84%E8%83%BD%E6%BA%90%E8%BD%AC%E5%9E%8B%E6%9B%B4%E5%BF%AB%E2%80%9D%EF%BC%8C%E5%BA%94%E8%AF%A5%E7%9C%8B%E4%BB%80%E4%B9%88%EF%BC%9F"><span class="nav-number">5.</span> <span class="nav-text">如果真正想比较 “谁的能源转型更快”，应该看什么？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E5%BC%A0%E5%9B%BE%E8%B6%8A%E7%9B%B4%E8%A7%82%EF%BC%8C%E8%B6%8A%E8%A6%81%E9%97%AE%E5%AE%83%E5%88%A0%E6%8E%89%E4%BA%86%E4%BB%80%E4%B9%88"><span class="nav-number">6.</span> <span class="nav-text">一张图越直观，越要问它删掉了什么</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Finder-%E7%9C%9F%E6%AD%A3%E5%BA%94%E8%AF%A5%E5%B8%AE%E6%88%91%E5%8F%91%E7%8E%B0%E7%9A%84%EF%BC%8C%E4%B8%8D%E6%98%AF%E2%80%9C%E7%BB%93%E8%AE%BA%E2%80%9D"><span class="nav-number">7.</span> <span class="nav-text">Finder 真正应该帮我发现的，不是 “结论”</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%88%91%E8%BF%98%E6%B2%A1%E6%83%B3%E6%B8%85%E6%A5%9A%E7%9A%84%E9%97%AE%E9%A2%98"><span class="nav-number">8.</span> <span class="nav-text">我还没想清楚的问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Sources"><span class="nav-number">9.</span> <span class="nav-text">Sources</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Mr.Wang</p>
+  <div class="site-description" itemprop="description">用 AI 辅助的信息整理、哲学解释和人文判断，帮普通人理解正在变化的世界。</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">33</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+        <span class="site-state-item-count">50</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2026</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Mr.Wang</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+    <span title="站点总字数">104k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">1:34</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
