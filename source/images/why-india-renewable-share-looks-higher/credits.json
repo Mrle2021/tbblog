@@ -1,0 +1,35 @@
+[
+  {
+    "id": "35105437",
+    "download_url": "https://images.pexels.com/photos/35105437/pexels-photo-35105437.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/35105437/",
+    "photographer": "Quang Nguyen Vinh",
+    "provider": "pexels",
+    "alt": "从空中俯瞰越南风景秀丽的太阳能和风能发电场。",
+    "filename": "cover.webp",
+    "query": "solar panels wind turbines renewable energy landscape editorial",
+    "local_path": "source/images/__trailblaze-stage-why-india-renewable-share-looks-higher/cover.webp"
+  },
+  {
+    "id": "33559401",
+    "download_url": "https://images.pexels.com/photos/33559401/pexels-photo-33559401.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/33559401/",
+    "photographer": "Auto Tech",
+    "provider": "pexels",
+    "alt": "发动机装配过程特写，彰显工业精度",
+    "filename": "fig-01.webp",
+    "query": "biomass wood pellets energy close up industrial editorial",
+    "local_path": "source/images/__trailblaze-stage-why-india-renewable-share-looks-higher/fig-01.webp"
+  },
+  {
+    "id": "38487196",
+    "download_url": "https://images.pexels.com/photos/38487196/pexels-photo-38487196.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "source_url": "https://www.pexels.com/zh-cn/photo/38487196/",
+    "photographer": "高 长华",
+    "provider": "pexels",
+    "alt": "晴空万里，绿树环绕的发电厂冷却塔正在释放蒸汽。",
+    "filename": "fig-02.webp",
+    "query": "electric grid transmission renewable energy landscape power lines",
+    "local_path": "source/images/__trailblaze-stage-why-india-renewable-share-looks-higher/fig-02.webp"
+  }
+]
